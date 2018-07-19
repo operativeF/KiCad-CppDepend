@@ -1,0 +1,456 @@
+<Externals>
+<tm namespace="std" access="none" depth="0" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" file="3" linestart="192" lineend="547">
+<template_parameters>
+<ttp name="_Ty" id="74233b19085c0a906f2bde7a4e01398a_36ccadbe986a0e5d151018d101564d9d" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="0" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" file="3" linestart="193" lineend="547">
+<base access="private">
+<tss>
+<templatebase id="ab58e6b3593b98a66936fdf960588054_f96123ab398b2efafb754c05165270b8"/>
+<template_arguments>
+<tss>
+<templatebase id="74233b19085c0a906f2bde7a4e01398a_cac079f3d0bcac8d2d2e7b340386f1c6"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_2a43c843387e931d34470522b8d33d54" file="3" linestart="193" lineend="193"/>
+<c name="optional&lt;_Ty&gt;" id="74233b19085c0a906f2bde7a4e01398a_7d9d57bdf7be82f979857a8c3b735328" file="3" linestart="213" lineend="216" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<ft name="optional&lt;_Ty&gt;" id="74233b19085c0a906f2bde7a4e01398a_bb55b470b98d77d1699268ef80697329" file="3" linestart="242" lineend="248">
+<template_parameters>
+<ttp name="_Ty2" id="74233b19085c0a906f2bde7a4e01398a_12ecaca39149d340349be125705941ae" depth="1" index="0" proto="type-parameter-1-0">
+<ttp/>
+</ttp>
+</template_parameters>
+<c name="optional&lt;_Ty&gt;" id="74233b19085c0a906f2bde7a4e01398a_97b60d46dfe4cf418705f7a3a7b4d15e" file="3" linestart="245" lineend="248" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Right" proto="_Ty2 &amp;&amp;" isRef="true" access2="none">
+<rrf>
+<ttp/>
+</rrf>
+</p>
+</c>
+</ft>
+<tm parent="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" access="none" depth="0" kind="struct" name="_AllowUnwrapping" id="74233b19085c0a906f2bde7a4e01398a_31299b632f7b721d2cd39b5fec4bad3d" file="3" linestart="257" lineend="268">
+<template_parameters>
+<ttp name="_Ty2" id="74233b19085c0a906f2bde7a4e01398a_6c318753c4a16ed1c0a1dfed802dd2bd" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+<tm parent="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" access="none" depth="0" kind="struct" name="_AllowUnwrappingAssignment" id="74233b19085c0a906f2bde7a4e01398a_d0db60e4daf8f0c552134dc1178f4a3d" file="3" linestart="339" lineend="346">
+<template_parameters>
+<ttp name="_Ty2" id="74233b19085c0a906f2bde7a4e01398a_dcf3180f949295cfc1fc760f361ad199" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+</cr>
+</tm>
+<cr access="none" kind="class" name="TOOL_MANAGER" id="cbbc992d673014645bfdd6e26a81fa3a_3f14df5bf7470cee014d92945f17bfaa" file="4" linestart="38" lineend="38"/>
+<cr access="none" depth="0" kind="class" name="TOOL_EVENT" id="cbbc992d673014645bfdd6e26a81fa3a_137bfbaeeebe95570c6922997c83d826" file="4" linestart="162" lineend="463"/>
+<cr access="none" depth="0" kind="class" name="TOOL_ACTION" id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1" file="5" linestart="46" lineend="221" previous="cbbc992d673014645bfdd6e26a81fa3a_275d1475964a58b51156e5ac19a79ae1">
+<m name="MakeEvent" id="04466c2015b5aebce16cdd13ce6a05f6_2d0ce44b7b606c4babe33fde194a5d1c" file="5" linestart="104" lineend="112" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="TOOL_EVENT">
+<rt>
+<cr id="cbbc992d673014645bfdd6e26a81fa3a_137bfbaeeebe95570c6922997c83d826"/>
+</rt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="ACTIONS" id="0e5c680f1bf32759819ee6775cb71bfe_cc54b8a5b61975ac0d7982d182c9e97d" file="6" linestart="41" lineend="87">
+<v name="zoomInCenter" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_ebaf2cc40345090b7d1696053b26548d" file="6" linestart="53" lineend="53" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="zoomOutCenter" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_d2653c9f3ad17cf0bbc08b6b9215a193" file="6" linestart="54" lineend="54" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="zoomFitScreen" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_19e73cb28cfd978a39ee346846e12ff8" file="6" linestart="56" lineend="56" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="zoomTool" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_ea3c9c8db7bc6dce00c87711a9c6645c" file="6" linestart="58" lineend="58" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="gridSetOrigin" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_d610be17c6dc6a3d394dfefabdb46957" file="6" linestart="65" lineend="65" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<e parent="0e5c680f1bf32759819ee6775cb71bfe_cc54b8a5b61975ac0d7982d182c9e97d" access="public" name="CURSOR_EVENT_TYPE" id="0e5c680f1bf32759819ee6775cb71bfe_bda0cc5b8b94c713ad3e9982db6650ac" file="6" linestart="82" lineend="83">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="0e5c680f1bf32759819ee6775cb71bfe_cc54b8a5b61975ac0d7982d182c9e97d" access="public" name="REMOVE_FLAGS" id="0e5c680f1bf32759819ee6775cb71bfe_7125964a6521e92ae8a5d82ce6f50f77" file="6" linestart="86" lineend="86" scoped="true" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<e access="none" name="main_id" id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68" file="7" linestart="64" lineend="306">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="ID_APPEND_FILE" id="19a3fc98f71f81870a69c2532c468b57_90e6b5956d9c168530368f584c0ae588" file="7" linestart="78" lineend="78">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_NO_TOOL_SELECTED" id="19a3fc98f71f81870a69c2532c468b57_92e16210e3226f9ba9cb93645d745182" file="7" linestart="118" lineend="118">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_SELECTION" id="19a3fc98f71f81870a69c2532c468b57_d381c38cc987c2a714f155588a60a0e1" file="7" linestart="119" lineend="119">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_IN" id="19a3fc98f71f81870a69c2532c468b57_d5895b9fc5c0f9f994f3a8c71f67bbdf" file="7" linestart="237" lineend="237">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_OUT" id="19a3fc98f71f81870a69c2532c468b57_b65680343fc5a8b0d810c1aab1ba11b1" file="7" linestart="238" lineend="238">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_PAGE" id="19a3fc98f71f81870a69c2532c468b57_aeb77daf0f048cbfeee00e02c1985b4f" file="7" linestart="239" lineend="239">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_VIEWER_ZOOM_IN" id="19a3fc98f71f81870a69c2532c468b57_65aca4819e68628529662a5332347d1e" file="7" linestart="241" lineend="241">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_VIEWER_ZOOM_OUT" id="19a3fc98f71f81870a69c2532c468b57_f556334b8dec62db3acd07823d19f118" file="7" linestart="242" lineend="242">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_VIEWER_ZOOM_PAGE" id="19a3fc98f71f81870a69c2532c468b57_1de2737bf77ce104f91bc4269782d944" file="7" linestart="243" lineend="243">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_FIND_ITEMS" id="19a3fc98f71f81870a69c2532c468b57_75108f9d56b68d3a821c8d5b2e5959ab" file="7" linestart="261" lineend="261">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_MODULE_TEXT_SKETCH" id="19a3fc98f71f81870a69c2532c468b57_53e261ce6163abc4bf8dca798b3942f2" file="7" linestart="275" lineend="275">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_MODULE_EDGE_SKETCH" id="19a3fc98f71f81870a69c2532c468b57_78c356f479f29e342b3a750f0b14003c" file="7" linestart="276" lineend="276">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_GRAPHIC_SKETCH" id="19a3fc98f71f81870a69c2532c468b57_985efbb7b22f3950c55ca47c1e77a21d" file="7" linestart="277" lineend="277">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_PADS_SKETCH" id="19a3fc98f71f81870a69c2532c468b57_a6683dbc1931edd6dc013e90bda41070" file="7" linestart="278" lineend="278">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+</e>
+<e access="none" name="pcbnew_ids" id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5" file="8" linestart="16" lineend="418">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="ID_PCB_HIGHLIGHT_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_e1d4326d7579b8d60b631943d93d9cad" file="8" linestart="28" lineend="28">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_SHOW_1_RATSNEST_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_63af74cd98d2f086bac8cb20af68c63b" file="8" linestart="29" lineend="29">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_MODULE_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_e38736891479576bc01f29180a70955c" file="8" linestart="30" lineend="30">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TRACK_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_34dba13ba0ecd1e80442bda42e33206e" file="8" linestart="31" lineend="31">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_ZONES_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_4efd68f1e81bf68955c26fcc76116916" file="8" linestart="32" lineend="32">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_DRAW_VIA_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_7c6d3c32f64c21d68542b3b1a8ffe6b9" file="8" linestart="33" lineend="33">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_KEEPOUT_AREA_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_faede86c1ec41c7c8cfb46dc3779ea04" file="8" linestart="34" lineend="34">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_ADD_LINE_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_c6a39ec728961a0ce0eb20c6e3d85323" file="8" linestart="35" lineend="35">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_ADD_POLYGON_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_b52b28f58cd6782b324423621a93daac" file="8" linestart="36" lineend="36">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_CIRCLE_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_fcd411ca2bda623447e9aa3b312878cb" file="8" linestart="37" lineend="37">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_ARC_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_5e2d349b5577b75b8caa8f3698e6646c" file="8" linestart="38" lineend="38">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_ADD_TEXT_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_6450b00d57161beacf33ada300f4a25a" file="8" linestart="39" lineend="39">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_DIMENSION_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_233bd626e4bfe6c6f6bf928081affb1a" file="8" linestart="40" lineend="40">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_TARGET_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_36fb72dd5efff33aae4542e6f7951001" file="8" linestart="41" lineend="41">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_DELETE_ITEM_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_458a670cb3cbafed83ef07d2ce8cae2b" file="8" linestart="42" lineend="42">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_PLACE_OFFSET_COORD_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_ff5cd70df8ff3a2fe44344dcdba0b8ef" file="8" linestart="43" lineend="43">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_PLACE_GRID_COORD_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_152fda3d1e4d2992feddad80cc552f08" file="8" linestart="44" lineend="44">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_MEASUREMENT_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_5282f6703c9dde9660545bcecea32db6" file="8" linestart="45" lineend="45">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_DIFF_PAIR_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_58ad334eb4f8ed92c361d29317d65d15" file="8" linestart="47" lineend="47">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TUNE_SINGLE_TRACK_LEN_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_1b2a696f602214b8be5015a926fb30b2" file="8" linestart="48" lineend="48">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TUNE_DIFF_PAIR_LEN_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_c66f7ce51caac70dfb4ca3ee37798fce" file="8" linestart="49" lineend="49">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TUNE_DIFF_PAIR_SKEW_BUTT" id="c5d2e9047a22a6df3a4728986e78065e_226369c5b82f2830293040d6262ee73a" file="8" linestart="50" lineend="50">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MENU_DIFF_PAIR_DIMENSIONS" id="c5d2e9047a22a6df3a4728986e78065e_71bf092e77712cf8069d396bab757f0e" file="8" linestart="54" lineend="54">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MENU_INTERACTIVE_ROUTER_SETTINGS" id="c5d2e9047a22a6df3a4728986e78065e_ea4f99be5ccbdfb3bb4f4187bc5bf4ec" file="8" linestart="55" lineend="55">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_POPUP_PCB_GET_AND_MOVE_MODULE_REQUEST" id="c5d2e9047a22a6df3a4728986e78065e_f43a4a149cce7a16794f64ae0aec6cc2" file="8" linestart="185" lineend="185">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_GEN_IMPORT_DXF_FILE" id="c5d2e9047a22a6df3a4728986e78065e_f143c1df5929ba3941b9a9ad79262d9b" file="8" linestart="298" lineend="298">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_ZONES" id="c5d2e9047a22a6df3a4728986e78065e_52ab4582b4f748d3215efb5ae785c630" file="8" linestart="322" lineend="322">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_ZONES_DISABLE" id="c5d2e9047a22a6df3a4728986e78065e_70cce01de5e0f59d7199f04063cebbaa" file="8" linestart="323" lineend="323">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_ZONES_OUTLINES_ONLY" id="c5d2e9047a22a6df3a4728986e78065e_dada75e9a6c8bb5b47a829d9d5f8e2ea" file="8" linestart="324" lineend="324">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_VIAS_SKETCH" id="c5d2e9047a22a6df3a4728986e78065e_f943ad136cbd2da6a9e905366b9ab0a2" file="8" linestart="327" lineend="327">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_TRACKS_SKETCH" id="c5d2e9047a22a6df3a4728986e78065e_17bac3ee539ee11079fff4560798b829" file="8" linestart="328" lineend="328">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_HIGH_CONTRAST_MODE" id="c5d2e9047a22a6df3a4728986e78065e_26a0e0b75f3e1ee2bc4298e0c8fe6409" file="8" linestart="329" lineend="329">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_DEC_LAYER_ALPHA" id="c5d2e9047a22a6df3a4728986e78065e_e872eaab8ce8e8592c9d4f06ef4befe1" file="8" linestart="330" lineend="330">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_INC_LAYER_ALPHA" id="c5d2e9047a22a6df3a4728986e78065e_3a8401d632591d7e4b57b2f4ba084799" file="8" linestart="331" lineend="331">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_MUWAVE_TOOL_SELF_CMD" id="c5d2e9047a22a6df3a4728986e78065e_73a5281469cb4128c711d33ddf4b9bb6" file="8" linestart="336" lineend="336">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_MUWAVE_TOOL_GAP_CMD" id="c5d2e9047a22a6df3a4728986e78065e_86d7f077d07a321315f84a94513ce9f4" file="8" linestart="337" lineend="337">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_MUWAVE_TOOL_STUB_CMD" id="c5d2e9047a22a6df3a4728986e78065e_aa1e6174fba8d8d3b5af1d0b5f6f5ccf" file="8" linestart="338" lineend="338">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_MUWAVE_TOOL_STUB_ARC_CMD" id="c5d2e9047a22a6df3a4728986e78065e_c3c7bc54ac794a6310e677286a5b349d" file="8" linestart="339" lineend="339">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_PCB_MUWAVE_TOOL_FUNCTION_SHAPE_CMD" id="c5d2e9047a22a6df3a4728986e78065e_762fe800418b09fab29af614485c67b6" file="8" linestart="340" lineend="340">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_PAD_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_2918ba198155d3a2fa5518f733088308" file="8" linestart="349" lineend="349">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_LINE_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_fda3eb37cbe5d150aef912e5d8d12764" file="8" linestart="350" lineend="350">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_CIRCLE_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_b61b1000e4ebc033f4966be52e7b8db8" file="8" linestart="351" lineend="351">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_ARC_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_1eebfb18a2fc90c5ee8b44989db44d68" file="8" linestart="352" lineend="352">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_POLYGON_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_888638ca5d85b5fe0f8914b5b59c4cd4" file="8" linestart="353" lineend="353">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_TEXT_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_a5182273e4e5aafebf4409cf6d3399de" file="8" linestart="354" lineend="354">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_ANCHOR_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_2e372697496f18d6dbe1a80637f2584a" file="8" linestart="355" lineend="355">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_DELETE_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_99ad3a47a12693f6feaaa56e18334ef4" file="8" linestart="356" lineend="356">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_PLACE_GRID_COORD" id="c5d2e9047a22a6df3a4728986e78065e_ecda5c2ccb3fb4f07d58c5ecead4bfd5" file="8" linestart="357" lineend="357">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_MEASUREMENT_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_935efc0601fc6d1923c1208b846c5a90" file="8" linestart="358" lineend="358">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_EDIT_CUT" id="c5d2e9047a22a6df3a4728986e78065e_bc592bdf589d48698fac2ee60aaab54f" file="8" linestart="414" lineend="414">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_EDIT_COPY" id="c5d2e9047a22a6df3a4728986e78065e_fef1566a7ea235cf755d5c30ec110753" file="8" linestart="415" lineend="415">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_EDIT_PASTE" id="c5d2e9047a22a6df3a4728986e78065e_81c4102515817ff1092343280d9b7e4c" file="8" linestart="416" lineend="416">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+</e>
+</Externals>

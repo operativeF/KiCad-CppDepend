@@ -1,0 +1,76 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="point_s" id="94d3ecce0dbdd977279a7b4995e05e95_7e0efbc32417b6f5b6c4fc9060e53944" file="3" linestart="22" lineend="26"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_dpoint_s" id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18" file="4" linestart="71" lineend="74"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_curve_s" id="c0d0075a8c339b8ff073719e0914f5c7_906f7b70561ce3480ded855a173f8756" file="4" linestart="82" lineend="88">
+<fl name="n" id="c0d0075a8c339b8ff073719e0914f5c7_58df3334630cd6e7e7f7cd0cbf0ec5bc" file="4" linestart="84" lineend="84" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="tag" id="c0d0075a8c339b8ff073719e0914f5c7_ad9efb11e60b7e3d1f748193486445bf" file="4" linestart="85" lineend="85" isPtr="true" isLiteral="true" access="public" proto="int *">
+<pt>
+<bt name="int"/>
+</pt>
+</fl>
+<fl name="c" id="c0d0075a8c339b8ff073719e0914f5c7_1bb1a4f7245163d4858eba43f30b4d4b" file="4" linestart="86" lineend="86" isPtr="true" isLiteral="true" access="public" proto="potrace_dpoint_t (*)[3]">
+<pt>
+<Paren/>
+</pt>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_path_s" id="c0d0075a8c339b8ff073719e0914f5c7_18e56e8ef1eb0a1438c81ee5ba2f02ee" file="4" linestart="92" lineend="104">
+<fl name="next" id="c0d0075a8c339b8ff073719e0914f5c7_602befd6c90a03c112cf7d9727267f8f" file="4" linestart="98" lineend="98" isPtr="true" isLiteral="true" access="public" proto="struct potrace_path_s *">
+<pt>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_18e56e8ef1eb0a1438c81ee5ba2f02ee"/>
+</rt>
+</ety>
+</pt>
+</fl>
+<fl name="priv" id="c0d0075a8c339b8ff073719e0914f5c7_c2786931254720ddc9f3fcffdef877d6" file="4" linestart="103" lineend="103" isPtr="true" isLiteral="true" access="public" proto="struct potrace_privpath_s *">
+<pt>
+<ety>
+<rt>
+<cr id="6f873b84e9e9c67dc4f9db5abe32c245_2e4e082786af95eaed631d57ebbe9999"/>
+</rt>
+</ety>
+</pt>
+</fl>
+</cr>
+<f name="calloc" id="4aaa899143d6ff70a0518196c1485535_43192f47c328108205003e5f06e520b3" file="5" linestart="61" lineend="65" extC="true" access="none">
+<Attributed/>
+<p name="_Count" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="free" id="4aaa899143d6ff70a0518196c1485535_dd5a2138c1c85d1739ee7f1eb39d4e45" file="5" linestart="85" lineend="87" extC="true" access="none">
+<Attributed/>
+<p name="_Block" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+</f>
+<f name="memset" id="8e50a618780648297a4d24a7d4ce2256_01f056bb0311297cf054435e7cf7ee95" file="6" linestart="60" lineend="64" extC="true" access="none">
+<Attributed/>
+<p name="_Dst" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+<p name="_Val" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+</Externals>

@@ -1,0 +1,1778 @@
+<Externals>
+<cts Spec="&lt;unsigned int&gt;" namespace="std" access="none" depth="2" kind="class" name="numeric_limits" id="5cfa05c9f9f4e8477a40699e52a9cd7d_6292a4b7939db7b957379a9372af9754" file="3" linestart="661" lineend="713">
+<base access="public">
+<rt>
+<cr id="5cfa05c9f9f4e8477a40699e52a9cd7d_f605dce31fd36e3b43ee214dc7755272"/>
+</rt>
+</base>
+<m name="max" id="5cfa05c9f9f4e8477a40699e52a9cd7d_4d2cc50d72190cdb0abd34432194b8fc" file="3" linestart="670" lineend="673" access="public" storage="static" hasbody="true" isdef="true">
+<Paren/>
+</m>
+</cts>
+<tm namespace="std" access="none" depth="0" kind="class" name="allocator" id="9628fc9c2b634dc1e54a01ad2889a933_07566aa809aee0bdf1c0fac16e19fa85" file="4" linestart="939" lineend="1024" previous="9628fc9c2b634dc1e54a01ad2889a933_07566aa809aee0bdf1c0fac16e19fa85">
+<template_parameters>
+<ttp name="_Ty" id="9628fc9c2b634dc1e54a01ad2889a933_5dabb8add95e1f50264087371ebe1436" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="0" kind="class" name="allocator" id="9628fc9c2b634dc1e54a01ad2889a933_07566aa809aee0bdf1c0fac16e19fa85" file="4" linestart="940" lineend="1024" previous="9628fc9c2b634dc1e54a01ad2889a933_07566aa809aee0bdf1c0fac16e19fa85">
+<cr access="public" kind="class" name="allocator" id="9628fc9c2b634dc1e54a01ad2889a933_634dfb1dd5db9fd3e76cd8814f018ced" file="4" linestart="940" lineend="940"/>
+<tm parent="9628fc9c2b634dc1e54a01ad2889a933_07566aa809aee0bdf1c0fac16e19fa85" access="none" depth="0" pod="true" kind="struct" name="rebind" id="9628fc9c2b634dc1e54a01ad2889a933_38c2be5a786a253bb82af3c54854f921" file="4" linestart="963" lineend="967">
+<template_parameters>
+<ttp name="_Other" id="9628fc9c2b634dc1e54a01ad2889a933_5cb4d687f09ee7cb5b3575605cef20a8" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+</cr>
+</tm>
+<cr access="none" depth="0" kind="class" name="wxFormatString" id="0e87e81310e5f2c1c039d66de7a8fd53_8347695a8fce557760ad9c4da7cfa2ed" file="5" linestart="133" lineend="238">
+<c name="wxFormatString" id="0e87e81310e5f2c1c039d66de7a8fd53_e83c35e8558e95e213d26abca6a631e5" file="5" linestart="138" lineend="139" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="str" proto="const wchar_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="wchar_t"/>
+</QualType>
+</pt>
+</p>
+<initlist id="0e87e81310e5f2c1c039d66de7a8fd53_93b9098e7f798c2678ee7ea0197cce77"/>
+<initlist id="0e87e81310e5f2c1c039d66de7a8fd53_e6d2b986f922007c8bd48542e8df823b"/>
+<initlist id="0e87e81310e5f2c1c039d66de7a8fd53_50c459363bc839628a4df3b27e8a20dc"/>
+</c>
+<c name="wxFormatString" id="0e87e81310e5f2c1c039d66de7a8fd53_20c2b998d5e606fe17234277dbdd959c" file="5" linestart="140" lineend="141" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="str" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<initlist id="0e87e81310e5f2c1c039d66de7a8fd53_e6d2b986f922007c8bd48542e8df823b"/>
+<initlist id="0e87e81310e5f2c1c039d66de7a8fd53_50c459363bc839628a4df3b27e8a20dc"/>
+</c>
+<e parent="0e87e81310e5f2c1c039d66de7a8fd53_8347695a8fce557760ad9c4da7cfa2ed" access="public" name="ArgumentType" id="0e87e81310e5f2c1c039d66de7a8fd53_10c2380911619ef69b2125aaa7abcf9e" file="5" linestart="153" lineend="192">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="0" kind="class" name="wxString" id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" file="6" linestart="280" lineend="3482" previous="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641">
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="SubstrBufFromType" id="c28805ecee50721cbc134acc35dc8437_7750d38ad6f1d968599914a9ce4f20e3" file="6" linestart="308" lineend="319">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_dcf4a3f45e145299993ff8f81945f712" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="class" name="reverse_iterator_impl" id="c28805ecee50721cbc134acc35dc8437_c2b1fae0312e723ccd0d47aa7ee1e119" file="6" linestart="1003" lineend="1063">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_398434659c2c5a1e4aedc51f24cb6551" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_e3f96e4b8ac67f6c885dbcf0d9f83e6e" file="6" linestart="1101" lineend="1101" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_6dd241ac2644457581d83807a9a52b4a" file="6" linestart="1104" lineend="1104" copyconst="true" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="stringSrc" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<initlist id="c28805ecee50721cbc134acc35dc8437_700b26cebbe57d48e38fb4076743b19c"/>
+</c>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_7bc928c052ccd71aef459fb7200f3b6e" file="6" linestart="1125" lineend="1126" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="psz" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<initlist id="c28805ecee50721cbc134acc35dc8437_700b26cebbe57d48e38fb4076743b19c"/>
+</c>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_1e665060dce8dec79a082bccc9335799" file="6" linestart="1151" lineend="1152" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="pwz" proto="const wchar_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="wchar_t"/>
+</QualType>
+</pt>
+</p>
+<initlist id="c28805ecee50721cbc134acc35dc8437_700b26cebbe57d48e38fb4076743b19c"/>
+</c>
+<ft name="Printf" id="c28805ecee50721cbc134acc35dc8437_b9c54e93fcfab894923ee3457991f34a" file="6" linestart="2230" lineend="2230">
+<template_parameters>
+<ttp name="T1" id="c28805ecee50721cbc134acc35dc8437_2378931ddad45058dffbcda3143adaa3" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<m name="Printf" id="c28805ecee50721cbc134acc35dc8437_042cfaf2f4c5d3fbe9bcd23428a01103" file="6" linestart="2230" lineend="2230" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="f1" proto="const wxFormatString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="0e87e81310e5f2c1c039d66de7a8fd53_8347695a8fce557760ad9c4da7cfa2ed"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="a1" proto="T1" access2="none">
+<ttp/>
+</p>
+</m>
+</ft>
+<ft name="Format" id="c28805ecee50721cbc134acc35dc8437_a791fab13da1184bd2f21a88356347e4" file="6" linestart="2237" lineend="2237">
+<template_parameters>
+<ttp name="T1" id="c28805ecee50721cbc134acc35dc8437_dd1476fafb7211c5606cecc70b377580" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="T2" id="c28805ecee50721cbc134acc35dc8437_fed1eabfad962264806076fcc7a8af23" depth="0" index="1" proto="type-parameter-0-1"/>
+<ttp name="T3" id="c28805ecee50721cbc134acc35dc8437_2eb20c3753713a7b016ab05a2358b5b1" depth="0" index="2" proto="type-parameter-0-2"/>
+</template_parameters>
+<m name="Format" id="c28805ecee50721cbc134acc35dc8437_1ae2a0d1687798347ca49ddb64df07be" file="6" linestart="2237" lineend="2237" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="wxString">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</fpt>
+<p name="f1" proto="const wxFormatString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="0e87e81310e5f2c1c039d66de7a8fd53_8347695a8fce557760ad9c4da7cfa2ed"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="a1" proto="T1" access2="none">
+<ttp/>
+</p>
+<p name="a2" proto="T2" access2="none">
+<ttp/>
+</p>
+<p name="a3" proto="T3" access2="none">
+<ttp/>
+</p>
+</m>
+</ft>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="caseCompare" id="c28805ecee50721cbc134acc35dc8437_906d0b85826db2bd8e49a325e10780a1" file="6" linestart="2266" lineend="2266">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="stripType" id="c28805ecee50721cbc134acc35dc8437_ac90c161a6b4ad8edb4fc00d9ae9ef63" file="6" linestart="2268" lineend="2268">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="ConvertedBuffer" id="c28805ecee50721cbc134acc35dc8437_7aba30eab65d1508629c2881acc218e5" file="6" linestart="3356" lineend="3385">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_68c1c8653aea6c3fef59742c8425e880" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+</cr>
+<tm namespace="std" access="none" depth="1" kind="class" name="vector" id="48e671104f386f9f264296037c303e2d_3d0ab7465d6b9448b8c01dc907d3e25b" file="7" linestart="622" lineend="1962">
+<template_parameters>
+<ttp name="_Ty" id="48e671104f386f9f264296037c303e2d_2d25604cf0b65876a3833653b86272f8" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Alloc" id="48e671104f386f9f264296037c303e2d_415b2c0180cb321c6095aa8e8e14a027" depth="0" index="1" proto="type-parameter-0-1">
+<tss>
+<templatebase id="9628fc9c2b634dc1e54a01ad2889a933_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</ttp>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="class" name="vector" id="48e671104f386f9f264296037c303e2d_3d0ab7465d6b9448b8c01dc907d3e25b" file="7" linestart="624" lineend="1962">
+<base access="public">
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_05d3bbcccbfa4b3b58c141a4ec6ed389"/>
+<template_arguments>
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_6a7cfa317aaf33a284de4e9d43f7bf95"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="vector" id="48e671104f386f9f264296037c303e2d_c48c2bde2c144b6d614d5912fe2271ba" file="7" linestart="624" lineend="624"/>
+<c name="vector&lt;_Ty, _Alloc&gt;" id="48e671104f386f9f264296037c303e2d_4dc4853c79211880d053934cbb0985af" file="7" linestart="649" lineend="652" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="push_back" id="48e671104f386f9f264296037c303e2d_381ab415f5d7e80908104a5022251e65" file="7" linestart="935" lineend="938" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Val" proto="_Ty &amp;&amp;" isRef="true" access2="none">
+<rrf>
+<ttp/>
+</rrf>
+</p>
+</m>
+<m name="size" id="48e671104f386f9f264296037c303e2d_4d302b215534245d1eabe876b749053e" file="7" linestart="1702" lineend="1705" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="size_type">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+</m>
+<m name="operator[]" id="48e671104f386f9f264296037c303e2d_ae7695ce3b759ed003feb35e26351606" file="7" linestart="1730" lineend="1737" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="_Ty &amp;">
+<lrf>
+<ttp/>
+</lrf>
+</fpt>
+<p name="_Pos" proto="const size_type" const="true" access2="none">
+<QualType const="true">
+<Tdef>
+<DependentName/>
+</Tdef>
+</QualType>
+</p>
+</m>
+</cr>
+</tm>
+<cr access="none" depth="0" kind="class" name="wxPoint" id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206" file="8" linestart="563" lineend="592" previous="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206">
+<fl name="x" id="d9f07ba44edee0ea7c32468ff0154088_6754cbdc601a090ef545cfca045770c4" file="8" linestart="566" lineend="566" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="y" id="d9f07ba44edee0ea7c32468ff0154088_c471f58895b3352606cadaa8dfead166" file="8" linestart="566" lineend="566" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<c name="wxPoint" id="d9f07ba44edee0ea7c32468ff0154088_7e6316948e0ab42fb6e2d8b805f24dd9" file="8" linestart="568" lineend="568" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_6754cbdc601a090ef545cfca045770c4"/>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_c471f58895b3352606cadaa8dfead166"/>
+</c>
+<c name="wxPoint" id="d9f07ba44edee0ea7c32468ff0154088_c4e7dbeecf386621a2ee0de70151389a" file="8" linestart="569" lineend="569" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="xx" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="yy" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_6754cbdc601a090ef545cfca045770c4"/>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_c471f58895b3352606cadaa8dfead166"/>
+</c>
+<m name="operator+=" id="d9f07ba44edee0ea7c32468ff0154088_6c7592e5b09a1ff5e0226e78c053fdd2" file="8" linestart="575" lineend="575" operator="true" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="wxPoint &amp;">
+<lrf>
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</lrf>
+</fpt>
+<p name="p" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="operator=" id="d9f07ba44edee0ea7c32468ff0154088_f80cde56c6629caadb10e91b95eecff1" file="8" linestart="563" lineend="563" implicit="true" operator="true" imported="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="wxPoint &amp;">
+<lrf>
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="operator=" id="d9f07ba44edee0ea7c32468ff0154088_7be2b4e58b442a5c6c1658ecbc6e3760" file="8" linestart="563" lineend="563" implicit="true" operator="true" imported="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="wxPoint &amp;">
+<lrf>
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="wxPoint &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</rrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="SHAPE_POLY_SET" id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" file="9" linestart="56" lineend="1195" previous="39ff2105515a9abbe46eed66dfe341fc_598ca87e8eef49330a4743d2a40a1bb2">
+<base access="public">
+<rt>
+<cr id="81ae3420c279001f191e1a853a9ea57e_82c5797696ffc62ef5104647afc1645c"/>
+</rt>
+</base>
+<tm parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="none" depth="0" kind="class" name="ITERATOR_TEMPLATE" id="2e59b29db003dfa826fac161d27df0d5_d4b79db5867b78dc0fff75b9e49b1269" file="9" linestart="144" lineend="265">
+<template_parameters>
+<ttp name="T" id="2e59b29db003dfa826fac161d27df0d5_4deb55d55f9c30009f8dcc62313cb5e3" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="none" depth="0" kind="class" name="ITERATOR_TEMPLATE" id="2e59b29db003dfa826fac161d27df0d5_1bbb2cfffc067a7dc9fef114b1e036b0" file="9" linestart="145" lineend="265">
+<cr access="public" kind="class" name="ITERATOR_TEMPLATE" id="2e59b29db003dfa826fac161d27df0d5_69843410d9923e86a38581115e7b665d" file="9" linestart="145" lineend="145"/>
+<cv name="operator bool" id="2e59b29db003dfa826fac161d27df0d5_e8921f9d8f7b7b23ed537fc29c59deb5" file="9" linestart="168" lineend="171" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</cv>
+<m name="operator++" id="2e59b29db003dfa826fac161d27df0d5_d7135763c3422d4644c751eb87fcc63d" file="9" linestart="215" lineend="218" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="dummy" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+<m name="operator*" id="2e59b29db003dfa826fac161d27df0d5_53bdf62fdc837fc7af98be03abae9c85" file="9" linestart="230" lineend="233" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="T &amp;">
+<lrf>
+<ttp/>
+</lrf>
+</fpt>
+</m>
+<m name="operator-&gt;" id="2e59b29db003dfa826fac161d27df0d5_e243b7af8b67665d85220f5526924c9a" file="9" linestart="235" lineend="238" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="T *">
+<pt>
+<ttp/>
+</pt>
+</fpt>
+</m>
+</cr>
+</tm>
+<tm parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="none" depth="0" kind="class" name="SEGMENT_ITERATOR_TEMPLATE" id="2e59b29db003dfa826fac161d27df0d5_d7d5fb18d93bc8c7374a58a2df80e519" file="9" linestart="272" lineend="411">
+<template_parameters>
+<ttp name="T" id="2e59b29db003dfa826fac161d27df0d5_45935f63eb1630c25261aca979c7ec7a" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<m name="Iterate" id="2e59b29db003dfa826fac161d27df0d5_3a3196ce535f43e64ebfac8d162cc207" file="9" linestart="681" lineend="684" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="ITERATOR">
+<Tdef>
+<tss>
+<templatebase id="2e59b29db003dfa826fac161d27df0d5_1bbb2cfffc067a7dc9fef114b1e036b0"/>
+<template_arguments>
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</template_arguments>
+</tss>
+</Tdef>
+</fpt>
+</m>
+<m name="CIterate" id="2e59b29db003dfa826fac161d27df0d5_f1161cf166ed99485496b30eb1bc9df6" file="9" linestart="721" lineend="724" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="CONST_ITERATOR">
+<Tdef>
+<tss>
+<templatebase id="2e59b29db003dfa826fac161d27df0d5_1bbb2cfffc067a7dc9fef114b1e036b0"/>
+<template_arguments>
+<QualType const="true">
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</QualType>
+</template_arguments>
+</tss>
+</Tdef>
+</fpt>
+</m>
+<e parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="public" name="POLYGON_MODE" id="2e59b29db003dfa826fac161d27df0d5_5301ba31d0eb883d6cdb95915984d00d" file="9" linestart="797" lineend="801">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<m name="IsEmpty" id="2e59b29db003dfa826fac161d27df0d5_4b7963c0d5e1a119e04f8329044b23fb" file="9" linestart="960" lineend="963" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<e parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="private" name="CORNER_MODE" id="2e59b29db003dfa826fac161d27df0d5_0f07c12cf03717b8411dbee3af549be1" file="9" linestart="1145" lineend="1149">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="4" kind="class" name="BOARD" id="b2373e771ae501d2e0ea932159be4557_7ebd86d03656ccc87739aa7ec5a5b65e" file="10" linestart="169" lineend="1358" previous="b2373e771ae501d2e0ea932159be4557_7ebd86d03656ccc87739aa7ec5a5b65e">
+<base access="public">
+<rt>
+<cr id="1dcaa0d41f5e65d79e9cd3e17ca43efe_92aa87550b4d116d765066e764597bab"/>
+</rt>
+</base>
+<m name="IsLayerVisible" id="b2373e771ae501d2e0ea932159be4557_6d912e7d36e05512521e4e3bcd708643" file="10" linestart="456" lineend="459" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aLayer" proto="PCB_LAYER_ID" isLiteral="true" access2="none">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</p>
+</m>
+</cr>
+<cr access="none" depth="4" kind="class" name="MODULE" id="fba8173db2d2e3aa07a675cca82ae4ce_24a5fd1315af1b6cf7b2366a24895a9f" file="11" linestart="107" lineend="764" previous="fc1bca629a3a3ea38c06d5f0b879236f_24a5fd1315af1b6cf7b2366a24895a9f">
+<base access="public">
+<rt>
+<cr id="1dcaa0d41f5e65d79e9cd3e17ca43efe_92aa87550b4d116d765066e764597bab"/>
+</rt>
+</base>
+<m name="GetPosition" id="fba8173db2d2e3aa07a675cca82ae4ce_a2dac7cc2a29b4ff79f18648f17c928c" file="11" linestart="184" lineend="184" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxPoint">
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</fpt>
+</m>
+<m name="GetOrientation" id="fba8173db2d2e3aa07a675cca82ae4ce_f9a8fc9842f1e6cb8fde6baa676d16d2" file="11" linestart="189" lineend="189" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="double">
+<bt name="double"/>
+</fpt>
+</m>
+<m name="GetReference" id="fba8173db2d2e3aa07a675cca82ae4ce_b4859c92d21f15f39ebc70324b115c02" file="11" linestart="460" lineend="463" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxString &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<m name="GetValue" id="fba8173db2d2e3aa07a675cca82ae4ce_2458dea4f8dc29eb177d231a3b8475df" file="11" linestart="488" lineend="491" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxString &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="3" kind="class" name="DRAWSEGMENT" id="c84a1d3f7dc1fdf02e996dbc6734c062_b8f0f001925fe8a862bbf9123b033d44" file="12" linestart="47" lineend="263" previous="658cfdc053d4d94ae1c5d35e571d4c34_b8f0f001925fe8a862bbf9123b033d44">
+<base access="public">
+<rt>
+<cr id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10"/>
+</rt>
+</base>
+<fl name="m_Width" id="c84a1d3f7dc1fdf02e996dbc6734c062_6260f7b52bcfcc304a9f97596fe2b716" file="12" linestart="50" lineend="50" isLiteral="true" access="protected" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_Start" id="c84a1d3f7dc1fdf02e996dbc6734c062_83bffed2eea973721d8176945881b4f2" file="12" linestart="51" lineend="51" access="protected" proto="wxPoint">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</fl>
+<fl name="m_End" id="c84a1d3f7dc1fdf02e996dbc6734c062_4d007c31787ec7930b0f9ba512020b30" file="12" linestart="52" lineend="52" access="protected" proto="wxPoint">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</fl>
+<fl name="m_Shape" id="c84a1d3f7dc1fdf02e996dbc6734c062_ee2dd2e714d8a0b39df68a4ddea3205b" file="12" linestart="54" lineend="54" isLiteral="true" access="protected" proto="STROKE_T">
+<et>
+<e id="39ff2105515a9abbe46eed66dfe341fc_a90489e7130afe9f2bf95e87b167abab"/>
+</et>
+</fl>
+<fl name="m_Angle" id="c84a1d3f7dc1fdf02e996dbc6734c062_028a44d0c6c5dc7b28b2cb0f9c9475e2" file="12" linestart="56" lineend="56" isLiteral="true" access="protected" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="m_Poly" id="c84a1d3f7dc1fdf02e996dbc6734c062_e6cd547e68d5fe16cd08ef2ca1f00211" file="12" linestart="61" lineend="61" access="protected" proto="SHAPE_POLY_SET">
+<rt>
+<cr id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2"/>
+</rt>
+</fl>
+<c name="DRAWSEGMENT" id="c84a1d3f7dc1fdf02e996dbc6734c062_2b91286202da90ecd53a714b92c0491d" file="12" linestart="67" lineend="67" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aParent" proto="BOARD_ITEM *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10"/>
+</rt>
+</pt>
+</p>
+<p name="idtype" proto="KICAD_T" isLiteral="true" init="true" access2="none">
+<et>
+<e id="0681f74c4208ed78375c28e9d8312a42_17c1206b07185c1115b8be3046eb0a29"/>
+</et>
+</p>
+</c>
+<m name="SetAngle" id="c84a1d3f7dc1fdf02e996dbc6734c062_5cadb3e95104e73965a0137234d9f0fe" file="12" linestart="87" lineend="87" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aAngle" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</m>
+<m name="GetAngle" id="c84a1d3f7dc1fdf02e996dbc6734c062_7d83387b030c085eb295243bd6070eb9" file="12" linestart="88" lineend="88" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="double">
+<bt name="double"/>
+</fpt>
+</m>
+<m name="GetShape" id="c84a1d3f7dc1fdf02e996dbc6734c062_17307795795d9c712a1a93ef24fff798" file="12" linestart="94" lineend="94" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="STROKE_T">
+<et>
+<e id="39ff2105515a9abbe46eed66dfe341fc_a90489e7130afe9f2bf95e87b167abab"/>
+</et>
+</fpt>
+</m>
+<m name="GetStart" id="c84a1d3f7dc1fdf02e996dbc6734c062_7f5f2254dbd4ca8f1b478a6a1563e238" file="12" linestart="109" lineend="109" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxPoint &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<m name="SetStart" id="c84a1d3f7dc1fdf02e996dbc6734c062_2f168bd835a887431e947a825db6c2ea" file="12" linestart="110" lineend="110" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aStart" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="GetEnd" id="c84a1d3f7dc1fdf02e996dbc6734c062_d4eafec2a8fe83100cd93830a86174f2" file="12" linestart="118" lineend="118" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxPoint &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<m name="SetEnd" id="c84a1d3f7dc1fdf02e996dbc6734c062_cb25210b11580ee34dabc6480b57a92d" file="12" linestart="119" lineend="119" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aEnd" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="GetMsgPanelInfo" id="c84a1d3f7dc1fdf02e996dbc6734c062_27bceced04bc021f8a78f9474ad157f1" file="12" linestart="202" lineend="203" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aUnits" proto="EDA_UNITS_T" isLiteral="true" access2="none">
+<et>
+<e id="a816e0792f053b1a6615aebf401a146a_ed61faecaeec603307446dbec6bb69d8"/>
+</et>
+</p>
+<p name="aList" proto="std::vector&lt;MSG_PANEL_ITEM&gt; &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<ety>
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_3d0ab7465d6b9448b8c01dc907d3e25b"/>
+<template_arguments>
+<rt>
+<cr id="8a4b45c5069997801f94bf504ad0f60e_c99523bee93b4904177eb7cf49cd627b"/>
+</rt>
+</template_arguments>
+</tss>
+</ety>
+</lrf>
+</p>
+</m>
+<m name="Rotate" id="c84a1d3f7dc1fdf02e996dbc6734c062_0bcc3d1f2c93eec211a5c1ea0fc6890a" file="12" linestart="229" lineend="229" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aRotCentre" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aAngle" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</m>
+<c name="DRAWSEGMENT" id="c84a1d3f7dc1fdf02e996dbc6734c062_50ff33083d3ceecbae54d1e30098d4ef" file="12" linestart="47" lineend="47" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const DRAWSEGMENT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c84a1d3f7dc1fdf02e996dbc6734c062_b8f0f001925fe8a862bbf9123b033d44"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+</cr>
+<cr access="none" depth="4" kind="class" name="EDGE_MODULE" id="e5ebbd07d82a9553e7619edb95c7b83e_0f7f53adbad4165fad476c9ad436fdce" file="2" linestart="44" lineend="139" previous="658cfdc053d4d94ae1c5d35e571d4c34_0f7f53adbad4165fad476c9ad436fdce">
+<base access="public">
+<rt>
+<cr id="c84a1d3f7dc1fdf02e996dbc6734c062_b8f0f001925fe8a862bbf9123b033d44"/>
+</rt>
+</base>
+<c name="EDGE_MODULE" id="e5ebbd07d82a9553e7619edb95c7b83e_0dfc5e96c297daef7dff2d45aac35291" file="2" linestart="44" lineend="44" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const EDGE_MODULE &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="e5ebbd07d82a9553e7619edb95c7b83e_0f7f53adbad4165fad476c9ad436fdce"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+</cr>
+<cr namespace="KIGFX" access="none" depth="0" kind="class" name="VIEW" id="163108ccdd3e43dcef3a63b33e69b458_41cbbd06964bdbe3dba9c3082cb54ba8" file="13" linestart="58" lineend="853" previous="fba8173db2d2e3aa07a675cca82ae4ce_41cbbd06964bdbe3dba9c3082cb54ba8">
+<m name="IsLayerVisible" id="163108ccdd3e43dcef3a63b33e69b458_9c0d0aabdb9504fd865896aa3eb7247b" file="13" linestart="413" lineend="418" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aLayer" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="wxDC" id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1" file="14" linestart="750" lineend="1357" previous="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1">
+<base access="public">
+<rt>
+<cr id="3ec80f49485e66fb14de5b0d887a5c4b_9b0d0445a774e2b471c7cd340ff3b102"/>
+</rt>
+</base>
+</cr>
+<e access="none" name="EDA_COLOR_T" id="ff904b8485508d71bfa254d8e25257ab_6c1d9575a11d0adf5518ca2036f9f330" file="15" linestart="42" lineend="78">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="DARKDARKGRAY" id="ff904b8485508d71bfa254d8e25257ab_75af350fc3b17644e5a6e1d56db0afd5" file="15" linestart="46" lineend="46">
+<et>
+<e id="ff904b8485508d71bfa254d8e25257ab_6c1d9575a11d0adf5518ca2036f9f330"/>
+</et>
+</ec>
+<ec name="DARKCYAN" id="ff904b8485508d71bfa254d8e25257ab_c845af93b5d125572471b3fb1d9a6a98" file="15" linestart="53" lineend="53">
+<et>
+<e id="ff904b8485508d71bfa254d8e25257ab_6c1d9575a11d0adf5518ca2036f9f330"/>
+</et>
+</ec>
+<ec name="BLUE" id="ff904b8485508d71bfa254d8e25257ab_b4945e8dd4f5030ba96cad78beb3f809" file="15" linestart="57" lineend="57">
+<et>
+<e id="ff904b8485508d71bfa254d8e25257ab_6c1d9575a11d0adf5518ca2036f9f330"/>
+</et>
+</ec>
+<ec name="RED" id="ff904b8485508d71bfa254d8e25257ab_e9e382454a787393d141cae91f389514" file="15" linestart="60" lineend="60">
+<et>
+<e id="ff904b8485508d71bfa254d8e25257ab_6c1d9575a11d0adf5518ca2036f9f330"/>
+</et>
+</ec>
+<ec name="BROWN" id="ff904b8485508d71bfa254d8e25257ab_85d4f81c9aa2e48e0e49a456551afb23" file="15" linestart="62" lineend="62">
+<et>
+<e id="ff904b8485508d71bfa254d8e25257ab_6c1d9575a11d0adf5518ca2036f9f330"/>
+</et>
+</ec>
+</e>
+<cr namespace="KIGFX" access="none" depth="0" kind="class" name="COLOR4D" id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1" file="16" linestart="39" lineend="302">
+<c name="COLOR4D" id="49a91d1779ad9b725ce4f42b6bedecb5_90050bbef3afc32663edf3b12cc5b4f2" file="16" linestart="71" lineend="71" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aColor" proto="EDA_COLOR_T" isLiteral="true" access2="none">
+<et>
+<e id="ff904b8485508d71bfa254d8e25257ab_6c1d9575a11d0adf5518ca2036f9f330"/>
+</et>
+</p>
+</c>
+<c name="COLOR4D" id="49a91d1779ad9b725ce4f42b6bedecb5_66b8b8e72afd43a94fd0581cd22a91ea" file="16" linestart="39" lineend="39" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const KIGFX::COLOR4D &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+<m name="operator=" id="49a91d1779ad9b725ce4f42b6bedecb5_505af63141eeb72deb949907260de0d9" file="16" linestart="39" lineend="39" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="KIGFX::COLOR4D &amp;">
+<lrf>
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="KIGFX::COLOR4D &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</rrf>
+</p>
+</m>
+</cr>
+<e access="none" name="GR_DRAWMODE" id="4bb299aabc6270f87291123c41e759d2_d3507420ae70150ced49104365f21565" file="17" linestart="37" lineend="47">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="GR_ALLOW_HIGHCONTRAST" id="4bb299aabc6270f87291123c41e759d2_c47921ee5e8e32d20e625e4208ba9229" file="17" linestart="43" lineend="43">
+<et>
+<e id="4bb299aabc6270f87291123c41e759d2_d3507420ae70150ced49104365f21565"/>
+</et>
+</ec>
+</e>
+<tm access="none" depth="0" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771" file="18" linestart="73" lineend="254" previous="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771">
+<template_parameters>
+<ttp name="T" id="eab21eb34d3ab96be24ef0918f3b2d23_13bbfd783b66385854c7958bd77d1a2c" depth="0" index="0" proto="type-parameter-0-0">
+<bt name="int"/>
+</ttp>
+</template_parameters>
+<cr access="none" depth="0" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771" file="18" linestart="74" lineend="254" previous="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771">
+<cr access="public" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_99889d267f03b52d686e3bf14bf5863c" file="18" linestart="74" lineend="74"/>
+<fl name="x" id="eab21eb34d3ab96be24ef0918f3b2d23_920a1f9321e482defec017ee1cc8b125" file="18" linestart="83" lineend="83" access="public" proto="T">
+<ttp/>
+</fl>
+<fl name="y" id="eab21eb34d3ab96be24ef0918f3b2d23_c070b559d9fc355a7007c16457011d7d" file="18" linestart="83" lineend="83" access="public" proto="T">
+<ttp/>
+</fl>
+<c name="VECTOR2&lt;T&gt;" id="eab21eb34d3ab96be24ef0918f3b2d23_4c9f43050075b12dc7632b760222322b" file="18" linestart="92" lineend="92" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aPoint" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+<m name="operator+=" id="eab21eb34d3ab96be24ef0918f3b2d23_41f630f45eb489e930fac0a00ebeb5fa" file="18" linestart="210" lineend="210" operator="true" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="VECTOR2&lt;T&gt; &amp;">
+<lrf>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</fpt>
+<p name="aVector" proto="const VECTOR2&lt;T&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+</tm>
+<e access="none" name="KICAD_T" id="0681f74c4208ed78375c28e9d8312a42_17c1206b07185c1115b8be3046eb0a29" file="19" linestart="78" lineend="174">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="PCB_MODULE_EDGE_T" id="0681f74c4208ed78375c28e9d8312a42_035405c586894a848cd85ea45c730a64" file="19" linestart="94" lineend="94">
+<et>
+<e id="0681f74c4208ed78375c28e9d8312a42_17c1206b07185c1115b8be3046eb0a29"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" pod="true" kind="struct" name="BITMAP_OPAQUE" id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b" file="20" linestart="41" lineend="46"/>
+<cr namespace="KIGFX" access="none" depth="0" kind="class" name="VIEW_ITEM" id="5f8faf5f66b2bd03343aa691c19fdd7c_0a63ddb58b05cdd2dc9835c11b4e7aba" file="21" linestart="84" lineend="157"/>
+<cr access="none" depth="1" kind="class" name="EDA_ITEM" id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b" file="22" linestart="151" lineend="511" previous="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b">
+<base access="public">
+<ety>
+<rt>
+<cr id="5f8faf5f66b2bd03343aa691c19fdd7c_0a63ddb58b05cdd2dc9835c11b4e7aba"/>
+</rt>
+</ety>
+</base>
+<fl name="m_Parent" id="520464a9a7516f6f39b673446a559e91_46b18930262e25d29a325d6acc735f66" file="22" linestart="168" lineend="168" isPtr="true" isLiteral="true" access="protected" proto="EDA_ITEM *">
+<pt>
+<rt>
+<cr id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b"/>
+</rt>
+</pt>
+</fl>
+<m name="Type" id="520464a9a7516f6f39b673446a559e91_c45b0fb8711e4d0eb27cefefc7499a8e" file="22" linestart="198" lineend="201" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="KICAD_T">
+<et>
+<e id="0681f74c4208ed78375c28e9d8312a42_17c1206b07185c1115b8be3046eb0a29"/>
+</et>
+</fpt>
+</m>
+<m name="GetTimeStamp" id="520464a9a7516f6f39b673446a559e91_aa46d8eb99960abe15db1b3223f00e9d" file="22" linestart="204" lineend="204" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="timestamp_t">
+<Tdef>
+<bt name="long"/>
+</Tdef>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="11" kind="class" name="EDA_DRAW_PANEL" id="1d55fbc2e4c28bff5c4c9babf81a239b_bba522d5043055622c5d4ffcc4344a9c" file="23" linestart="55" lineend="476" previous="4bb299aabc6270f87291123c41e759d2_bba522d5043055622c5d4ffcc4344a9c">
+<base access="public">
+<rt>
+<cr id="77ea59792161a540ef71c60639a32e4d_31a9bcbca19ca76f7d5f2ec2700cce1d"/>
+</rt>
+</base>
+<m name="GetDisplayOptions" id="1d55fbc2e4c28bff5c4c9babf81a239b_616a5ee81d1faacf20b74cb70c196b96" file="23" linestart="131" lineend="131" access="public">
+<fpt cc="x86_thiscall" proto="void *">
+<pt>
+<bt name="void"/>
+</pt>
+</fpt>
+</m>
+<m name="GetScreen" id="1d55fbc2e4c28bff5c4c9babf81a239b_31b2bda583f08fbf610999a68f71a171" file="23" linestart="133" lineend="133" access="public">
+<fpt cc="x86_thiscall" proto="BASE_SCREEN *">
+<pt>
+<rt>
+<cr id="57a9cd333331e042b9c1954fbd90a723_493bd0ad82c04e2dcc7ea2618d6bfe53"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="GetParent" id="1d55fbc2e4c28bff5c4c9babf81a239b_5faaaf8a89d048f6b92a0479780e3d10" file="23" linestart="135" lineend="135" access="public">
+<fpt cc="x86_thiscall" const="true" proto="EDA_DRAW_FRAME *">
+<pt>
+<rt>
+<cr id="9e740be317f6abf0ab0d6bab57ff3f9b_fba62f898089c2094b8ada5e3a0572a8"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="GetClipBox" id="1d55fbc2e4c28bff5c4c9babf81a239b_219a6d2cc93b1e9ae8073e235bf05b49" file="23" linestart="139" lineend="139" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="EDA_RECT *">
+<pt>
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="GetPrintMirrored" id="1d55fbc2e4c28bff5c4c9babf81a239b_6e4fcca54d08e970c43123655c4347ac" file="23" linestart="167" lineend="167" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+</cr>
+<e access="none" name="PCB_LAYER_ID" id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05" file="24" linestart="73" lineend="137" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="B_Cu" id="360dd640c88be589e4dd8026f4ceb42a_db9b5593e512499d860ec39a67627fee" file="24" linestart="109" lineend="109">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</ec>
+<ec name="F_SilkS" id="360dd640c88be589e4dd8026f4ceb42a_1c9550c70d5b7b4b3ea6216c08dfb7b9" file="24" linestart="118" lineend="118">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</ec>
+</e>
+<e access="none" name="GAL_LAYER_ID" id="360dd640c88be589e4dd8026f4ceb42a_33bfb7602f1dd6f1d14df0d8cb550b7f" file="24" linestart="166" lineend="207" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="LAYER_MOD_FR" id="360dd640c88be589e4dd8026f4ceb42a_37d70137db405ac7bf71d932d697c445" file="24" linestart="185" lineend="185">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_33bfb7602f1dd6f1d14df0d8cb550b7f"/>
+</et>
+</ec>
+<ec name="LAYER_MOD_BK" id="360dd640c88be589e4dd8026f4ceb42a_959d32ac9ccfd118bd4ee45ad8f03cf3" file="24" linestart="186" lineend="186">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_33bfb7602f1dd6f1d14df0d8cb550b7f"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="MSG_PANEL_ITEM" id="8a4b45c5069997801f94bf504ad0f60e_c99523bee93b4904177eb7cf49cd627b" file="25" linestart="53" lineend="99" previous="41eb28e4ff0a7b6ea2d917813b4e2ad7_c99523bee93b4904177eb7cf49cd627b">
+<c name="MSG_PANEL_ITEM" id="8a4b45c5069997801f94bf504ad0f60e_02dbb21798e5dcca90ff420e590ce4d9" file="25" linestart="66" lineend="76" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aUpperText" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aLowerText" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aColor" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+<p name="aPad" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+</p>
+<initlist id="8a4b45c5069997801f94bf504ad0f60e_8f3a48b09ba1d6d02b6f5c963ad44fe9"/>
+<initlist id="8a4b45c5069997801f94bf504ad0f60e_3a3e77d904cb658049b368c588ad3c93"/>
+<initlist id="8a4b45c5069997801f94bf504ad0f60e_13d02d6b1f5f4a9841c99ed7b00f578f"/>
+<initlist id="8a4b45c5069997801f94bf504ad0f60e_bd00177e6f433ce50f018aad7dc548d7"/>
+</c>
+</cr>
+<e access="none" name="STROKE_T" id="39ff2105515a9abbe46eed66dfe341fc_a90489e7130afe9f2bf95e87b167abab" file="26" linestart="49" lineend="58">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="S_SEGMENT" id="39ff2105515a9abbe46eed66dfe341fc_c112cddf539d94ec84a9070693ae4337" file="26" linestart="51" lineend="51">
+<et>
+<e id="39ff2105515a9abbe46eed66dfe341fc_a90489e7130afe9f2bf95e87b167abab"/>
+</et>
+</ec>
+<ec name="S_ARC" id="39ff2105515a9abbe46eed66dfe341fc_249abd9d82ba4f597a3555ac500c7069" file="26" linestart="53" lineend="53">
+<et>
+<e id="39ff2105515a9abbe46eed66dfe341fc_a90489e7130afe9f2bf95e87b167abab"/>
+</et>
+</ec>
+<ec name="S_CIRCLE" id="39ff2105515a9abbe46eed66dfe341fc_3e6cbd84c04bc7c08774c2b0dcc2f6cc" file="26" linestart="54" lineend="54">
+<et>
+<e id="39ff2105515a9abbe46eed66dfe341fc_a90489e7130afe9f2bf95e87b167abab"/>
+</et>
+</ec>
+<ec name="S_POLYGON" id="39ff2105515a9abbe46eed66dfe341fc_c80b6778f1bfaaf06fb83dd63fd48e3b" file="26" linestart="55" lineend="55">
+<et>
+<e id="39ff2105515a9abbe46eed66dfe341fc_a90489e7130afe9f2bf95e87b167abab"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="2" kind="class" name="BOARD_ITEM" id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10" file="26" linestart="68" lineend="345">
+<base access="public">
+<rt>
+<cr id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b"/>
+</rt>
+</base>
+<fl name="m_Layer" id="39ff2105515a9abbe46eed66dfe341fc_30167e0d4cc04d3909be434c7a6e465b" file="26" linestart="72" lineend="72" isLiteral="true" access="protected" proto="PCB_LAYER_ID">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</fl>
+<v name="ZeroOffset" proto="wxPoint" id="39ff2105515a9abbe46eed66dfe341fc_a2212e5e8662a560e7b66b94afaf09ce" file="26" linestart="114" lineend="114" storage="static" access2="public">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</v>
+<m name="GetParent" id="39ff2105515a9abbe46eed66dfe341fc_491cdab53865043fa2c356514808dbb9" file="26" linestart="118" lineend="118" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="BOARD_ITEM_CONTAINER *">
+<pt>
+<rt>
+<cr id="1dcaa0d41f5e65d79e9cd3e17ca43efe_92aa87550b4d116d765066e764597bab"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="GetLayer" id="39ff2105515a9abbe46eed66dfe341fc_fd8aaa8aedee3f8aecc7ce6522b3e598" file="26" linestart="124" lineend="124" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="PCB_LAYER_ID">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</fpt>
+</m>
+<m name="SetLayer" id="39ff2105515a9abbe46eed66dfe341fc_1e0bac6740023ab3ea2bb92d5f1327f6" file="26" linestart="141" lineend="146" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aLayer" proto="PCB_LAYER_ID" isLiteral="true" access2="none">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</p>
+</m>
+<m name="IsOnLayer" id="39ff2105515a9abbe46eed66dfe341fc_2490d0f8940f28edda13dba0bed745b5" file="26" linestart="174" lineend="177" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aLayer" proto="PCB_LAYER_ID" isLiteral="true" access2="none">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</p>
+</m>
+<m name="ShowShape" id="39ff2105515a9abbe46eed66dfe341fc_3c3c0ef9c790b703a908eee9ec07c1f1" file="26" linestart="226" lineend="226" access="public" storage="static">
+<fpt cc="cdecl" proto="wxString">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</fpt>
+<p name="aShape" proto="STROKE_T" isLiteral="true" access2="none">
+<et>
+<e id="39ff2105515a9abbe46eed66dfe341fc_a90489e7130afe9f2bf95e87b167abab"/>
+</et>
+</p>
+</m>
+<m name="GetBoard" id="39ff2105515a9abbe46eed66dfe341fc_e0962a52050c7e6477fb2caaf78f28d8" file="26" linestart="280" lineend="280" virtual="true" access="public">
+<fpt cc="x86_thiscall" const="true" proto="BOARD *">
+<pt>
+<rt>
+<cr id="b2373e771ae501d2e0ea932159be4557_7ebd86d03656ccc87739aa7ec5a5b65e"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="GetLayerName" id="39ff2105515a9abbe46eed66dfe341fc_a5eb63885a0364e4d75eb7a0c9a6a22b" file="26" linestart="288" lineend="288" access="public">
+<fpt cc="x86_thiscall" const="true" proto="wxString">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="3" kind="class" name="PCB_SCREEN" id="fd576a23c1549aac869a64b31992d9a3_3172849384072360f2442b3ff7c594b0" file="27" linestart="41" lineend="103" previous="1d55fbc2e4c28bff5c4c9babf81a239b_3172849384072360f2442b3ff7c594b0">
+<base access="public">
+<rt>
+<cr id="57a9cd333331e042b9c1954fbd90a723_493bd0ad82c04e2dcc7ea2618d6bfe53"/>
+</rt>
+</base>
+<fl name="m_Active_Layer" id="fd576a23c1549aac869a64b31992d9a3_c9c8b7e7630d3290df94dac4796bd701" file="27" linestart="44" lineend="44" isLiteral="true" access="public" proto="PCB_LAYER_ID">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</fl>
+</cr>
+<e access="none" name="EDA_DRAW_MODE_T" id="dadcd990039b7cb8f6e3fbfaf735d811_b7a24e4858f861adaceac512e6317814" file="28" linestart="62" lineend="65">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="FILLED" id="dadcd990039b7cb8f6e3fbfaf735d811_8453a9f83bd81621eda16ab8cc061b59" file="28" linestart="63" lineend="63">
+<et>
+<e id="dadcd990039b7cb8f6e3fbfaf735d811_b7a24e4858f861adaceac512e6317814"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="PCB_DISPLAY_OPTIONS" id="ed8531b2db40e63fdbef3fbd2de1693c_b81cfcf963d6b44aa8ad5b5080fcf058" file="29" linestart="37" lineend="91">
+<e parent="ed8531b2db40e63fdbef3fbd2de1693c_b81cfcf963d6b44aa8ad5b5080fcf058" access="public" name="TRACE_CLEARANCE_DISPLAY_MODE_T" id="ed8531b2db40e63fdbef3fbd2de1693c_9e74bfc76b040382e683f62f0b8ddc75" file="29" linestart="46" lineend="62">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<fl name="m_DisplayModEdgeFill" id="ed8531b2db40e63fdbef3fbd2de1693c_dabdadf747fbc393736c9549fb0a1aa6" file="29" linestart="68" lineend="68" isLiteral="true" access="public" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="m_DisplayPcbTrackFill" id="ed8531b2db40e63fdbef3fbd2de1693c_e97e876e2c1d78cdcef62529e497e5be" file="29" linestart="70" lineend="70" isLiteral="true" access="public" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="m_ContrastModeDisplay" id="ed8531b2db40e63fdbef3fbd2de1693c_b62b0b2f54e17efc4e4d67e87a8d3b8a" file="29" linestart="84" lineend="84" isLiteral="true" access="public" proto="bool">
+<bt name="bool"/>
+</fl>
+</cr>
+<cr access="none" depth="1" kind="class" name="COLORS_DESIGN_SETTINGS" id="a0bf53ae40e4137ae544f6f3f37dbd46_7094d193ad6fc7ea18b80815c8676934" file="30" linestart="48" lineend="116">
+<base access="public">
+<rt>
+<cr id="94d90bdf69239d84f235ba439c6aaf30_b20d14e503cf211d52fbfffbd2944e56"/>
+</rt>
+</base>
+<m name="GetLayerColor" id="a0bf53ae40e4137ae544f6f3f37dbd46_322fee3291313d5b7b86a662137d4586" file="30" linestart="66" lineend="66" access="public">
+<fpt cc="x86_thiscall" const="true" proto="KIGFX::COLOR4D">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</fpt>
+<p name="aLayer" proto="LAYER_NUM" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="PCB_GENERAL_SETTINGS" id="2aab33b4c56b91472b120bd1f2dcbb4d_8980a78d02d5d4bf4a9fc85168f7208f" file="31" linestart="39" lineend="71">
+<base access="public">
+<rt>
+<cr id="94d90bdf69239d84f235ba439c6aaf30_b20d14e503cf211d52fbfffbd2944e56"/>
+</rt>
+</base>
+<m name="Colors" id="2aab33b4c56b91472b120bd1f2dcbb4d_e482d19122dce9053ae18e52d112f8d2" file="31" linestart="47" lineend="50" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="COLORS_DESIGN_SETTINGS &amp;">
+<lrf>
+<rt>
+<cr id="a0bf53ae40e4137ae544f6f3f37dbd46_7094d193ad6fc7ea18b80815c8676934"/>
+</rt>
+</lrf>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="14" kind="class" name="PCB_BASE_FRAME" id="3abcbb2d1ccf626712e5c3384869f7d9_d64ee6527cdc7a1d81f1886d06b182c4" file="32" linestart="67" lineend="728">
+<base access="public">
+<rt>
+<cr id="9e740be317f6abf0ab0d6bab57ff3f9b_fba62f898089c2094b8ada5e3a0572a8"/>
+</rt>
+</base>
+<m name="Settings" id="3abcbb2d1ccf626712e5c3384869f7d9_6d596ea351a74b1641efb5ece780671d" file="32" linestart="713" lineend="716" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="PCB_GENERAL_SETTINGS &amp;">
+<lrf>
+<rt>
+<cr id="2aab33b4c56b91472b120bd1f2dcbb4d_8980a78d02d5d4bf4a9fc85168f7208f"/>
+</rt>
+</lrf>
+</fpt>
+</m>
+</cr>
+<f namespace="std" name="swap" id="2bb4f3a339a38a03efa7ea6ad8df5f71_1f7159279904422f12fa3783b545fdd1" file="33" linestart="62" lineend="70" previous="990974640a7605f90279e803095d807c_1f7159279904422f12fa3783b545fdd1" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Left" proto="_Ty &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+<p name="_Right" proto="_Ty &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+</f>
+<ft name="swap" id="2bb4f3a339a38a03efa7ea6ad8df5f71_613fda287ef47ab19f62bb99ec6e4848" file="33" linestart="61" lineend="70" previous="990974640a7605f90279e803095d807c_613fda287ef47ab19f62bb99ec6e4848">
+<template_parameters>
+<ttp name="_Ty" id="2bb4f3a339a38a03efa7ea6ad8df5f71_c61e27aced83e9353133ac7de480cdcd" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="" id="2bb4f3a339a38a03efa7ea6ad8df5f71_2eeb6b44b997d2ae91e0018ab8a61e73" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<f namespace="std" name="swap" id="2bb4f3a339a38a03efa7ea6ad8df5f71_1f7159279904422f12fa3783b545fdd1" file="33" linestart="62" lineend="70" previous="990974640a7605f90279e803095d807c_1f7159279904422f12fa3783b545fdd1" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Left" proto="_Ty &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+<p name="_Right" proto="_Ty &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+</f>
+</ft>
+<f name="wxGetTranslation" id="831f553f60c8880a2c50de87369dfaee_220b15d8d91abe9a6232b518c3908d8d" file="34" linestart="260" lineend="273" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="const wxString &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+<p name="str" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="domain" proto="const wxString &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="context" proto="const wxString &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</f>
+<f name="operator-" id="d9f07ba44edee0ea7c32468ff0154088_f34c51b6f005a3f8928eb7f0c88e85fb" file="8" linestart="613" lineend="616" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="wxPoint">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</fpt>
+<p name="p1" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="p2" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</f>
+<f name="operator&amp;" id="4bb299aabc6270f87291123c41e759d2_6bdf3cc85bf662b84e7b5b3687412dc6" file="17" linestart="69" lineend="72" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="GR_DRAWMODE">
+<et>
+<e id="4bb299aabc6270f87291123c41e759d2_d3507420ae70150ced49104365f21565"/>
+</et>
+</fpt>
+<p name="a" proto="const GR_DRAWMODE &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<et>
+<e id="4bb299aabc6270f87291123c41e759d2_d3507420ae70150ced49104365f21565"/>
+</et>
+</QualType>
+</lrf>
+</p>
+<p name="b" proto="const GR_DRAWMODE &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<et>
+<e id="4bb299aabc6270f87291123c41e759d2_d3507420ae70150ced49104365f21565"/>
+</et>
+</QualType>
+</lrf>
+</p>
+</f>
+<f name="GRSetDrawMode" id="4bb299aabc6270f87291123c41e759d2_ceefbcefdeb29da7eed8066ddd26a47b" file="17" linestart="92" lineend="92" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="DC" proto="wxDC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1"/>
+</rt>
+</pt>
+</p>
+<p name="mode" proto="GR_DRAWMODE" isLiteral="true" access2="none">
+<et>
+<e id="4bb299aabc6270f87291123c41e759d2_d3507420ae70150ced49104365f21565"/>
+</et>
+</p>
+</f>
+<f name="GRLine" id="4bb299aabc6270f87291123c41e759d2_72298bdd4be0182f4e6bb12d34db7268" file="17" linestart="112" lineend="113" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ClipBox" proto="EDA_RECT *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</pt>
+</p>
+<p name="DC" proto="wxDC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1"/>
+</rt>
+</pt>
+</p>
+<p name="x1" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="y1" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="x2" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="y2" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="Color" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+<p name="aStyle" proto="wxPenStyle" isLiteral="true" init="true" access2="none">
+<et>
+<e id="e717da165240d0d4d57f19958b6b368c_e2c24d1b53f6f4573e1894628dc9abdc"/>
+</et>
+</p>
+</f>
+<f name="GRPoly" id="4bb299aabc6270f87291123c41e759d2_afb48b27ed420664fd0c71da6980b0e2" file="17" linestart="124" lineend="125" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ClipBox" proto="EDA_RECT *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</pt>
+</p>
+<p name="DC" proto="wxDC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1"/>
+</rt>
+</pt>
+</p>
+<p name="n" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="Points" proto="wxPoint *" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+</p>
+<p name="Fill" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="Color" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+<p name="BgColor" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+</f>
+<f name="GRCircle" id="4bb299aabc6270f87291123c41e759d2_53a20c7068bf98140f6bfd16ff715473" file="17" linestart="191" lineend="191" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ClipBox" proto="EDA_RECT *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</pt>
+</p>
+<p name="aDC" proto="wxDC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1"/>
+</rt>
+</pt>
+</p>
+<p name="x" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="y" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aRadius" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aColor" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+</f>
+<f name="GRCircle" id="4bb299aabc6270f87291123c41e759d2_8da35a39997bca3986058028115d34f2" file="17" linestart="192" lineend="192" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ClipBox" proto="EDA_RECT *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</pt>
+</p>
+<p name="DC" proto="wxDC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1"/>
+</rt>
+</pt>
+</p>
+<p name="x" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="y" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="r" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="Color" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+</f>
+<f name="GRArc" id="4bb299aabc6270f87291123c41e759d2_47fd5b1f528e0e34949f966f8f16b302" file="17" linestart="198" lineend="199" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ClipBox" proto="EDA_RECT *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</pt>
+</p>
+<p name="DC" proto="wxDC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1"/>
+</rt>
+</pt>
+</p>
+<p name="x" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="y" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="StAngle" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="EndAngle" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="r" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="Color" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+</f>
+<f name="GRArc" id="4bb299aabc6270f87291123c41e759d2_2874231d73a5605e6fa51a5c1b3a68cd" file="17" linestart="200" lineend="201" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ClipBox" proto="EDA_RECT *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</pt>
+</p>
+<p name="DC" proto="wxDC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1"/>
+</rt>
+</pt>
+</p>
+<p name="x" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="y" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="StAngle" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="EndAngle" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="r" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="Color" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+</f>
+<f name="GRCSegm" id="4bb299aabc6270f87291123c41e759d2_7163683d8f57476815a4e65710bc3709" file="17" linestart="212" lineend="212" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ClipBox" proto="EDA_RECT *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</pt>
+</p>
+<p name="DC" proto="wxDC *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1"/>
+</rt>
+</pt>
+</p>
+<p name="x1" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="y1" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="x2" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="y2" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="Color" proto="KIGFX::COLOR4D" access2="none">
+<rt>
+<cr id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1"/>
+</rt>
+</p>
+</f>
+<f name="RotatePoint" id="78a39d910b2892b8eae78a20771cde8a_347aeda0bed10b4462a64d1e508776bf" file="35" linestart="65" lineend="65" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="pX" proto="int *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="int"/>
+</pt>
+</p>
+<p name="pY" proto="int *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="int"/>
+</pt>
+</p>
+<p name="angle" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</f>
+<f name="ArcTangente" id="78a39d910b2892b8eae78a20771cde8a_d91115dd8ef528bac5cd76ea782f3815" file="35" linestart="107" lineend="107" access="none">
+<fpt cc="cdecl" proto="double">
+<bt name="double"/>
+</fpt>
+<p name="dy" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="dx" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="KiROUND" id="a816e0792f053b1a6615aebf401a146a_9e7abec9a0a97973827e3f966c2cbc7a" file="36" linestart="119" lineend="122" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="v" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</f>
+<f name="MIRROR" id="a223f7633d2dcf189670caaf47c29ad6_3d95dee5af4ec1a485a0cab287d1918d" file="37" linestart="111" lineend="114" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aPoint" proto="T &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+<p name="aMirrorRef" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</p>
+</f>
+<ft name="MIRROR" id="a223f7633d2dcf189670caaf47c29ad6_96be720df7181cf6c4e8f740e8b678ca" file="37" linestart="110" lineend="114">
+<template_parameters>
+<ttp name="T" id="a223f7633d2dcf189670caaf47c29ad6_230250327953c31bb2de71bc70fb1cde" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f name="MIRROR" id="a223f7633d2dcf189670caaf47c29ad6_3d95dee5af4ec1a485a0cab287d1918d" file="37" linestart="111" lineend="114" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aPoint" proto="T &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+<p name="aMirrorRef" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</p>
+</f>
+</ft>
+<f name="IsCopperLayer" id="360dd640c88be589e4dd8026f4ceb42a_5350ad03f7bd59a485899d615ec1d20c" file="24" linestart="646" lineend="649" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aLayerId" proto="LAYER_NUM" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+</f>
+<f name="FlipLayer" id="360dd640c88be589e4dd8026f4ceb42a_555622267c448d3d3fd2393901957d95" file="24" linestart="739" lineend="739" access="none">
+<fpt cc="cdecl" proto="PCB_LAYER_ID">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</fpt>
+<p name="aLayerId" proto="PCB_LAYER_ID" isLiteral="true" access2="none">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</p>
+<p name="aCopperLayersCount" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="Distance" id="64958991dc4b6b146630366d15b5bcfa_fade974a36e639f4e2242fbb5c1c705e" file="38" linestart="66" lineend="69" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="double">
+<bt name="double"/>
+</fpt>
+<p name="x1" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="y1" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="x2" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="y2" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</f>
+<v name="show_mod_edge_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_17d2fe752d73d80f37936d3c713dcd1f" file="39" linestart="493" lineend="493" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+</Externals>

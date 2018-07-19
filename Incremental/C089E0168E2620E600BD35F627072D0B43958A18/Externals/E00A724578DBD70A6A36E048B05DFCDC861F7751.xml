@@ -1,0 +1,77 @@
+<Externals>
+<cr namespace="KIGFX" access="none" depth="0" pod="true" kind="struct" name="VERTEX" id="3fc4506c12487393bf1906dc4c0c0b80_e3318d4c4524b9e572302dcbd2195db0" file="3" linestart="50" lineend="55"/>
+<cr namespace="KIGFX" access="none" kind="class" name="VERTEX_ITEM" id="41cc80024fc58372dae6a7470106c9ae_1c3b90bc50bd0676ab59f0c6349f7966" file="4" linestart="37" lineend="37"/>
+<cr namespace="KIGFX" access="none" depth="0" kind="class" name="VERTEX_CONTAINER" id="41cc80024fc58372dae6a7470106c9ae_0d6cce3d445585225433e21f3ad285cc" file="4" linestart="40" lineend="181">
+<c name="VERTEX_CONTAINER" id="41cc80024fc58372dae6a7470106c9ae_8f928b55b0f9c55f1c255ab483c4ec97" file="4" linestart="151" lineend="151" access="protected">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aSize" proto="unsigned int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="unsigned int"/>
+</p>
+</c>
+<fl name="m_freeSpace" id="41cc80024fc58372dae6a7470106c9ae_a2581f4255bfbd978e8601c1cbc6def1" file="4" linestart="154" lineend="154" isLiteral="true" access="protected" proto="unsigned int">
+<bt name="unsigned int"/>
+</fl>
+<fl name="m_currentSize" id="41cc80024fc58372dae6a7470106c9ae_f899e8ee6949fa4244bdbd2a5de9bd6d" file="4" linestart="157" lineend="157" isLiteral="true" access="protected" proto="unsigned int">
+<bt name="unsigned int"/>
+</fl>
+<fl name="m_vertices" id="41cc80024fc58372dae6a7470106c9ae_8d8692cecdb67b0e8da68a574efe1cfa" file="4" linestart="163" lineend="163" isPtr="true" isLiteral="true" access="protected" proto="KIGFX::VERTEX *">
+<pt>
+<rt>
+<cr id="3fc4506c12487393bf1906dc4c0c0b80_e3318d4c4524b9e572302dcbd2195db0"/>
+</rt>
+</pt>
+</fl>
+<v name="DEFAULT_SIZE" proto="const unsigned int" const="true" isLiteral="true" isPrimitive="true" id="41cc80024fc58372dae6a7470106c9ae_6e1cff7f9be42fc7a94f23bafddc4d3f" file="4" linestart="180" lineend="180" storage="static" init="true" access2="protected">
+<QualType const="true">
+<bt name="unsigned int"/>
+</QualType>
+</v>
+</cr>
+<f name="memset" id="8e50a618780648297a4d24a7d4ce2256_01f056bb0311297cf054435e7cf7ee95" file="5" linestart="60" lineend="64" extC="true" access="none">
+<Attributed/>
+<p name="_Dst" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+<p name="_Val" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="free" id="4aaa899143d6ff70a0518196c1485535_dd5a2138c1c85d1739ee7f1eb39d4e45" file="6" linestart="85" lineend="87" extC="true" access="none">
+<Attributed/>
+<p name="_Block" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+</f>
+<f name="malloc" id="4aaa899143d6ff70a0518196c1485535_ce29b3b7be14c0f0acda69d94481373b" file="6" linestart="96" lineend="99" extC="true" access="none">
+<Attributed/>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="realloc" id="4aaa899143d6ff70a0518196c1485535_04ff1626811a864e08d02d40adfb6e45" file="6" linestart="121" lineend="125" extC="true" access="none">
+<Attributed/>
+<p name="_Block" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+</Externals>

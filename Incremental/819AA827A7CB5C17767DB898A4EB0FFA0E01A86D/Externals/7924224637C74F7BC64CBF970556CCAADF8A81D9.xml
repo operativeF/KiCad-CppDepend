@@ -1,0 +1,994 @@
+<Externals>
+<cr namespace="std" access="none" depth="1" kind="class" name="vector" id="48e671104f386f9f264296037c303e2d_3d0ab7465d6b9448b8c01dc907d3e25b" file="3" linestart="624" lineend="1962">
+<base access="public">
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_05d3bbcccbfa4b3b58c141a4ec6ed389"/>
+<template_arguments>
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_6a7cfa317aaf33a284de4e9d43f7bf95"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<e namespace="glm" access="none" name="qualifier" id="9f5dbad6a01ec41d260e05cc162ae1cd_7c8671dd4eb24e2b8e1b07739280737a" file="4" linestart="11" lineend="34">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="highp" id="9f5dbad6a01ec41d260e05cc162ae1cd_7d0ada4d4b4e567d1b920b57157b47bb" file="4" linestart="24" lineend="24">
+<et>
+<e id="9f5dbad6a01ec41d260e05cc162ae1cd_7c8671dd4eb24e2b8e1b07739280737a"/>
+</et>
+</ec>
+</e>
+<cr namespace="glm" access="none" kind="struct" name="vec" id="9f5dbad6a01ec41d260e05cc162ae1cd_e2ad23d5c3fc6f93f1c27f14f39e97ea" file="4" linestart="38" lineend="38"/>
+<cr access="none" depth="0" kind="struct" name="CBBOX2D" id="02d5d6e4592cba6cc95a32064ee4a493_71b9f88b6c5743421f94cb8f479d8ac2" file="5" linestart="40" lineend="213"/>
+<e access="none" name="KICAD_T" id="0681f74c4208ed78375c28e9d8312a42_17c1206b07185c1115b8be3046eb0a29" file="6" linestart="78" lineend="174">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="PCB_MODULE_EDGE_T" id="0681f74c4208ed78375c28e9d8312a42_035405c586894a848cd85ea45c730a64" file="6" linestart="94" lineend="94">
+<et>
+<e id="0681f74c4208ed78375c28e9d8312a42_17c1206b07185c1115b8be3046eb0a29"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="1" kind="class" name="SHAPE_POLY_SET" id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" file="7" linestart="56" lineend="1195" previous="39ff2105515a9abbe46eed66dfe341fc_598ca87e8eef49330a4743d2a40a1bb2">
+<base access="public">
+<rt>
+<cr id="81ae3420c279001f191e1a853a9ea57e_82c5797696ffc62ef5104647afc1645c"/>
+</rt>
+</base>
+<tm parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="none" depth="0" kind="class" name="ITERATOR_TEMPLATE" id="2e59b29db003dfa826fac161d27df0d5_d4b79db5867b78dc0fff75b9e49b1269" file="7" linestart="144" lineend="265">
+<template_parameters>
+<ttp name="T" id="2e59b29db003dfa826fac161d27df0d5_4deb55d55f9c30009f8dcc62313cb5e3" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<tm parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="none" depth="0" kind="class" name="SEGMENT_ITERATOR_TEMPLATE" id="2e59b29db003dfa826fac161d27df0d5_d7d5fb18d93bc8c7374a58a2df80e519" file="7" linestart="272" lineend="411">
+<template_parameters>
+<ttp name="T" id="2e59b29db003dfa826fac161d27df0d5_45935f63eb1630c25261aca979c7ec7a" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<c name="SHAPE_POLY_SET" id="2e59b29db003dfa826fac161d27df0d5_3d913a5dff3e49df1a35c7b75160913d" file="7" linestart="421" lineend="421" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="AddOutline" id="2e59b29db003dfa826fac161d27df0d5_7af8472e0a43d7d41731d04a1cc451fb" file="7" linestart="467" lineend="467" access="public">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="aOutline" proto="const SHAPE_LINE_CHAIN &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="98b5670d909d6b5111a66130af61a2c0_d3a4fc55cae677c3f8eeafe675835270"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="Append" id="2e59b29db003dfa826fac161d27df0d5_bbb3b7ef6d4387896afc2e6c3b60b910" file="7" linestart="489" lineend="489" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aSet" proto="const SHAPE_POLY_SET &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="COutline" id="2e59b29db003dfa826fac161d27df0d5_582ca16090490923122fb4ab2269bf85" file="7" linestart="615" lineend="618" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const SHAPE_LINE_CHAIN &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="98b5670d909d6b5111a66130af61a2c0_d3a4fc55cae677c3f8eeafe675835270"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+<p name="aIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+<e parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="public" name="POLYGON_MODE" id="2e59b29db003dfa826fac161d27df0d5_5301ba31d0eb883d6cdb95915984d00d" file="7" linestart="797" lineend="801">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2" access="private" name="CORNER_MODE" id="2e59b29db003dfa826fac161d27df0d5_0f07c12cf03717b8411dbee3af549be1" file="7" linestart="1145" lineend="1149">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="0" kind="class" name="wxSize" id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d" file="8" linestart="273" lineend="347">
+<fl name="x" id="d9f07ba44edee0ea7c32468ff0154088_c5e105e7b2007637e915a95f01e9f1e4" file="8" linestart="277" lineend="277" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="y" id="d9f07ba44edee0ea7c32468ff0154088_51e3cd0034ed3a50f593e657b821aeab" file="8" linestart="277" lineend="277" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<c name="wxSize" id="d9f07ba44edee0ea7c32468ff0154088_b31b24ee42d912751cbf5313f18ee3a8" file="8" linestart="280" lineend="280" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_c5e105e7b2007637e915a95f01e9f1e4"/>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_51e3cd0034ed3a50f593e657b821aeab"/>
+</c>
+<c name="wxSize" id="d9f07ba44edee0ea7c32468ff0154088_4b242cd64097faf4bc12ed8b39419527" file="8" linestart="281" lineend="281" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="xx" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="yy" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_c5e105e7b2007637e915a95f01e9f1e4"/>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_51e3cd0034ed3a50f593e657b821aeab"/>
+</c>
+<c name="wxSize" id="d9f07ba44edee0ea7c32468ff0154088_2c36525b3cf04e29c70a7fea2c679fe2" file="8" linestart="273" lineend="273" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const wxSize &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+<m name="operator=" id="d9f07ba44edee0ea7c32468ff0154088_8d2c85bb8043b81bc5a13b0bc803674b" file="8" linestart="273" lineend="273" implicit="true" operator="true" imported="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="wxSize &amp;">
+<lrf>
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="wxSize &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</rrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="wxPoint" id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206" file="8" linestart="563" lineend="592" previous="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206">
+<fl name="x" id="d9f07ba44edee0ea7c32468ff0154088_6754cbdc601a090ef545cfca045770c4" file="8" linestart="566" lineend="566" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="y" id="d9f07ba44edee0ea7c32468ff0154088_c471f58895b3352606cadaa8dfead166" file="8" linestart="566" lineend="566" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<c name="wxPoint" id="d9f07ba44edee0ea7c32468ff0154088_7e6316948e0ab42fb6e2d8b805f24dd9" file="8" linestart="568" lineend="568" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_6754cbdc601a090ef545cfca045770c4"/>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_c471f58895b3352606cadaa8dfead166"/>
+</c>
+<c name="wxPoint" id="d9f07ba44edee0ea7c32468ff0154088_c4e7dbeecf386621a2ee0de70151389a" file="8" linestart="569" lineend="569" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="xx" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="yy" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_6754cbdc601a090ef545cfca045770c4"/>
+<initlist id="d9f07ba44edee0ea7c32468ff0154088_c471f58895b3352606cadaa8dfead166"/>
+</c>
+<m name="operator+=" id="d9f07ba44edee0ea7c32468ff0154088_6c7592e5b09a1ff5e0226e78c053fdd2" file="8" linestart="575" lineend="575" operator="true" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="wxPoint &amp;">
+<lrf>
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</lrf>
+</fpt>
+<p name="p" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<c name="wxPoint" id="d9f07ba44edee0ea7c32468ff0154088_102d19345542277fca7bb4ac77c8210c" file="8" linestart="563" lineend="563" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+</cr>
+<e access="none" name="PAD_SHAPE_T" id="4c5a128fbb3c0ae37dfa5e22d4198dae_549d199037539c277135bb6888a39e0f" file="9" linestart="31" lineend="40">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="PAD_SHAPE_CIRCLE" id="4c5a128fbb3c0ae37dfa5e22d4198dae_73e2bd206ec52b3c1cd417cb85b25203" file="9" linestart="33" lineend="33">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_549d199037539c277135bb6888a39e0f"/>
+</et>
+</ec>
+<ec name="PAD_SHAPE_RECT" id="4c5a128fbb3c0ae37dfa5e22d4198dae_69d9a00d8c369777893b2da97dd99006" file="9" linestart="34" lineend="34">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_549d199037539c277135bb6888a39e0f"/>
+</et>
+</ec>
+<ec name="PAD_SHAPE_OVAL" id="4c5a128fbb3c0ae37dfa5e22d4198dae_418cba8b64e2ade881341f935774b846" file="9" linestart="35" lineend="35">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_549d199037539c277135bb6888a39e0f"/>
+</et>
+</ec>
+<ec name="PAD_SHAPE_TRAPEZOID" id="4c5a128fbb3c0ae37dfa5e22d4198dae_18210835e872f5a88e21e4fee0521dad" file="9" linestart="36" lineend="36">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_549d199037539c277135bb6888a39e0f"/>
+</et>
+</ec>
+<ec name="PAD_SHAPE_ROUNDRECT" id="4c5a128fbb3c0ae37dfa5e22d4198dae_c90054e7594eb1f9a278f977fb48d6d8" file="9" linestart="37" lineend="37">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_549d199037539c277135bb6888a39e0f"/>
+</et>
+</ec>
+<ec name="PAD_SHAPE_CUSTOM" id="4c5a128fbb3c0ae37dfa5e22d4198dae_96ee8383db9bb5311b3224f0486c343d" file="9" linestart="38" lineend="38">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_549d199037539c277135bb6888a39e0f"/>
+</et>
+</ec>
+</e>
+<e access="none" name="PAD_DRILL_SHAPE_T" id="4c5a128fbb3c0ae37dfa5e22d4198dae_9c18c4e572d40c7ab1f56cdef840df42" file="9" linestart="46" lineend="50">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="PAD_DRILL_SHAPE_CIRCLE" id="4c5a128fbb3c0ae37dfa5e22d4198dae_f5ecfb8671cf551a549f0f1f70138eac" file="9" linestart="48" lineend="48">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_9c18c4e572d40c7ab1f56cdef840df42"/>
+</et>
+</ec>
+</e>
+<e access="none" name="PAD_ATTR_T" id="4c5a128fbb3c0ae37dfa5e22d4198dae_d2538e101f84c66c6e64b3f9c14b87a2" file="9" linestart="58" lineend="67">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="PAD_ATTRIB_HOLE_NOT_PLATED" id="4c5a128fbb3c0ae37dfa5e22d4198dae_59fb067d13e575255b480212d893a72b" file="9" linestart="65" lineend="65">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_d2538e101f84c66c6e64b3f9c14b87a2"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="EDA_RECT" id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03" file="10" linestart="44" lineend="288" previous="4bb299aabc6270f87291123c41e759d2_de815e598573d6c668fe57c6c0c9fc03">
+<m name="GetSizeMax" id="b11c5ba1c7207dfa5cf9d700bda483c4_8b864e88a939c403c32e2e2ab46df88d" file="10" linestart="107" lineend="107" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="SHAPE_LINE_CHAIN" id="98b5670d909d6b5111a66130af61a2c0_d3a4fc55cae677c3f8eeafe675835270" file="11" linestart="47" lineend="650">
+<base access="public">
+<rt>
+<cr id="81ae3420c279001f191e1a853a9ea57e_82c5797696ffc62ef5104647afc1645c"/>
+</rt>
+</base>
+<c name="SHAPE_LINE_CHAIN" id="98b5670d909d6b5111a66130af61a2c0_44758900e3656e719dd01e88bb8d27b1" file="11" linestart="75" lineend="77" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<initlist id="98b5670d909d6b5111a66130af61a2c0_b9ef3f4bc7ac06abe11456abccbdf2c3"/>
+</c>
+<m name="SetClosed" id="98b5670d909d6b5111a66130af61a2c0_ce8f164d89f19f95034d942e3e32e26a" file="11" linestart="150" lineend="153" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aClosed" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="PointCount" id="98b5670d909d6b5111a66130af61a2c0_069f9b9345b79d5a7bdba7cf2919a36d" file="11" linestart="186" lineend="189" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+<m name="CPoint" id="98b5670d909d6b5111a66130af61a2c0_2d0c5e17b9e14cc94cbdca3a17c733bc" file="11" linestart="253" lineend="261" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const VECTOR2I &amp;">
+<lrf>
+<QualType const="true">
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</QualType>
+</lrf>
+</fpt>
+<p name="aIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+<m name="Append" id="98b5670d909d6b5111a66130af61a2c0_fc414356b8c4be5f1fd649df1412151c" file="11" linestart="346" lineend="350" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aX" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aY" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aAllowDuplication" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="CBVHCONTAINER2D" id="b7f1dbc465e9a1310bca90e04771692a_a85ba7c382c30896bebf60b5f9da8562" file="12" linestart="97" lineend="121">
+<base access="public">
+<rt>
+<cr id="b7f1dbc465e9a1310bca90e04771692a_38172edb7e8e6db25983fde6c780d74f"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="4" kind="class" name="EDGE_MODULE" id="e5ebbd07d82a9553e7619edb95c7b83e_0f7f53adbad4165fad476c9ad436fdce" file="13" linestart="44" lineend="139" previous="658cfdc053d4d94ae1c5d35e571d4c34_0f7f53adbad4165fad476c9ad436fdce">
+<base access="public">
+<rt>
+<cr id="c84a1d3f7dc1fdf02e996dbc6734c062_b8f0f001925fe8a862bbf9123b033d44"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="4" kind="class" name="D_PAD" id="658cfdc053d4d94ae1c5d35e571d4c34_c9f44d317f9b15eada30f21d906963b6" file="14" linestart="133" lineend="867" previous="2a1f3c90f4404044c85984caa9a05d8f_c9f44d317f9b15eada30f21d906963b6">
+<base access="public">
+<rt>
+<cr id="2a1f3c90f4404044c85984caa9a05d8f_a28ae24b2816f244c66552ab253a0703"/>
+</rt>
+</base>
+<m name="Next" id="658cfdc053d4d94ae1c5d35e571d4c34_851f7ddbc5bf03b5922f945b84103dd6" file="14" linestart="159" lineend="159" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="D_PAD *">
+<pt>
+<rt>
+<cr id="658cfdc053d4d94ae1c5d35e571d4c34_c9f44d317f9b15eada30f21d906963b6"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="GetShape" id="658cfdc053d4d94ae1c5d35e571d4c34_425664488ac57a1bb9990e85403c58aa" file="14" linestart="215" lineend="215" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="PAD_SHAPE_T">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_549d199037539c277135bb6888a39e0f"/>
+</et>
+</fpt>
+</m>
+<m name="SetSize" id="658cfdc053d4d94ae1c5d35e571d4c34_2f2960f16d351b17c4ddd4e296ffaeda" file="14" linestart="267" lineend="267" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aSize" proto="const wxSize &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="GetSize" id="658cfdc053d4d94ae1c5d35e571d4c34_07d44e65740f32ddb723d508ed88729c" file="14" linestart="268" lineend="268" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxSize &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<m name="GetDrillSize" id="658cfdc053d4d94ae1c5d35e571d4c34_385b864265ebfa54305a15c792cc1f07" file="14" linestart="274" lineend="274" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxSize &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<m name="GetOffset" id="658cfdc053d4d94ae1c5d35e571d4c34_ef025996bda1849f00edeff0d38060d8" file="14" linestart="277" lineend="277" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxPoint &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<m name="CustomShapeAsPolygonToBoardPosition" id="658cfdc053d4d94ae1c5d35e571d4c34_1cb604476ee396fce77b56bd79ff5df8" file="14" linestart="329" lineend="330" access="public">
+<fpt cc="x86_thiscall" const="true" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aMergedPolygon" proto="SHAPE_POLY_SET *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2"/>
+</rt>
+</pt>
+</p>
+<p name="aPosition" proto="wxPoint" access2="none">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</p>
+<p name="aRotation" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</m>
+<m name="GetCustomShapeAsPolygon" id="658cfdc053d4d94ae1c5d35e571d4c34_d856306aae38014f641b6ae9164b4653" file="14" linestart="340" lineend="340" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const SHAPE_POLY_SET &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<m name="GetOrientation" id="658cfdc053d4d94ae1c5d35e571d4c34_85463f68c6d92327a87426f59edf689b" file="14" linestart="381" lineend="381" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="double">
+<bt name="double"/>
+</fpt>
+</m>
+<m name="GetDrillShape" id="658cfdc053d4d94ae1c5d35e571d4c34_7d61906bd45a1d5877d3a47832de13d4" file="14" linestart="387" lineend="387" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="PAD_DRILL_SHAPE_T">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_9c18c4e572d40c7ab1f56cdef840df42"/>
+</et>
+</fpt>
+</m>
+<m name="GetAttribute" id="658cfdc053d4d94ae1c5d35e571d4c34_8625a86c5d2e650ff68cb8734dea04ec" file="14" linestart="404" lineend="404" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="PAD_ATTR_T">
+<et>
+<e id="4c5a128fbb3c0ae37dfa5e22d4198dae_d2538e101f84c66c6e64b3f9c14b87a2"/>
+</et>
+</fpt>
+</m>
+<m name="TransformShapeWithClearanceToPolygon" id="658cfdc053d4d94ae1c5d35e571d4c34_0840d6b865dfbb03be1034f47883dd2f" file="14" linestart="434" lineend="437" access="public">
+<fpt cc="x86_thiscall" const="true" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aCornerBuffer" proto="SHAPE_POLY_SET &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2"/>
+</rt>
+</lrf>
+</p>
+<p name="aClearanceValue" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aCircleToSegmentsCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aCorrectionFactor" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</m>
+<m name="GetSolderMaskMargin" id="658cfdc053d4d94ae1c5d35e571d4c34_b52679c5b9484a2e97de689c5876b683" file="14" linestart="463" lineend="463" access="public">
+<fpt cc="x86_thiscall" const="true" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+<m name="GetSolderPasteMargin" id="658cfdc053d4d94ae1c5d35e571d4c34_06027251fd2a0a0d1355ac98c3911a4c" file="14" linestart="479" lineend="479" access="public">
+<fpt cc="x86_thiscall" const="true" proto="wxSize">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</fpt>
+</m>
+<m name="BuildPadPolygon" id="658cfdc053d4d94ae1c5d35e571d4c34_3b640689e40ef3751df77d56e6eacd47" file="14" linestart="516" lineend="516" access="public">
+<fpt cc="x86_thiscall" const="true" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aCoord" proto="wxPoint *" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+</p>
+<p name="aInflateValue" proto="wxSize" access2="none">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</p>
+<p name="aRotation" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</m>
+<m name="ShapePos" id="658cfdc053d4d94ae1c5d35e571d4c34_493b85edb0c092ab0a497d056539f79d" file="14" linestart="611" lineend="611" access="public">
+<fpt cc="x86_thiscall" const="true" proto="wxPoint">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</fpt>
+</m>
+<m name="IsOnLayer" id="658cfdc053d4d94ae1c5d35e571d4c34_bb95e388bf9d59fd1e59a725540c8b54" file="14" linestart="649" lineend="652" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aLayer" proto="PCB_LAYER_ID" isLiteral="true" access2="none">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</p>
+</m>
+<c name="D_PAD" id="658cfdc053d4d94ae1c5d35e571d4c34_1f721d81fa2806ea623be170ae604786" file="14" linestart="133" lineend="133" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const D_PAD &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="658cfdc053d4d94ae1c5d35e571d4c34_c9f44d317f9b15eada30f21d906963b6"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+</cr>
+<tm access="none" depth="1" kind="class" name="DLIST" id="47d5e08c733954b2e17cabf04b06d245_75eb60b8fd31fe714181ffc879a2a2dc" file="15" linestart="141" lineend="256">
+<template_parameters>
+<ttp name="T" id="47d5e08c733954b2e17cabf04b06d245_024d07ac5afb101eb88c179303090c72" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr access="none" depth="1" kind="class" name="DLIST" id="47d5e08c733954b2e17cabf04b06d245_75eb60b8fd31fe714181ffc879a2a2dc" file="15" linestart="142" lineend="256">
+<base access="public">
+<rt>
+<cr id="47d5e08c733954b2e17cabf04b06d245_65ce0d6a695330e4b59428634d5d537f"/>
+</rt>
+</base>
+<cr access="public" kind="class" name="DLIST" id="47d5e08c733954b2e17cabf04b06d245_003e862f37db81892649fbbf917c2f06" file="15" linestart="142" lineend="142"/>
+<cv name="operator T *" id="47d5e08c733954b2e17cabf04b06d245_04460d508df106a0abeb733523968763" file="15" linestart="150" lineend="150" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="T *">
+<pt>
+<ttp/>
+</pt>
+</fpt>
+</cv>
+</cr>
+</tm>
+<cr access="none" depth="4" kind="class" name="TRACK" id="1982d6177af478f36848b55748b737a0_16573fb6358dcdc57e1240418a70e26e" file="16" linestart="82" lineend="344" previous="1982d6177af478f36848b55748b737a0_16573fb6358dcdc57e1240418a70e26e">
+<base access="public">
+<rt>
+<cr id="2a1f3c90f4404044c85984caa9a05d8f_a28ae24b2816f244c66552ab253a0703"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="3" kind="class" name="TEXTE_PCB" id="099451603c2d2076f84433f5791ce05c_7ff808d4eb195f1dc63ddf9cafdd546b" file="17" linestart="55" lineend="162">
+<base access="public">
+<rt>
+<cr id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10"/>
+</rt>
+</base>
+<base access="public">
+<rt>
+<cr id="dadcd990039b7cb8f6e3fbfaf735d811_aeb791f3b0b8e2e5dfaa8d84d85e41b8"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="3" kind="class" name="DRAWSEGMENT" id="c84a1d3f7dc1fdf02e996dbc6734c062_b8f0f001925fe8a862bbf9123b033d44" file="18" linestart="47" lineend="263" previous="658cfdc053d4d94ae1c5d35e571d4c34_b8f0f001925fe8a862bbf9123b033d44">
+<base access="public">
+<rt>
+<cr id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10"/>
+</rt>
+</base>
+<m name="GetBoundingBox" id="c84a1d3f7dc1fdf02e996dbc6734c062_ce6f545987ae4f8111d7bf05c842437c" file="18" linestart="205" lineend="205" virtual="true" access="public">
+<fpt cc="x86_thiscall" const="true" proto="const EDA_RECT">
+<QualType const="true">
+<rt>
+<cr id="b11c5ba1c7207dfa5cf9d700bda483c4_de815e598573d6c668fe57c6c0c9fc03"/>
+</rt>
+</QualType>
+</fpt>
+</m>
+<m name="TransformShapeWithClearanceToPolygon" id="c84a1d3f7dc1fdf02e996dbc6734c062_a9377a96067e7f8a48e7df7383394350" file="18" linestart="245" lineend="248" access="public">
+<fpt cc="x86_thiscall" const="true" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aCornerBuffer" proto="SHAPE_POLY_SET &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2"/>
+</rt>
+</lrf>
+</p>
+<p name="aClearanceValue" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aCircleToSegmentsCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aCorrectionFactor" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</m>
+</cr>
+<cr access="none" depth="3" kind="class" name="DIMENSION" id="91b239dc602905d70257cff9322c46b5_4bf6be7cc5e3a8905056a29545b26583" file="19" linestart="62" lineend="235">
+<base access="public">
+<rt>
+<cr id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="4" kind="class" name="ZONE_CONTAINER" id="3716fffdc0d33d88c9df88f26b2bfda9_49acb12cd566fab48639815efe839dbd" file="20" linestart="60" lineend="782" previous="3716fffdc0d33d88c9df88f26b2bfda9_49acb12cd566fab48639815efe839dbd">
+<base access="public">
+<rt>
+<cr id="2a1f3c90f4404044c85984caa9a05d8f_a28ae24b2816f244c66552ab253a0703"/>
+</rt>
+</base>
+<e parent="3716fffdc0d33d88c9df88f26b2bfda9_49acb12cd566fab48639815efe839dbd" access="public" name="HATCH_STYLE" id="3716fffdc0d33d88c9df88f26b2bfda9_1b7b875618ecb9d3a661abe15e741106" file="20" linestart="67" lineend="67">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="4" kind="class" name="MODULE" id="fba8173db2d2e3aa07a675cca82ae4ce_24a5fd1315af1b6cf7b2366a24895a9f" file="21" linestart="107" lineend="764" previous="fc1bca629a3a3ea38c06d5f0b879236f_24a5fd1315af1b6cf7b2366a24895a9f">
+<base access="public">
+<rt>
+<cr id="1dcaa0d41f5e65d79e9cd3e17ca43efe_92aa87550b4d116d765066e764597bab"/>
+</rt>
+</base>
+<m name="GraphicalItemsList" id="fba8173db2d2e3aa07a675cca82ae4ce_e07fe71ea13044bb2387df2439aed7f1" file="21" linestart="167" lineend="167" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const DLIST&lt;BOARD_ITEM&gt; &amp;">
+<lrf>
+<QualType const="true">
+<tss>
+<templatebase id="47d5e08c733954b2e17cabf04b06d245_75eb60b8fd31fe714181ffc879a2a2dc"/>
+<template_arguments>
+<rt>
+<cr id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10"/>
+</rt>
+</template_arguments>
+</tss>
+</QualType>
+</lrf>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="REPORTER" id="974e710f51baa7c770ab7abee0d15a04_44d36fe63a27955b572fbb6f9a0d7de0" file="22" linestart="61" lineend="135" previous="a816e0792f053b1a6615aebf401a146a_44d36fe63a27955b572fbb6f9a0d7de0">
+<e parent="974e710f51baa7c770ab7abee0d15a04_44d36fe63a27955b572fbb6f9a0d7de0" access="public" name="SEVERITY" id="974e710f51baa7c770ab7abee0d15a04_d415cf483f754e3f08e9ef4b891bee10" file="22" linestart="74" lineend="80">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="974e710f51baa7c770ab7abee0d15a04_44d36fe63a27955b572fbb6f9a0d7de0" access="public" name="LOCATION" id="974e710f51baa7c770ab7abee0d15a04_b34fb1fa78848ca9b7fbbac011137ef9" file="22" linestart="88" lineend="92">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr namespace="KIGFX" access="none" depth="0" kind="class" name="COLOR4D" id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1" file="23" linestart="39" lineend="302"/>
+<tm access="none" depth="0" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771" file="24" linestart="73" lineend="254" previous="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771">
+<template_parameters>
+<ttp name="T" id="eab21eb34d3ab96be24ef0918f3b2d23_13bbfd783b66385854c7958bd77d1a2c" depth="0" index="0" proto="type-parameter-0-0">
+<bt name="int"/>
+</ttp>
+</template_parameters>
+<cr access="none" depth="0" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771" file="24" linestart="74" lineend="254" previous="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771">
+<cr access="public" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_99889d267f03b52d686e3bf14bf5863c" file="24" linestart="74" lineend="74"/>
+<fl name="x" id="eab21eb34d3ab96be24ef0918f3b2d23_920a1f9321e482defec017ee1cc8b125" file="24" linestart="83" lineend="83" access="public" proto="T">
+<ttp/>
+</fl>
+<fl name="y" id="eab21eb34d3ab96be24ef0918f3b2d23_c070b559d9fc355a7007c16457011d7d" file="24" linestart="83" lineend="83" access="public" proto="T">
+<ttp/>
+</fl>
+</cr>
+</tm>
+<cr access="none" depth="1" kind="class" name="EDA_ITEM" id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b" file="25" linestart="151" lineend="511" previous="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b">
+<base access="public">
+<ety>
+<rt>
+<cr id="5f8faf5f66b2bd03343aa691c19fdd7c_0a63ddb58b05cdd2dc9835c11b4e7aba"/>
+</rt>
+</ety>
+</base>
+<m name="Type" id="520464a9a7516f6f39b673446a559e91_c45b0fb8711e4d0eb27cefefc7499a8e" file="25" linestart="198" lineend="201" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="KICAD_T">
+<et>
+<e id="0681f74c4208ed78375c28e9d8312a42_17c1206b07185c1115b8be3046eb0a29"/>
+</et>
+</fpt>
+</m>
+<m name="Next" id="520464a9a7516f6f39b673446a559e91_4e93d95c65b7c33a9cc97b31e6404e65" file="25" linestart="206" lineend="206" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="EDA_ITEM *">
+<pt>
+<rt>
+<cr id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<cr namespace="std" access="none" depth="2" kind="class" name="map" id="1b3fbdaf2a47757376fc577d7a27ac38_af53dcb0381442ba69b706cfd90f0e4b" file="26" linestart="80" lineend="386">
+<base access="public">
+<tss>
+<templatebase id="c027037e01bf2802671f4379b5022a54_81402bee6779f3d62c69ec615acf01b5"/>
+<template_arguments>
+<tss>
+<templatebase id="1b3fbdaf2a47757376fc577d7a27ac38_fab2f22a258d2fed10615afa75f0dfd4"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr access="none" kind="class" name="BOARD" id="360dd640c88be589e4dd8026f4ceb42a_7ebd86d03656ccc87739aa7ec5a5b65e" file="27" linestart="39" lineend="39"/>
+<e access="none" name="PCB_LAYER_ID" id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05" file="27" linestart="73" lineend="137" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="B_Paste" id="360dd640c88be589e4dd8026f4ceb42a_7663ff1e9e792e89910ec8292d82245b" file="27" linestart="114" lineend="114">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</ec>
+<ec name="F_Paste" id="360dd640c88be589e4dd8026f4ceb42a_01dfed2657747860028174894cc170f1" file="27" linestart="115" lineend="115">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</ec>
+<ec name="B_Mask" id="360dd640c88be589e4dd8026f4ceb42a_ea3a34d1992593d52ecc66c39da6c4d6" file="27" linestart="120" lineend="120">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</ec>
+<ec name="F_Mask" id="360dd640c88be589e4dd8026f4ceb42a_9829b93068d8dc297c0da752c59df181" file="27" linestart="121" lineend="121">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="2" kind="class" name="BOARD_ITEM" id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10" file="28" linestart="68" lineend="345">
+<base access="public">
+<rt>
+<cr id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b"/>
+</rt>
+</base>
+<m name="GetLayer" id="39ff2105515a9abbe46eed66dfe341fc_fd8aaa8aedee3f8aecc7ce6522b3e598" file="28" linestart="124" lineend="124" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="PCB_LAYER_ID">
+<et>
+<e id="360dd640c88be589e4dd8026f4ceb42a_db8fd812dcc4e509b5763b24a4f19a05"/>
+</et>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="COBJECT2D" id="60dd799e4dd191b8f2c84eb72c0cc6bd_b32472c2893df5d7bc2fdb17114cfc9c" file="29" linestart="62" lineend="126"/>
+<cr access="none" depth="0" kind="class" name="CGENERICCONTAINER2D" id="b7f1dbc465e9a1310bca90e04771692a_38172edb7e8e6db25983fde6c780d74f" file="12" linestart="40" lineend="73"/>
+<cr access="none" depth="0" kind="struct" name="CBBOX" id="37de9acc0b8d504b0a2c122147353551_0622650f1dda842a137ca593c74b158c" file="30" linestart="40" lineend="257"/>
+<cr access="none" depth="0" kind="class" name="CCAMERA" id="b5a33a9894c389da12a5e06f4613e546_822c2647a49d7202440a0e248049d587" file="31" linestart="80" lineend="331"/>
+<cr access="none" depth="1" kind="class" name="CTRACK_BALL" id="724d3ec59eb2c8983a6eae0818a9404c_42c4b4d76bec850fef3c5135e0dd7a6f" file="32" linestart="36" lineend="69">
+<base access="public">
+<rt>
+<cr id="b5a33a9894c389da12a5e06f4613e546_822c2647a49d7202440a0e248049d587"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="0" kind="class" name="S3D_CACHE" id="f21ac432b8e8bded9b3078c27e3a4778_305f9bf072f2d791260f18a32a0d1c95" file="33" linestart="49" lineend="204" previous="f21ac432b8e8bded9b3078c27e3a4778_305f9bf072f2d791260f18a32a0d1c95"/>
+<f namespace="glm" name="min" id="f1678c769c621043926dc01e2918c4aa_7b420b52140d0d99b31191037874d084" file="34" linestart="15" lineend="19" previous="43e0cebf5960c18d717daf48e4f6e461_7b420b52140d0d99b31191037874d084" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="genType">
+<ttp/>
+</fpt>
+<p name="x" proto="genType" access2="none">
+<ttp/>
+</p>
+<p name="y" proto="genType" access2="none">
+<ttp/>
+</p>
+</f>
+<ft name="min" id="f1678c769c621043926dc01e2918c4aa_f9561b7a45ec4477d7a9d79acf49d7af" file="34" linestart="14" lineend="19" previous="43e0cebf5960c18d717daf48e4f6e461_f9561b7a45ec4477d7a9d79acf49d7af">
+<template_parameters>
+<ttp name="genType" id="f1678c769c621043926dc01e2918c4aa_142ae4bf62a6639761f9e8572e0c656b" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f namespace="glm" name="min" id="f1678c769c621043926dc01e2918c4aa_7b420b52140d0d99b31191037874d084" file="34" linestart="15" lineend="19" previous="43e0cebf5960c18d717daf48e4f6e461_7b420b52140d0d99b31191037874d084" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="genType">
+<ttp/>
+</fpt>
+<p name="x" proto="genType" access2="none">
+<ttp/>
+</p>
+<p name="y" proto="genType" access2="none">
+<ttp/>
+</p>
+</f>
+</ft>
+<f name="operator==" id="d9f07ba44edee0ea7c32468ff0154088_ef0084b7fbbab24b24083271d2d52d06" file="8" linestart="349" lineend="352" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="s1" proto="const wxSize &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="s2" proto="const wxSize &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</f>
+<f name="operator+" id="d9f07ba44edee0ea7c32468ff0154088_45328a7d0d45011cfec8c21d3b39ec6a" file="8" linestart="359" lineend="362" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="wxSize">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</fpt>
+<p name="s1" proto="const wxSize &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="s2" proto="const wxSize &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</f>
+<f name="operator==" id="d9f07ba44edee0ea7c32468ff0154088_86a0bb9b4b9a78a546af87c9543a6c1c" file="8" linestart="596" lineend="599" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="p1" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="p2" proto="const wxPoint &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</f>
+<f name="TransformRoundedEndsSegmentToPolygon" id="be911df7ca2641e97b0a76ecc04a7b78_6dd52ce943b46c92c8b372f6b200d173" file="35" linestart="117" lineend="120" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aCornerBuffer" proto="SHAPE_POLY_SET &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2"/>
+</rt>
+</lrf>
+</p>
+<p name="aStart" proto="wxPoint" access2="none">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</p>
+<p name="aEnd" proto="wxPoint" access2="none">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</p>
+<p name="aCircleToSegmentsCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aWidth" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="TransformRingToPolygon" id="be911df7ca2641e97b0a76ecc04a7b78_31468d43fa5484f1c90f9de96aada606" file="35" linestart="148" lineend="150" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aCornerBuffer" proto="SHAPE_POLY_SET &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="2e59b29db003dfa826fac161d27df0d5_598ca87e8eef49330a4743d2a40a1bb2"/>
+</rt>
+</lrf>
+</p>
+<p name="aCentre" proto="wxPoint" access2="none">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</p>
+<p name="aRadius" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aCircleToSegmentsCount" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aWidth" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+</Externals>

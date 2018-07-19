@@ -1,0 +1,200 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="_iobuf" id="01496c6bb69de57ea21f734790d4bd06_9b75e14604360f7936837e5997e12eba" file="3" linestart="25" lineend="28"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_bitmap_s" id="c0d0075a8c339b8ff073719e0914f5c7_ced1f96143d4a4dea1cd3346776c0df9" file="4" linestart="59" lineend="64">
+<fl name="w" id="c0d0075a8c339b8ff073719e0914f5c7_08a6281348486e12fd49b1d993d19a09" file="4" linestart="61" lineend="61" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="h" id="c0d0075a8c339b8ff073719e0914f5c7_eb4f98ec1044a9383126808c9c56e846" file="4" linestart="61" lineend="61" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="dy" id="c0d0075a8c339b8ff073719e0914f5c7_8cfe4015796772c72bbbbd467c817507" file="4" linestart="62" lineend="62" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="map" id="c0d0075a8c339b8ff073719e0914f5c7_a7d295145864fcacadffe6a42f080e85" file="4" linestart="63" lineend="63" isPtr="true" isLiteral="true" access="public" proto="potrace_word *">
+<pt>
+<Tdef>
+<bt name="unsigned long"/>
+</Tdef>
+</pt>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="bmp_info_s" id="733d63dc65931f7f6a5a15d04bdb005c_efb5fd388e6631e2516d30ed4706c466" file="1" linestart="492" lineend="514">
+<c name="bmp_info_s" id="733d63dc65931f7f6a5a15d04bdb005c_8b40994bd6c498c4a5da086d20842987" file="1" linestart="492" lineend="492" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<f name="fgetc" id="91d63e686a6db388f4ef2456ad48d887_41de66532a68457b49f284ee93efca9e" file="5" linestart="177" lineend="179" extC="true" access="none">
+<Attributed/>
+<p name="_Stream" proto="FILE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="01496c6bb69de57ea21f734790d4bd06_9b75e14604360f7936837e5997e12eba"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="ungetc" id="91d63e686a6db388f4ef2456ad48d887_16650dc6670ffe86764b067b15f871a6" file="5" linestart="449" lineend="452" extC="true" access="none">
+<Attributed/>
+<p name="_Character" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="_Stream" proto="FILE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="01496c6bb69de57ea21f734790d4bd06_9b75e14604360f7936837e5997e12eba"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="fputc" id="91d63e686a6db388f4ef2456ad48d887_d3fa52f537a24ae26049b75a085cde2a" file="5" linestart="216" lineend="219" extC="true" access="none">
+<Attributed/>
+<p name="_Character" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="_Stream" proto="FILE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="01496c6bb69de57ea21f734790d4bd06_9b75e14604360f7936837e5997e12eba"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="fprintf" id="91d63e686a6db388f4ef2456ad48d887_af6d79effa222eff445da5668b78cca0" file="5" linestart="828" lineend="842" extC="true" variadic="true" access="none" inline="true" hasbody="true" isdef="true">
+<Attributed/>
+<p name="_Stream" proto="FILE *const" isPtr="true" const="true" isLiteral="true" access2="none">
+<QualType const="true">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="01496c6bb69de57ea21f734790d4bd06_9b75e14604360f7936837e5997e12eba"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</QualType>
+</p>
+<p name="_Format" proto="const char *const" isPtr="true" const="true" isLiteral="true" access2="none">
+<QualType const="true">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</QualType>
+</p>
+</f>
+<f name="free" id="4aaa899143d6ff70a0518196c1485535_dd5a2138c1c85d1739ee7f1eb39d4e45" file="6" linestart="85" lineend="87" extC="true" access="none">
+<Attributed/>
+<p name="_Block" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+</f>
+<f name="calloc" id="4aaa899143d6ff70a0518196c1485535_43192f47c328108205003e5f06e520b3" file="6" linestart="61" lineend="65" extC="true" access="none">
+<Attributed/>
+<p name="_Count" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="bm_flip" id="7305e0781c95ce04332bcc0441c16bc1_975ee82f273333b082ca32bdc29079e2" file="7" linestart="217" lineend="228" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="bm" proto="potrace_bitmap_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_ced1f96143d4a4dea1cd3346776c0df9"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="bm_resize" id="7305e0781c95ce04332bcc0441c16bc1_24da56ff735887c790284ebb6c5e01c2" file="7" linestart="237" lineend="286" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="bm" proto="potrace_bitmap_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_ced1f96143d4a4dea1cd3346776c0df9"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="h" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="bm_free" id="7305e0781c95ce04332bcc0441c16bc1_c8fcefecf6edbae268e4df21f3547fbb" file="7" linestart="102" lineend="110" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="bm" proto="potrace_bitmap_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_ced1f96143d4a4dea1cd3346776c0df9"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="bm_new" id="7305e0781c95ce04332bcc0441c16bc1_7e11c2439f3e473878d8ddc4030d4064" file="7" linestart="115" lineend="153" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="potrace_bitmap_t *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_ced1f96143d4a4dea1cd3346776c0df9"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fpt>
+<p name="w" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="h" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="lobit" id="61035cf59281331658eaf533dc2aae88_76f9e101bb83a116a299273c040836eb" file="8" linestart="59" lineend="76" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="unsigned int">
+<bt name="unsigned int"/>
+</fpt>
+<p name="x" proto="unsigned int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="unsigned int"/>
+</p>
+</f>
+</Externals>

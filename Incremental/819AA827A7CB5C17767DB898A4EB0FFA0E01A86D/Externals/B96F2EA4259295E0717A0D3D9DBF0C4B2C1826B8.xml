@@ -1,0 +1,172 @@
+<Externals>
+<cr namespace="std" access="none" depth="2" kind="class" name="list" id="5ad1e0f540c45d163456a1526e2f3e78_e910965c5c5696d04494d8269d29d91a" file="3" linestart="738" lineend="1821">
+<base access="public">
+<tss>
+<templatebase id="5ad1e0f540c45d163456a1526e2f3e78_652f73fca67769c2a25eb6cc5ca09af5"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr access="none" depth="0" kind="struct" name="RAY" id="b7c3a5977b17d5cc6e66f96cd417b7b4_f713897b754e585b37831723fcee26e5" file="4" linestart="43" lineend="71"/>
+<tm namespace="std" access="none" depth="1" kind="class" name="vector" id="48e671104f386f9f264296037c303e2d_3d0ab7465d6b9448b8c01dc907d3e25b" file="5" linestart="622" lineend="1962">
+<template_parameters>
+<ttp name="_Ty" id="48e671104f386f9f264296037c303e2d_2d25604cf0b65876a3833653b86272f8" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Alloc" id="48e671104f386f9f264296037c303e2d_415b2c0180cb321c6095aa8e8e14a027" depth="0" index="1" proto="type-parameter-0-1">
+<tss>
+<templatebase id="9628fc9c2b634dc1e54a01ad2889a933_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</ttp>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="class" name="vector" id="48e671104f386f9f264296037c303e2d_3d0ab7465d6b9448b8c01dc907d3e25b" file="5" linestart="624" lineend="1962">
+<base access="public">
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_05d3bbcccbfa4b3b58c141a4ec6ed389"/>
+<template_arguments>
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_6a7cfa317aaf33a284de4e9d43f7bf95"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="vector" id="48e671104f386f9f264296037c303e2d_c48c2bde2c144b6d614d5912fe2271ba" file="5" linestart="624" lineend="624"/>
+<m name="operator[]" id="48e671104f386f9f264296037c303e2d_3ff934afcd7991a46259b9a2f99330bb" file="5" linestart="1739" lineend="1746" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const _Ty &amp;">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</fpt>
+<p name="_Pos" proto="const size_type" const="true" access2="none">
+<QualType const="true">
+<Tdef>
+<DependentName/>
+</Tdef>
+</QualType>
+</p>
+</m>
+</cr>
+</tm>
+<cr access="none" depth="0" kind="struct" name="CBBOX" id="37de9acc0b8d504b0a2c122147353551_0622650f1dda842a137ca593c74b158c" file="6" linestart="40" lineend="257">
+<m name="Intersect" id="37de9acc0b8d504b0a2c122147353551_279328da20784df04cb64211ebe5a9ee" file="6" linestart="239" lineend="239" access="public">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRay" proto="const RAY &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="b7c3a5977b17d5cc6e66f96cd417b7b4_f713897b754e585b37831723fcee26e5"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="t" proto="float *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="float"/>
+</pt>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="struct" name="CFRUSTUM" id="dd0283e1381535d934f56050876127ab_9887855e123ab7927c76367f09578aa6" file="7" linestart="41" lineend="67">
+<m name="Intersect" id="dd0283e1381535d934f56050876127ab_215e178198cf479a632cf0043a3acab4" file="7" linestart="62" lineend="62" access="public">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aBBox" proto="const CBBOX &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="37de9acc0b8d504b0a2c122147353551_0622650f1dda842a137ca593c74b158c"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="struct" name="RAYPACKET" id="a18757e58eafe599abf1d66828a65e2f_20bca0502bf064d1fc35dedb4526e803" file="8" linestart="43" lineend="65">
+<fl name="m_Frustum" id="a18757e58eafe599abf1d66828a65e2f_7eddef46fcdea68a2b67b2723f50a673" file="8" linestart="45" lineend="45" isLiteral="true" access="public" proto="CFRUSTUM">
+<rt>
+<cr id="dd0283e1381535d934f56050876127ab_9887855e123ab7927c76367f09578aa6"/>
+</rt>
+</fl>
+<fl name="m_ray" id="a18757e58eafe599abf1d66828a65e2f_84f415bd7d73194ffd68753f21a31c1b" file="8" linestart="46" lineend="46" isArray="true" isLiteral="true" access="public" proto="RAY [64]">
+<cat>
+<rt>
+<cr id="b7c3a5977b17d5cc6e66f96cd417b7b4_f713897b754e585b37831723fcee26e5"/>
+</rt>
+</cat>
+</fl>
+</cr>
+<cr access="none" depth="0" kind="struct" name="HITINFO" id="b9c3369d591f6a625faafba956257b8d_93193ca8b7a9c5a80bb518c15de9d965" file="9" linestart="40" lineend="57">
+<fl name="m_tHit" id="b9c3369d591f6a625faafba956257b8d_6082101a2aea4b198d4dc50e996eb8d0" file="9" linestart="43" lineend="43" isLiteral="true" access="public" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="m_acc_node_info" id="b9c3369d591f6a625faafba956257b8d_d65e98ee13e75b6bd0129b5f66cbebfa" file="9" linestart="47" lineend="47" isLiteral="true" access="public" proto="unsigned int">
+<bt name="unsigned int"/>
+</fl>
+</cr>
+<cr access="none" depth="0" kind="struct" name="HITINFO_PACKET" id="b9c3369d591f6a625faafba956257b8d_0871779f352e016070e9999be3855db7" file="9" linestart="60" lineend="64">
+<fl name="m_hitresult" id="b9c3369d591f6a625faafba956257b8d_f40bb9d6ed53e80ffd1350ad8bcbfc5a" file="9" linestart="62" lineend="62" isLiteral="true" access="public" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="m_HitInfo" id="b9c3369d591f6a625faafba956257b8d_04aa9881b1e2382edc95e9c825c68167" file="9" linestart="63" lineend="63" isLiteral="true" access="public" proto="HITINFO">
+<rt>
+<cr id="b9c3369d591f6a625faafba956257b8d_93193ca8b7a9c5a80bb518c15de9d965"/>
+</rt>
+</fl>
+</cr>
+<cr access="none" depth="0" kind="class" name="COBJECT" id="364da3cccb042dad722f2d5f831e27f7_54e5888b39aaf5efb8d617c6c08eeeab" file="10" linestart="50" lineend="97" previous="b9c3369d591f6a625faafba956257b8d_54e5888b39aaf5efb8d617c6c08eeeab">
+<m name="Intersect" id="364da3cccb042dad722f2d5f831e27f7_78294a167d9f3b96fb53b1fdeb9ae5e5" file="10" linestart="84" lineend="84" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRay" proto="const RAY &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="b7c3a5977b17d5cc6e66f96cd417b7b4_f713897b754e585b37831723fcee26e5"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aHitInfo" proto="HITINFO &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="b9c3369d591f6a625faafba956257b8d_93193ca8b7a9c5a80bb518c15de9d965"/>
+</rt>
+</lrf>
+</p>
+</m>
+<m name="GetBBox" id="364da3cccb042dad722f2d5f831e27f7_c5aadc7ee1a52af79b70765d02c313cb" file="10" linestart="94" lineend="94" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const CBBOX &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="37de9acc0b8d504b0a2c122147353551_0622650f1dda842a137ca593c74b158c"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="CGENERICCONTAINER" id="175a4369c82c3462287855e089f7532b_c4911c775d51ce7ebaa47f6cb67ba795" file="11" linestart="41" lineend="73"/>
+<cr access="none" depth="0" kind="class" name="CGENERICACCELERATOR" id="cf1400c2d81f43a58fe21457d4644dbb_517f271da0f095e7368b0bb0a5c81279" file="12" linestart="37" lineend="56"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="StackNode" id="da6e877b021a743f06bd010b1d516a29_62d7e3d8ee4f2445f60bb957ec3be263" file="1" linestart="41" lineend="45">
+<c name="StackNode" id="da6e877b021a743f06bd010b1d516a29_fdb47582d16f64c49edb260a23c828c7" file="1" linestart="41" lineend="41" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+</Externals>

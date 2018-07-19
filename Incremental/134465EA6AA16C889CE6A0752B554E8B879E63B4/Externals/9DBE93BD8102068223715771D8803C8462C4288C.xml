@@ -1,0 +1,444 @@
+<Externals>
+<cts Spec="&lt;char&gt;" namespace="std" access="none" depth="0" pod="true" kind="struct" name="char_traits" id="92bbd73fe73954eeec92f6c5e73a7806_76e43d9fa50c2ce16dafa9452550a098" file="3" linestart="432" lineend="535"/>
+<tm namespace="std" access="none" depth="3" kind="class" name="basic_ostream" id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243" file="4" linestart="38" lineend="621" previous="92bbd73fe73954eeec92f6c5e73a7806_7df99f34c778205aaa2e1759bec30243">
+<template_parameters>
+<ttp name="_Elem" id="fbfef829f32e5df36b6efb6d29bad6a1_16f2e94b2b51d2f5dff02392fae903e6" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Traits" id="fbfef829f32e5df36b6efb6d29bad6a1_e2d9f5b99956b4f9c1c67b1b3209c8f9" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="3" kind="class" name="basic_ostream" id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243" file="4" linestart="40" lineend="621" previous="92bbd73fe73954eeec92f6c5e73a7806_7df99f34c778205aaa2e1759bec30243">
+<base access="public">
+<tss>
+<templatebase id="23fa26ea05e2a8478cc5c8fa65115073_0973aa6d290bf2c44e86c2f58971d880"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="basic_ostream" id="fbfef829f32e5df36b6efb6d29bad6a1_5fbde4af169bb278d3e041271eb8fcd4" file="4" linestart="40" lineend="40"/>
+<m name="operator&lt;&lt;" id="fbfef829f32e5df36b6efb6d29bad6a1_d33445cdb753f92a6c0b97ecb40fd870" file="4" linestart="204" lineend="207" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="basic_ostream&lt;_Elem, _Traits&gt; &amp;">
+<lrf>
+<InjectedClassName>
+<cr id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243"/>
+</InjectedClassName>
+</lrf>
+</fpt>
+<p name="_Pfn" proto="basic_ostream&lt;_Elem, _Traits&gt; &amp;(*)(basic_ostream&lt;_Elem, _Traits&gt; &amp;) __attribute__((cdecl))" isPtr="true" access2="none">
+<pt>
+<Attributed/>
+</pt>
+</p>
+</m>
+</cr>
+</tm>
+<cr access="none" depth="0" kind="class" name="wxString" id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" file="5" linestart="280" lineend="3482" previous="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641">
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="SubstrBufFromType" id="c28805ecee50721cbc134acc35dc8437_7750d38ad6f1d968599914a9ce4f20e3" file="5" linestart="308" lineend="319">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_dcf4a3f45e145299993ff8f81945f712" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="class" name="reverse_iterator_impl" id="c28805ecee50721cbc134acc35dc8437_c2b1fae0312e723ccd0d47aa7ee1e119" file="5" linestart="1003" lineend="1063">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_398434659c2c5a1e4aedc51f24cb6551" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_36d8c1594f02239abbdeb60320b9398e" file="5" linestart="1119" lineend="1120" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ch" proto="wchar_t" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="wchar_t"/>
+</p>
+<p name="nRepeat" proto="size_t" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</c>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_1e665060dce8dec79a082bccc9335799" file="5" linestart="1151" lineend="1152" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="pwz" proto="const wchar_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="wchar_t"/>
+</QualType>
+</pt>
+</p>
+<initlist id="c28805ecee50721cbc134acc35dc8437_700b26cebbe57d48e38fb4076743b19c"/>
+</c>
+<m name="IsEmpty" id="c28805ecee50721cbc134acc35dc8437_b24dccfa54ee4c00a499be8acc1dbf8c" file="5" linestart="1395" lineend="1395" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="operator&lt;&lt;" id="c28805ecee50721cbc134acc35dc8437_0d11fb89a9af0149c73d168e3e7c82a7" file="5" linestart="1906" lineend="1915" operator="true" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="wxString &amp;">
+<lrf>
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</lrf>
+</fpt>
+<p name="s" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="caseCompare" id="c28805ecee50721cbc134acc35dc8437_906d0b85826db2bd8e49a325e10780a1" file="5" linestart="2266" lineend="2266">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="stripType" id="c28805ecee50721cbc134acc35dc8437_ac90c161a6b4ad8edb4fc00d9ae9ef63" file="5" linestart="2268" lineend="2268">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="ConvertedBuffer" id="c28805ecee50721cbc134acc35dc8437_7aba30eab65d1508629c2881acc218e5" file="5" linestart="3356" lineend="3385">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_68c1c8653aea6c3fef59742c8425e880" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+</cr>
+<cr access="none" depth="8" kind="class" name="WX_HTML_REPORT_PANEL" id="cbf6affb337fbc2cf59f18bb03b1fb0b_fa16a8974dcf11280481cdfd1d193ade" file="6" linestart="41" lineend="136" previous="974e710f51baa7c770ab7abee0d15a04_fa16a8974dcf11280481cdfd1d193ade">
+<base access="public">
+<rt>
+<cr id="c96f1a1e7c09830d9175f77b3d4502d1_4c8e41bf04680daab1def51ae80f8812"/>
+</rt>
+</base>
+<m name="Report" id="cbf6affb337fbc2cf59f18bb03b1fb0b_1a2a313d64e7c4b54f9e55090d8d2491" file="6" linestart="61" lineend="62" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aText" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aSeverity" proto="REPORTER::SEVERITY" isLiteral="true" access2="none">
+<ety>
+<et>
+<e id="974e710f51baa7c770ab7abee0d15a04_d415cf483f754e3f08e9ef4b891bee10"/>
+</et>
+</ety>
+</p>
+<p name="aLocation" proto="REPORTER::LOCATION" isLiteral="true" init="true" access2="none">
+<ety>
+<et>
+<e id="974e710f51baa7c770ab7abee0d15a04_b34fb1fa78848ca9b7fbbac011137ef9"/>
+</et>
+</ety>
+</p>
+</m>
+<m name="Count" id="cbf6affb337fbc2cf59f18bb03b1fb0b_e9f13a037363b6dcc279f1488cb560b0" file="6" linestart="68" lineend="68" access="public">
+<fpt cc="x86_thiscall" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="severityMask" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+</cr>
+<cr access="none" depth="8" kind="class" name="wxTextCtrl" id="0633895ec960ff64bc8bc31801a75f84_1d4744ff9f6f1dc4aa8947181b3957f4" file="7" linestart="14" lineend="304" previous="c19a6420130d9b1aa2aff956ca8c1655_1d4744ff9f6f1dc4aa8947181b3957f4">
+<base access="public">
+<rt>
+<cr id="c19a6420130d9b1aa2aff956ca8c1655_d04218870b6bf6edb1ad02ab8f58fe40"/>
+</rt>
+</base>
+<m name="IsEmpty" id="0633895ec960ff64bc8bc31801a75f84_4cd22393982940086c1827ab182b5eea" file="7" linestart="49" lineend="49" virtual="true" imported="true" access="public">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="AppendText" id="0633895ec960ff64bc8bc31801a75f84_46e7f72a27f1c323ea25d12ddf4c3369" file="7" linestart="52" lineend="52" virtual="true" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="text" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="REPORTER" id="974e710f51baa7c770ab7abee0d15a04_44d36fe63a27955b572fbb6f9a0d7de0" file="2" linestart="61" lineend="135">
+<e parent="974e710f51baa7c770ab7abee0d15a04_44d36fe63a27955b572fbb6f9a0d7de0" access="public" name="SEVERITY" id="974e710f51baa7c770ab7abee0d15a04_d415cf483f754e3f08e9ef4b891bee10" file="2" linestart="74" lineend="80">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="974e710f51baa7c770ab7abee0d15a04_44d36fe63a27955b572fbb6f9a0d7de0" access="public" name="LOCATION" id="974e710f51baa7c770ab7abee0d15a04_b34fb1fa78848ca9b7fbbac011137ef9" file="2" linestart="88" lineend="92">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<c name="REPORTER" id="974e710f51baa7c770ab7abee0d15a04_82dbd2082b8c022fbfc2d453b7e97855" file="2" linestart="61" lineend="61" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<v name="wxTheAssertHandler" proto="wxAssertHandler_t" isPtr="true" isLiteral="true" id="af168d3d09251dfb422c6ce361da6b63_65c5e0c79e879a98ed76a2ede1113b20" file="8" linestart="86" lineend="86" storage="extern" access2="none">
+<Tdef>
+<pt>
+<Paren/>
+</pt>
+</Tdef>
+</v>
+<f name="wxOnAssert" id="af168d3d09251dfb422c6ce361da6b63_73d6ac48b6b2eff71f155746e2d88aad" file="8" linestart="189" lineend="193" imported="true" access="none" storage="extern">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="file" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="line" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="func" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="cond" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="msg" proto="const wxChar *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+</f>
+<v name="wxTrapInAssert" proto="bool" isLiteral="true" isPrimitive="true" id="af168d3d09251dfb422c6ce361da6b63_012f9bb455d3e912593b575cda030c48" file="8" linestart="273" lineend="273" storage="extern" access2="none">
+<bt name="bool"/>
+</v>
+<f name="__debugbreak" id="1d96706e2eb2eec6907729095b15655d_09b7f414b2a283fb5618aec2725950a0" file="9" linestart="138" lineend="138" extC="true" implicit="true" access="none" storage="extern">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<f namespace="std" name="operator&lt;&lt;" id="fbfef829f32e5df36b6efb6d29bad6a1_a8b001da139eef9b7b8dd07e8c06f59d" file="4" linestart="778" lineend="823" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="basic_ostream&lt;char, _Traits&gt; &amp;">
+<lrf>
+<tss>
+<templatebase id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<bt name="char"/>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</fpt>
+<p name="_Ostr" proto="basic_ostream&lt;char, _Traits&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<tss>
+<templatebase id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<bt name="char"/>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</p>
+<p name="_Val" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+</f>
+<ft name="operator&lt;&lt;" id="fbfef829f32e5df36b6efb6d29bad6a1_3298dfe44ddb6b69da98967bbc11dbef" file="4" linestart="778" lineend="823">
+<template_parameters>
+<ttp name="_Traits" id="fbfef829f32e5df36b6efb6d29bad6a1_29653cbbe518513f057baf83aeea343a" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f namespace="std" name="operator&lt;&lt;" id="fbfef829f32e5df36b6efb6d29bad6a1_a8b001da139eef9b7b8dd07e8c06f59d" file="4" linestart="778" lineend="823" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="basic_ostream&lt;char, _Traits&gt; &amp;">
+<lrf>
+<tss>
+<templatebase id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<bt name="char"/>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</fpt>
+<p name="_Ostr" proto="basic_ostream&lt;char, _Traits&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<tss>
+<templatebase id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<bt name="char"/>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</p>
+<p name="_Val" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+</f>
+</ft>
+<f namespace="std" name="endl" id="fbfef829f32e5df36b6efb6d29bad6a1_519f22e86fa75f44ad68a8158aae2a36" file="4" linestart="1008" lineend="1015" access="none" inline="true" hasbody="true" isdef="true">
+<Attributed/>
+<p name="_Ostr" proto="basic_ostream&lt;_Elem, _Traits&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<tss>
+<templatebase id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</p>
+</f>
+<ft name="endl" id="fbfef829f32e5df36b6efb6d29bad6a1_74537f44d6cd7a95f2b060cedb35e9d9" file="4" linestart="1007" lineend="1015">
+<template_parameters>
+<ttp name="_Elem" id="fbfef829f32e5df36b6efb6d29bad6a1_3ebe6248f47274de228e7ab1d4c7f696" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Traits" id="fbfef829f32e5df36b6efb6d29bad6a1_8a9fe01f4f41f3e2862becdd6b274d11" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<f namespace="std" name="endl" id="fbfef829f32e5df36b6efb6d29bad6a1_519f22e86fa75f44ad68a8158aae2a36" file="4" linestart="1008" lineend="1015" access="none" inline="true" hasbody="true" isdef="true">
+<Attributed/>
+<p name="_Ostr" proto="basic_ostream&lt;_Elem, _Traits&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<tss>
+<templatebase id="fbfef829f32e5df36b6efb6d29bad6a1_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</p>
+</f>
+</ft>
+<f name="operator&lt;&lt;" id="c28805ecee50721cbc134acc35dc8437_9bffebed875389fe9c1e1042233d7c56" file="5" linestart="4025" lineend="4025" operator="true" imported="true" access="none">
+<fpt cc="cdecl" proto="std::ostream &amp;">
+<lrf>
+<ety>
+<Tdef>
+<tss>
+<templatebase id="92bbd73fe73954eeec92f6c5e73a7806_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="92bbd73fe73954eeec92f6c5e73a7806_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</lrf>
+</fpt>
+<p name="" proto="std::ostream &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<ety>
+<Tdef>
+<tss>
+<templatebase id="92bbd73fe73954eeec92f6c5e73a7806_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="92bbd73fe73954eeec92f6c5e73a7806_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</lrf>
+</p>
+<p name="" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</f>
+<v namespace="std" name="cout" proto="ostream" id="dbbeb2776b64a5117ad4a76326d460c6_fbe8f6ba0143c688ba07f32590d95a55" file="10" linestart="29" lineend="29" storage="extern" access2="none">
+<Tdef>
+<tss>
+<templatebase id="92bbd73fe73954eeec92f6c5e73a7806_7df99f34c778205aaa2e1759bec30243"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="92bbd73fe73954eeec92f6c5e73a7806_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</v>
+<f name="FROM_UTF8" id="a223f7633d2dcf189670caaf47c29ad6_022d7cf23ba826a70b58109c2e3a1705" file="11" linestart="53" lineend="61" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="wxString">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</fpt>
+<p name="cstring" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+</f>
+</Externals>

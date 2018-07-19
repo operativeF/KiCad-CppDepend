@@ -1,0 +1,66 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="IFSG_NODE" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_b6b995209224d3332e046d11a9896e1d" file="3" linestart="54" lineend="166">
+<fl name="m_node" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_3cf100a967d0bfbd2796f7c7e2a4803c" file="3" linestart="57" lineend="57" isPtr="true" isLiteral="true" access="protected" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fl>
+<c name="IFSG_NODE" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_d688e75fb2b9dd18070f424ee05a8daa" file="3" linestart="60" lineend="60" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="class" name="SGNODE" id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b" file="4" linestart="76" lineend="248" previous="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+<cr access="none" depth="1" kind="class" name="SGINDEX" id="e0386f68781380a53c783dbec3df698a_135eb71777706fa801c2b331b3ba058c" file="5" linestart="35" lineend="95">
+<base access="public">
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</base>
+<m name="GetIndices" id="e0386f68781380a53c783dbec3df698a_e9aabe67259054b039c1b2a47baebb18" file="5" linestart="70" lineend="70" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="nIndices" proto="size_t &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</lrf>
+</p>
+<p name="aIndexList" proto="int *&amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<pt>
+<bt name="int"/>
+</pt>
+</lrf>
+</p>
+</m>
+<m name="SetIndices" id="e0386f68781380a53c783dbec3df698a_0ccb498b5c87cb0c501baad7f7bf313a" file="5" linestart="79" lineend="79" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="nIndices" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="aIndexList" proto="int *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="int"/>
+</pt>
+</p>
+</m>
+<m name="AddIndex" id="e0386f68781380a53c783dbec3df698a_4c5a8c9ed4c30e4988dabcef2825da1e" file="5" linestart="88" lineend="88" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aIndex" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+</cr>
+</Externals>

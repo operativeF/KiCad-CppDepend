@@ -1,0 +1,734 @@
+<Externals>
+<cr namespace="boost.unit_test" access="none" depth="0" kind="class" name="lazy_ostream" id="c14d6ebdb1cf00b1abd88d86bff4727a_8215eb6b32057f31939ec7dc70062e6a" file="2" linestart="31" lineend="50">
+<m name="instance" id="c14d6ebdb1cf00b1abd88d86bff4727a_f79d67e0074c40ffb4e695c26b117917" file="2" linestart="35" lineend="35" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="boost::unit_test::lazy_ostream &amp;">
+<lrf>
+<rt>
+<cr id="c14d6ebdb1cf00b1abd88d86bff4727a_8215eb6b32057f31939ec7dc70062e6a"/>
+</rt>
+</lrf>
+</fpt>
+</m>
+</cr>
+<tm namespace="boost.unit_test" access="none" kind="class" name="basic_cstring" id="20dfa0a7f6cb5527c3f45d78b56027f3_6bdbf44e866918ecae2af51d34677afd" file="3" linestart="25" lineend="25">
+<template_parameters>
+<ttp name="CharT" id="20dfa0a7f6cb5527c3f45d78b56027f3_e86ae9d7cf295a3f7c1f5b1ed27e70f5" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="boost.unit_test" access="none" kind="class" name="basic_cstring" id="20dfa0a7f6cb5527c3f45d78b56027f3_2cdf23b2d5749d0983b1e36e247b285c" file="3" linestart="25" lineend="25"/>
+</tm>
+<tm namespace="boost.unit_test" access="none" depth="0" kind="class" name="basic_cstring" id="eeeddef9dd77d15ea6c26851eb23b960_6bdbf44e866918ecae2af51d34677afd" file="4" linestart="41" lineend="166" previous="20dfa0a7f6cb5527c3f45d78b56027f3_6bdbf44e866918ecae2af51d34677afd">
+<template_parameters>
+<ttp name="CharT" id="eeeddef9dd77d15ea6c26851eb23b960_e86ae9d7cf295a3f7c1f5b1ed27e70f5" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="boost.unit_test" access="none" depth="0" kind="class" name="basic_cstring" id="eeeddef9dd77d15ea6c26851eb23b960_2cdf23b2d5749d0983b1e36e247b285c" file="4" linestart="42" lineend="166" previous="20dfa0a7f6cb5527c3f45d78b56027f3_2cdf23b2d5749d0983b1e36e247b285c">
+<cr access="public" kind="class" name="basic_cstring" id="eeeddef9dd77d15ea6c26851eb23b960_1a74002db55e330c7b81664ac73602a7" file="4" linestart="42" lineend="42"/>
+<c name="basic_cstring&lt;CharT&gt;" id="eeeddef9dd77d15ea6c26851eb23b960_7eb3287561e6974c2812ccff2c59d679" file="4" linestart="76" lineend="76" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="s" proto="const std_string &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<Tdef>
+<DependentName/>
+</Tdef>
+</QualType>
+</lrf>
+</p>
+</c>
+<c name="basic_cstring&lt;CharT&gt;" id="eeeddef9dd77d15ea6c26851eb23b960_da974bb406bb677e8978f13878a76918" file="4" linestart="77" lineend="77" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="s" proto="pointer" isPtr="true" access2="none">
+<Tdef>
+<pt>
+<Tdef>
+<ttp/>
+</Tdef>
+</pt>
+</Tdef>
+</p>
+</c>
+<ft name="basic_cstring&lt;CharT&gt;" id="eeeddef9dd77d15ea6c26851eb23b960_39cb01460336a5e09a6cb4b8414d7752" file="4" linestart="78" lineend="79">
+<template_parameters>
+<ttp name="LenType" id="eeeddef9dd77d15ea6c26851eb23b960_9df367cb520b37de2c2e5f208c7fbfca" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+<c name="basic_cstring&lt;CharT&gt;" id="eeeddef9dd77d15ea6c26851eb23b960_bbddce3c32eb37a7a925068157fe2bba" file="4" linestart="79" lineend="79" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="s" proto="pointer" isPtr="true" access2="none">
+<Tdef>
+<pt>
+<Tdef>
+<ttp/>
+</Tdef>
+</pt>
+</Tdef>
+</p>
+<p name="len" proto="LenType" access2="none">
+<ttp/>
+</p>
+<initlist id="eeeddef9dd77d15ea6c26851eb23b960_027743d0b719a91105c026ed4a13e190"/>
+<initlist id="eeeddef9dd77d15ea6c26851eb23b960_ab8a2cc867182705e97d4388ade12bfd"/>
+</c>
+</ft>
+</cr>
+</tm>
+<tm namespace="boost" access="none" depth="0" kind="class" name="basic_wrap_stringstream" id="c5e446292a4a66e3d40d4fafd17a62b5_be645c52f7bda3b744861414f85632a0" file="5" linestart="39" lineend="58">
+<template_parameters>
+<ttp name="CharT" id="c5e446292a4a66e3d40d4fafd17a62b5_d4d41d7fa79e7fa22963477e5e13ddea" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="boost" access="none" depth="0" kind="class" name="basic_wrap_stringstream" id="c5e446292a4a66e3d40d4fafd17a62b5_6d7a2791f7a6c9abea322824699c7134" file="5" linestart="40" lineend="58">
+<cr access="public" kind="class" name="basic_wrap_stringstream" id="c5e446292a4a66e3d40d4fafd17a62b5_37b9baf04c0393c1b6323687ca4a78f2" file="5" linestart="40" lineend="40"/>
+<m name="ref" id="c5e446292a4a66e3d40d4fafd17a62b5_61e1c5853c05f3132a44ea3e391f05ff" file="5" linestart="50" lineend="50" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="basic_wrap_stringstream&lt;CharT&gt; &amp;">
+<lrf>
+<InjectedClassName>
+<cr id="c5e446292a4a66e3d40d4fafd17a62b5_6d7a2791f7a6c9abea322824699c7134"/>
+</InjectedClassName>
+</lrf>
+</fpt>
+</m>
+<m name="str" id="c5e446292a4a66e3d40d4fafd17a62b5_0895f3c31860896da8fb5d8ae3e65811" file="5" linestart="52" lineend="52" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="const std::basic_string&lt;CharT&gt; &amp;">
+<lrf>
+<QualType const="true">
+<ety>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</ety>
+</QualType>
+</lrf>
+</fpt>
+</m>
+</cr>
+</tm>
+<tm namespace="boost.unit_test" access="none" depth="0" kind="class" name="singleton" id="f7bffd35a382fe1b6828500597dc8c34_53c489eac801243b5222ca3bfb61db8c" file="6" linestart="34" lineend="45">
+<template_parameters>
+<ttp name="Derived" id="f7bffd35a382fe1b6828500597dc8c34_b8256083ec581239c3cd027793b42cc9" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="boost.unit_test" access="none" depth="0" kind="class" name="singleton" id="f7bffd35a382fe1b6828500597dc8c34_a07990008013bd749423bea824e75d1a" file="6" linestart="35" lineend="45">
+<cr access="public" kind="class" name="singleton" id="f7bffd35a382fe1b6828500597dc8c34_577c6a13e7cc5c2d6811af71140a09cf" file="6" linestart="35" lineend="35"/>
+<m name="instance" id="f7bffd35a382fe1b6828500597dc8c34_64391ae823a0dc33743dceae2c8748bd" file="6" linestart="37" lineend="37" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="Derived &amp;">
+<lrf>
+<ttp/>
+</lrf>
+</fpt>
+</m>
+</cr>
+</tm>
+<cr namespace="boost.unit_test" access="none" depth="1" kind="class" name="unit_test_log_t" id="883ced2f40d6228a0b6c564f717e0f41_c80461d15c7b86152984ead9abe451bd" file="7" linestart="112" lineend="225" previous="9fcb57cfa642741deab4bbad2d839470_c80461d15c7b86152984ead9abe451bd">
+<base access="public">
+<rt>
+<cr id="9edc41f99336f28d50e4848dfa4080ce_86fef6889eee870e4561d4413bf15b05"/>
+</rt>
+</base>
+<base access="public">
+<tss>
+<templatebase id="f7bffd35a382fe1b6828500597dc8c34_a07990008013bd749423bea824e75d1a"/>
+<template_arguments>
+<rt>
+<cr id="883ced2f40d6228a0b6c564f717e0f41_c80461d15c7b86152984ead9abe451bd"/>
+</rt>
+</template_arguments>
+</tss>
+</base>
+<m name="set_checkpoint" id="883ced2f40d6228a0b6c564f717e0f41_2a3dc4d18c3fadf6811761df34458792" file="7" linestart="207" lineend="207" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="file" proto="const_string" access2="none">
+<Tdef>
+<tss>
+<templatebase id="20dfa0a7f6cb5527c3f45d78b56027f3_2cdf23b2d5749d0983b1e36e247b285c"/>
+<template_arguments>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</template_arguments>
+</tss>
+</Tdef>
+</p>
+<p name="line_num" proto="std::size_t" isLiteral="true" isPrimitive="true" access2="none">
+<ety>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</ety>
+</p>
+<p name="msg" proto="const_string" init="true" access2="none">
+<Tdef>
+<tss>
+<templatebase id="20dfa0a7f6cb5527c3f45d78b56027f3_2cdf23b2d5749d0983b1e36e247b285c"/>
+<template_arguments>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</template_arguments>
+</tss>
+</Tdef>
+</p>
+</m>
+</cr>
+<cr namespace="boost.test_tools" access="none" depth="0" kind="class" name="assertion_result" id="2eb2d6caf5312f4e3f2e30c4c1032045_267953469049423febb53e67615c6fba" file="8" linestart="39" lineend="81">
+<c name="assertion_result" id="2eb2d6caf5312f4e3f2e30c4c1032045_3dd862e7d4027c3fc458bf9f2816873c" file="8" linestart="52" lineend="54" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="pv_" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+</p>
+<initlist id="2eb2d6caf5312f4e3f2e30c4c1032045_e4f1c0b01037ce321601b77e14d34c44"/>
+</c>
+</cr>
+<e namespace="boost.test_tools.tt_detail" access="none" name="check_type" id="88149b575da700789c9543da3001f527_2f33c64c8d868c784eef083c318fed87" file="9" linestart="53" lineend="69">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="CHECK_PRED" id="88149b575da700789c9543da3001f527_8cab0ab3b243a91b63aad516674f352d" file="9" linestart="54" lineend="54">
+<et>
+<e id="88149b575da700789c9543da3001f527_2f33c64c8d868c784eef083c318fed87"/>
+</et>
+</ec>
+</e>
+<e namespace="boost.test_tools.tt_detail" access="none" name="tool_level" id="88149b575da700789c9543da3001f527_5e5562988148f4b9544baddfeefacf01" file="9" linestart="77" lineend="79">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="CHECK" id="88149b575da700789c9543da3001f527_23931303724225ad208468294b95cb56" file="9" linestart="78" lineend="78">
+<et>
+<e id="88149b575da700789c9543da3001f527_5e5562988148f4b9544baddfeefacf01"/>
+</et>
+</ec>
+</e>
+<ctps Spec="&lt;type-parameter-0-0 ()&gt;" namespace="boost" access="none" depth="2" kind="class" name="function" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_1d03cbbf366d2d29ef95b255a0af8dec" file="10" linestart="1048" lineend="1148">
+<base access="public">
+<tss>
+<templatebase id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_73491915a82ae913a070657f925b8514"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<ft name="function&lt;type-parameter-0-0 ()&gt;" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_3b9712524c47a04105e20488afbf4ffe" file="10" linestart="1062" lineend="1072">
+<template_parameters>
+<ttp name="Functor" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_0a8659721c63f24e23f069a0cc86e188" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+<c name="function&lt;type-parameter-0-0 ()&gt;" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_063a13315cb4bee1dccadedd31050004" file="10" linestart="1063" lineend="1072" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="f" proto="Functor" access2="none">
+<ttp/>
+</p>
+<p name="" proto="typename boost::enable_if_c&lt;!(is_integral&lt;Functor&gt;::value), int&gt;::type" init="true" access2="none">
+<DependentName/>
+</p>
+</c>
+</ft>
+</ctps>
+<cr namespace="boost.unit_test.ut_detail" access="none" depth="0" kind="struct" name="auto_test_unit_registrar" id="86a1c98ae46a53a466523bdcc73d9ec2_c3eec7fbd1aafd93f939b43a56d75b35" file="11" linestart="38" lineend="44">
+<c name="auto_test_unit_registrar" id="86a1c98ae46a53a466523bdcc73d9ec2_c345f6f8a4b18c33c6e6106da9263345" file="11" linestart="40" lineend="40" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="tc" proto="boost::unit_test::test_case *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="5b41cfdecfa5b1172225b8c1082d976c_6630c798365b038c9c1f481f4a8a8394"/>
+</rt>
+</pt>
+</p>
+<p name="decorators" proto="decorator::collector &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<ety>
+<rt>
+<cr id="17d5ab760eef2c01f370e464103a9bd0_a4d5ad8e1f357420039d4d7c81d72de5"/>
+</rt>
+</ety>
+</lrf>
+</p>
+<p name="exp_fail" proto="counter_t" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="unsigned long"/>
+</Tdef>
+</p>
+</c>
+</cr>
+<cr namespace="boost.unit_test.ut_detail" access="none" depth="0" pod="true" kind="struct" name="nil_t" id="0de3de038a9af06d6f4193f4fcfa5cf2_f0099c1e04f128c743e8803e0a84aa8d" file="12" linestart="332" lineend="332">
+<c name="nil_t" id="0de3de038a9af06d6f4193f4fcfa5cf2_4c696dbe72371a524c788b30162c6265" file="12" linestart="332" lineend="332" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="class" name="wxString" id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" file="13" linestart="280" lineend="3482" previous="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641">
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="SubstrBufFromType" id="c28805ecee50721cbc134acc35dc8437_7750d38ad6f1d968599914a9ce4f20e3" file="13" linestart="308" lineend="319">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_dcf4a3f45e145299993ff8f81945f712" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="class" name="reverse_iterator_impl" id="c28805ecee50721cbc134acc35dc8437_c2b1fae0312e723ccd0d47aa7ee1e119" file="13" linestart="1003" lineend="1063">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_398434659c2c5a1e4aedc51f24cb6551" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_7bc928c052ccd71aef459fb7200f3b6e" file="13" linestart="1125" lineend="1126" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="psz" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<initlist id="c28805ecee50721cbc134acc35dc8437_700b26cebbe57d48e38fb4076743b19c"/>
+</c>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="caseCompare" id="c28805ecee50721cbc134acc35dc8437_906d0b85826db2bd8e49a325e10780a1" file="13" linestart="2266" lineend="2266">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="stripType" id="c28805ecee50721cbc134acc35dc8437_ac90c161a6b4ad8edb4fc00d9ae9ef63" file="13" linestart="2268" lineend="2268">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="ConvertedBuffer" id="c28805ecee50721cbc134acc35dc8437_7aba30eab65d1508629c2881acc218e5" file="13" linestart="3356" lineend="3385">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_68c1c8653aea6c3fef59742c8425e880" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+</cr>
+<cr access="none" depth="0" pod="true" kind="class" name="SCH_IO_MGR" id="b55228a0a2df84321144e02d69a22bce_33d89ab9b24eac6f902b6ef6da90cba9" file="14" linestart="46" lineend="164">
+<e parent="b55228a0a2df84321144e02d69a22bce_33d89ab9b24eac6f902b6ef6da90cba9" access="public" name="SCH_FILE_T" id="b55228a0a2df84321144e02d69a22bce_f21e4b05cdf0373cde32bb74814a90bd" file="14" linestart="54" lineend="54">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="SCH_EAGLE" id="b55228a0a2df84321144e02d69a22bce_aaa2a3aa69be50293b286c03f023cbbc" file="14" linestart="54" lineend="54">
+<et>
+<e id="b55228a0a2df84321144e02d69a22bce_f21e4b05cdf0373cde32bb74814a90bd"/>
+</et>
+</ec>
+</e>
+<m name="FindPlugin" id="b55228a0a2df84321144e02d69a22bce_3150455afe26b66e1f28b414ed82f5d9" file="14" linestart="78" lineend="79" exported="true" access="public" storage="static">
+<fpt cc="cdecl" proto="SCH_PLUGIN *">
+<pt>
+<rt>
+<cr id="b55228a0a2df84321144e02d69a22bce_2910c4047cac59448a253eee10b37ec8"/>
+</rt>
+</pt>
+</fpt>
+<p name="aFileType" proto="SCH_IO_MGR::SCH_FILE_T" isLiteral="true" access2="none">
+<et>
+<e id="b55228a0a2df84321144e02d69a22bce_f21e4b05cdf0373cde32bb74814a90bd"/>
+</et>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="SCH_PLUGIN" id="b55228a0a2df84321144e02d69a22bce_2910c4047cac59448a253eee10b37ec8" file="14" linestart="188" lineend="568" previous="b55228a0a2df84321144e02d69a22bce_2910c4047cac59448a253eee10b37ec8">
+<m name="Load" id="b55228a0a2df84321144e02d69a22bce_296cb8c1702af87c7d2437dcb31b4c70" file="14" linestart="245" lineend="246" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="SCH_SHEET *">
+<pt>
+<rt>
+<cr id="b55228a0a2df84321144e02d69a22bce_5afa8a92c27205c9d174dbd4c414bad1"/>
+</rt>
+</pt>
+</fpt>
+<p name="aFileName" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aKiway" proto="KIWAY *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="5db702289ddab6c9bd1cbb2c95456fe2_e42389ce7823f1da37dc5648c238b4d5"/>
+</rt>
+</pt>
+</p>
+<p name="aAppendToMe" proto="SCH_SHEET *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<rt>
+<cr id="b55228a0a2df84321144e02d69a22bce_5afa8a92c27205c9d174dbd4c414bad1"/>
+</rt>
+</pt>
+</p>
+<p name="aProperties" proto="const PROPERTIES *" isPtr="true" isLiteral="true" init="true" access2="none">
+<pt>
+<QualType const="true">
+<rt>
+<cr id="b55228a0a2df84321144e02d69a22bce_5194efeb76266c4bea57b76d7e04a822"/>
+</rt>
+</QualType>
+</pt>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="struct" name="FindPlugin" id="6827dca86fa4af1c310624aefb50d000_6d3e8b7ae9333938f9dded074c797d95" file="1" linestart="35" lineend="35">
+<base access="public">
+<Tdef>
+<ety>
+<rt>
+<cr id="0de3de038a9af06d6f4193f4fcfa5cf2_f0099c1e04f128c743e8803e0a84aa8d"/>
+</rt>
+</ety>
+</Tdef>
+</base>
+<c name="FindPlugin" id="6827dca86fa4af1c310624aefb50d000_42ce80533b6ec27bf6d1e8d19a4c219a" file="1" linestart="35" lineend="35" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="1" kind="struct" name="Load" id="6827dca86fa4af1c310624aefb50d000_51d3f4c48a7c06ac3c99518f0e4fac21" file="1" linestart="43" lineend="43">
+<base access="public">
+<Tdef>
+<ety>
+<rt>
+<cr id="0de3de038a9af06d6f4193f4fcfa5cf2_f0099c1e04f128c743e8803e0a84aa8d"/>
+</rt>
+</ety>
+</Tdef>
+</base>
+<c name="Load" id="6827dca86fa4af1c310624aefb50d000_026ec54ed7016307c320e8d5d47bde35" file="1" linestart="43" lineend="43" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<f namespace="boost.unit_test" name="operator&lt;&lt;" id="c14d6ebdb1cf00b1abd88d86bff4727a_189c16d4e68db2469c3a3cac456a4649" file="2" linestart="77" lineend="81" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="lazy_ostream_impl&lt;boost::unit_test::lazy_ostream, T&gt;">
+<tss>
+<templatebase id="c14d6ebdb1cf00b1abd88d86bff4727a_10a4e5e3eeb640949dd5204d69f2bdf5"/>
+<template_arguments>
+<rt>
+<cr id="c14d6ebdb1cf00b1abd88d86bff4727a_8215eb6b32057f31939ec7dc70062e6a"/>
+</rt>
+<ttp/>
+</template_arguments>
+</tss>
+</fpt>
+<p name="prev" proto="const boost::unit_test::lazy_ostream &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c14d6ebdb1cf00b1abd88d86bff4727a_8215eb6b32057f31939ec7dc70062e6a"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="v" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</p>
+</f>
+<ft name="operator&lt;&lt;" id="c14d6ebdb1cf00b1abd88d86bff4727a_e4c38b2688243d276a2e7691906a1e56" file="2" linestart="76" lineend="81">
+<template_parameters>
+<ttp name="T" id="c14d6ebdb1cf00b1abd88d86bff4727a_d5c2c83f7acd56e7cdb844c205639492" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f namespace="boost.unit_test" name="operator&lt;&lt;" id="c14d6ebdb1cf00b1abd88d86bff4727a_189c16d4e68db2469c3a3cac456a4649" file="2" linestart="77" lineend="81" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="lazy_ostream_impl&lt;boost::unit_test::lazy_ostream, T&gt;">
+<tss>
+<templatebase id="c14d6ebdb1cf00b1abd88d86bff4727a_10a4e5e3eeb640949dd5204d69f2bdf5"/>
+<template_arguments>
+<rt>
+<cr id="c14d6ebdb1cf00b1abd88d86bff4727a_8215eb6b32057f31939ec7dc70062e6a"/>
+</rt>
+<ttp/>
+</template_arguments>
+</tss>
+</fpt>
+<p name="prev" proto="const boost::unit_test::lazy_ostream &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c14d6ebdb1cf00b1abd88d86bff4727a_8215eb6b32057f31939ec7dc70062e6a"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="v" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</p>
+</f>
+</ft>
+<f namespace="boost" name="operator&lt;&lt;" id="c5e446292a4a66e3d40d4fafd17a62b5_4f885320530175aece71b3152d228230" file="5" linestart="63" lineend="68" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="basic_wrap_stringstream&lt;CharT&gt; &amp;">
+<lrf>
+<tss>
+<templatebase id="c5e446292a4a66e3d40d4fafd17a62b5_6d7a2791f7a6c9abea322824699c7134"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</fpt>
+<p name="targ" proto="basic_wrap_stringstream&lt;CharT&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<tss>
+<templatebase id="c5e446292a4a66e3d40d4fafd17a62b5_6d7a2791f7a6c9abea322824699c7134"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</p>
+<p name="t" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</p>
+</f>
+<ft name="operator&lt;&lt;" id="c5e446292a4a66e3d40d4fafd17a62b5_0571b022b20d7f6639737f806d44b758" file="5" linestart="62" lineend="68">
+<template_parameters>
+<ttp name="CharT" id="c5e446292a4a66e3d40d4fafd17a62b5_b4534392ba52e785bd584f0510324f71" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="T" id="c5e446292a4a66e3d40d4fafd17a62b5_e00cf0842395a93209e3fc31b9af7891" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<f namespace="boost" name="operator&lt;&lt;" id="c5e446292a4a66e3d40d4fafd17a62b5_4f885320530175aece71b3152d228230" file="5" linestart="63" lineend="68" operator="true" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="basic_wrap_stringstream&lt;CharT&gt; &amp;">
+<lrf>
+<tss>
+<templatebase id="c5e446292a4a66e3d40d4fafd17a62b5_6d7a2791f7a6c9abea322824699c7134"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</fpt>
+<p name="targ" proto="basic_wrap_stringstream&lt;CharT&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<tss>
+<templatebase id="c5e446292a4a66e3d40d4fafd17a62b5_6d7a2791f7a6c9abea322824699c7134"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</p>
+<p name="t" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</p>
+</f>
+</ft>
+<v namespace="boost.unit_test.anonymous_namespace{unit_test_log.hpp}" name="unit_test_log" proto="boost::unit_test::unit_test_log_t &amp;" isRef="true" isLiteral="true" id="883ced2f40d6228a0b6c564f717e0f41_d226277a5e2ab61bce9737bd0e13c731" file="7" linestart="227" lineend="227" init="true" access2="none">
+<lrf>
+<rt>
+<cr id="883ced2f40d6228a0b6c564f717e0f41_c80461d15c7b86152984ead9abe451bd"/>
+</rt>
+</lrf>
+</v>
+<f namespace="boost.test_tools.tt_detail" name="dummy_cond" id="88149b575da700789c9543da3001f527_f7481029b8f2caf92be577710769a052" file="9" linestart="45" lineend="45" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="bool">
+<bt name="bool"/>
+</fpt>
+</f>
+<f namespace="boost.test_tools.tt_detail" name="report_assertion" id="88149b575da700789c9543da3001f527_9c0fe7ffe39df849a21bab60af70ff82" file="9" linestart="87" lineend="91" variadic="true" imported="true" access="none">
+<fpt cc="cdecl" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="pr" proto="const boost::test_tools::assertion_result &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="2eb2d6caf5312f4e3f2e30c4c1032045_267953469049423febb53e67615c6fba"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="assertion_descr" proto="const unit_test::lazy_ostream &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<rt>
+<cr id="c14d6ebdb1cf00b1abd88d86bff4727a_8215eb6b32057f31939ec7dc70062e6a"/>
+</rt>
+</ety>
+</QualType>
+</lrf>
+</p>
+<p name="file_name" proto="const_string" access2="none">
+<Tdef>
+<tss>
+<templatebase id="20dfa0a7f6cb5527c3f45d78b56027f3_2cdf23b2d5749d0983b1e36e247b285c"/>
+<template_arguments>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</template_arguments>
+</tss>
+</Tdef>
+</p>
+<p name="line_num" proto="std::size_t" isLiteral="true" isPrimitive="true" access2="none">
+<ety>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</ety>
+</p>
+<p name="tl" proto="boost::test_tools::tt_detail::tool_level" isLiteral="true" access2="none">
+<et>
+<e id="88149b575da700789c9543da3001f527_5e5562988148f4b9544baddfeefacf01"/>
+</et>
+</p>
+<p name="ct" proto="boost::test_tools::tt_detail::check_type" isLiteral="true" access2="none">
+<et>
+<e id="88149b575da700789c9543da3001f527_2f33c64c8d868c784eef083c318fed87"/>
+</et>
+</p>
+<p name="num_args" proto="std::size_t" isLiteral="true" isPrimitive="true" access2="none">
+<ety>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</ety>
+</p>
+</f>
+<f namespace="boost.unit_test" name="setup_conditional" id="659f1c7fd20b019af5eaff0857c9350e_aab1e2c04b6ecb08d6ace7435cc65c37" file="15" linestart="112" lineend="114" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="u" proto="U &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+</f>
+<ft name="setup_conditional" id="659f1c7fd20b019af5eaff0857c9350e_a3a7b43fcd9aee0713b93e833a60a704" file="15" linestart="111" lineend="114">
+<template_parameters>
+<ttp name="U" id="659f1c7fd20b019af5eaff0857c9350e_c3334124681ac45561c578bfdb52bb02" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f namespace="boost.unit_test" name="setup_conditional" id="659f1c7fd20b019af5eaff0857c9350e_aab1e2c04b6ecb08d6ace7435cc65c37" file="15" linestart="112" lineend="114" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="u" proto="U &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+</f>
+</ft>
+<f namespace="boost.unit_test" name="teardown_conditional" id="659f1c7fd20b019af5eaff0857c9350e_98bb5fe700d5727f3bf68bff3a12e2c0" file="15" linestart="118" lineend="120" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="u" proto="U &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+</f>
+<ft name="teardown_conditional" id="659f1c7fd20b019af5eaff0857c9350e_a3d2ec672ea2dc08413dfabff254c729" file="15" linestart="117" lineend="120">
+<template_parameters>
+<ttp name="U" id="659f1c7fd20b019af5eaff0857c9350e_960f0f981ffc77d80d70abb0af72cab9" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f namespace="boost.unit_test" name="teardown_conditional" id="659f1c7fd20b019af5eaff0857c9350e_98bb5fe700d5727f3bf68bff3a12e2c0" file="15" linestart="118" lineend="120" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="u" proto="U &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+</p>
+</f>
+</ft>
+<f namespace="boost.unit_test" name="make_test_case" id="5b41cfdecfa5b1172225b8c1082d976c_9b61eace468628bdb105df9faa6d79bf" file="16" linestart="246" lineend="250" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="boost::unit_test::test_case *">
+<pt>
+<rt>
+<cr id="5b41cfdecfa5b1172225b8c1082d976c_6630c798365b038c9c1f481f4a8a8394"/>
+</rt>
+</pt>
+</fpt>
+<p name="test_func" proto="const boost::function&lt;void ()&gt; &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<tss>
+<templatebase id="566c651e7f060204a132e986361d31fa_fbd959483c7f41e98727a0bb08bd29b0"/>
+<template_arguments>
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</template_arguments>
+</tss>
+</ety>
+</QualType>
+</lrf>
+</p>
+<p name="tc_name" proto="const_string" access2="none">
+<Tdef>
+<tss>
+<templatebase id="20dfa0a7f6cb5527c3f45d78b56027f3_2cdf23b2d5749d0983b1e36e247b285c"/>
+<template_arguments>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</template_arguments>
+</tss>
+</Tdef>
+</p>
+<p name="tc_file" proto="const_string" access2="none">
+<Tdef>
+<tss>
+<templatebase id="20dfa0a7f6cb5527c3f45d78b56027f3_2cdf23b2d5749d0983b1e36e247b285c"/>
+<template_arguments>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</template_arguments>
+</tss>
+</Tdef>
+</p>
+<p name="tc_line" proto="std::size_t" isLiteral="true" isPrimitive="true" access2="none">
+<ety>
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</ety>
+</p>
+</f>
+</Externals>

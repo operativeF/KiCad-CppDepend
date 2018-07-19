@@ -1,0 +1,1462 @@
+<Externals>
+<e access="none" name="wxStandardID" id="eedc6a971cae8242534b5571816ee3fd_ef96ba6bbe062b840ea20c942ad2598a" file="3" linestart="1731" lineend="1923">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="wxID_UNDO" id="eedc6a971cae8242534b5571816ee3fd_70726738ae68af714a46030098f15435" file="3" linestart="1772" lineend="1772">
+<et>
+<e id="eedc6a971cae8242534b5571816ee3fd_ef96ba6bbe062b840ea20c942ad2598a"/>
+</et>
+</ec>
+<ec name="wxID_REDO" id="eedc6a971cae8242534b5571816ee3fd_f262466d4481605336437fc9795334ac" file="3" linestart="1773" lineend="1773">
+<et>
+<e id="eedc6a971cae8242534b5571816ee3fd_ef96ba6bbe062b840ea20c942ad2598a"/>
+</et>
+</ec>
+<ec name="wxID_PRINT" id="eedc6a971cae8242534b5571816ee3fd_642bef2506e112555e841a0714d31159" file="3" linestart="1775" lineend="1775">
+<et>
+<e id="eedc6a971cae8242534b5571816ee3fd_ef96ba6bbe062b840ea20c942ad2598a"/>
+</et>
+</ec>
+</e>
+<e access="none" name="wxItemKind" id="eedc6a971cae8242534b5571816ee3fd_527d40a1cad833e699a526d622304caa" file="3" linestart="1946" lineend="1954">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="wxITEM_CHECK" id="eedc6a971cae8242534b5571816ee3fd_057d4061d831c572d1b7d6ec6f6811b4" file="3" linestart="1950" lineend="1950">
+<et>
+<e id="eedc6a971cae8242534b5571816ee3fd_527d40a1cad833e699a526d622304caa"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="wxString" id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" file="4" linestart="280" lineend="3482" previous="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641">
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="SubstrBufFromType" id="c28805ecee50721cbc134acc35dc8437_7750d38ad6f1d968599914a9ce4f20e3" file="4" linestart="308" lineend="319">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_dcf4a3f45e145299993ff8f81945f712" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="class" name="reverse_iterator_impl" id="c28805ecee50721cbc134acc35dc8437_c2b1fae0312e723ccd0d47aa7ee1e119" file="4" linestart="1003" lineend="1063">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_398434659c2c5a1e4aedc51f24cb6551" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_e3f96e4b8ac67f6c885dbcf0d9f83e6e" file="4" linestart="1101" lineend="1101" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_7bc928c052ccd71aef459fb7200f3b6e" file="4" linestart="1125" lineend="1126" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="psz" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<initlist id="c28805ecee50721cbc134acc35dc8437_700b26cebbe57d48e38fb4076743b19c"/>
+</c>
+<c name="wxString" id="c28805ecee50721cbc134acc35dc8437_1e665060dce8dec79a082bccc9335799" file="4" linestart="1151" lineend="1152" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="pwz" proto="const wchar_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="wchar_t"/>
+</QualType>
+</pt>
+</p>
+<initlist id="c28805ecee50721cbc134acc35dc8437_700b26cebbe57d48e38fb4076743b19c"/>
+</c>
+<m name="operator=" id="c28805ecee50721cbc134acc35dc8437_c89e4a57b9c96caddb6a3cecc09e1c11" file="4" linestart="1807" lineend="1817" operator="true" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="wxString &amp;">
+<lrf>
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</lrf>
+</fpt>
+<p name="stringSrc" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="caseCompare" id="c28805ecee50721cbc134acc35dc8437_906d0b85826db2bd8e49a325e10780a1" file="4" linestart="2266" lineend="2266">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="stripType" id="c28805ecee50721cbc134acc35dc8437_ac90c161a6b4ad8edb4fc00d9ae9ef63" file="4" linestart="2268" lineend="2268">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="ConvertedBuffer" id="c28805ecee50721cbc134acc35dc8437_7aba30eab65d1508629c2881acc218e5" file="4" linestart="3356" lineend="3385">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_68c1c8653aea6c3fef59742c8425e880" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+</cr>
+<cr namespace="std" access="none" depth="1" kind="class" name="vector" id="48e671104f386f9f264296037c303e2d_3d0ab7465d6b9448b8c01dc907d3e25b" file="5" linestart="624" lineend="1962">
+<base access="public">
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_05d3bbcccbfa4b3b58c141a4ec6ed389"/>
+<template_arguments>
+<tss>
+<templatebase id="48e671104f386f9f264296037c303e2d_6a7cfa317aaf33a284de4e9d43f7bf95"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr access="none" depth="0" kind="class" name="wxObject" id="3ec80f49485e66fb14de5b0d887a5c4b_9b0d0445a774e2b471c7cd340ff3b102" file="6" linestart="342" lineend="429" previous="2e2d7fd9bc327c9f298d47adc4d6916a_9b0d0445a774e2b471c7cd340ff3b102"/>
+<cr access="none" depth="0" kind="class" name="wxPoint" id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206" file="7" linestart="563" lineend="592" previous="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+<cr access="none" depth="0" kind="class" name="wxTrackable" id="943aa0de0923417e4568215e8998a50e_ffdb9e7a28aa469db875d0393052c246" file="8" linestart="37" lineend="88" previous="943aa0de0923417e4568215e8998a50e_ffdb9e7a28aa469db875d0393052c246"/>
+<cr access="none" depth="2" kind="class" name="wxCommandEvent" id="18b08ca93a9a3142aa16c1ff136c0136_904f8741f8abc20723ff79ca4e31d8f0" file="9" linestart="1529" lineend="1587" previous="18b08ca93a9a3142aa16c1ff136c0136_904f8741f8abc20723ff79ca4e31d8f0">
+<base access="public">
+<rt>
+<cr id="18b08ca93a9a3142aa16c1ff136c0136_e6c0155819a6e0a1be0e28304f2c8be4"/>
+</rt>
+</base>
+<base access="public">
+<rt>
+<cr id="18b08ca93a9a3142aa16c1ff136c0136_0b27770aa6183094b8524dc8c9e7b9ef"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="2" kind="class" name="wxCloseEvent" id="18b08ca93a9a3142aa16c1ff136c0136_d6ebf146830ee5cef78a92b93824b7cc" file="9" linestart="2577" lineend="2624" previous="18b08ca93a9a3142aa16c1ff136c0136_d6ebf146830ee5cef78a92b93824b7cc">
+<base access="public">
+<rt>
+<cr id="18b08ca93a9a3142aa16c1ff136c0136_e6c0155819a6e0a1be0e28304f2c8be4"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="3" kind="class" name="wxUpdateUIEvent" id="18b08ca93a9a3142aa16c1ff136c0136_7618983465ea23952c64bb8b830b52f8" file="9" linestart="2871" lineend="2952" previous="18b08ca93a9a3142aa16c1ff136c0136_7618983465ea23952c64bb8b830b52f8">
+<base access="public">
+<rt>
+<cr id="18b08ca93a9a3142aa16c1ff136c0136_904f8741f8abc20723ff79ca4e31d8f0"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="1" kind="struct" name="wxEventTableEntry" id="18b08ca93a9a3142aa16c1ff136c0136_600b49896540dc040dd0570094ba77e5" file="9" linestart="3399" lineend="3417">
+<base access="public">
+<rt>
+<cr id="18b08ca93a9a3142aa16c1ff136c0136_eacea80fe1ee4199f5b41b356b206ea4"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="wxEventTable" id="18b08ca93a9a3142aa16c1ff136c0136_0785337cbdeaf18f59224f0b37b07db4" file="9" linestart="3441" lineend="3445"/>
+<cr access="none" depth="0" kind="class" name="wxEventHashTable" id="18b08ca93a9a3142aa16c1ff136c0136_a18d05ce54d2c8ec0a6377a924030934" file="9" linestart="3453" lineend="3509"/>
+<cr access="none" depth="1" kind="class" name="wxEvtHandler" id="18b08ca93a9a3142aa16c1ff136c0136_75110b5882204fe4935cffebb0c6ecb0" file="9" linestart="3515" lineend="3976" previous="18b08ca93a9a3142aa16c1ff136c0136_75110b5882204fe4935cffebb0c6ecb0">
+<base access="public">
+<rt>
+<cr id="3ec80f49485e66fb14de5b0d887a5c4b_9b0d0445a774e2b471c7cd340ff3b102"/>
+</rt>
+</base>
+<base access="public">
+<rt>
+<cr id="943aa0de0923417e4568215e8998a50e_ffdb9e7a28aa469db875d0393052c246"/>
+</rt>
+</base>
+</cr>
+<e access="none" name="pcbnew_ids" id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5" file="10" linestart="16" lineend="418">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="ID_OPEN_MODULE_VIEWER" id="c5d2e9047a22a6df3a4728986e78065e_f7e162063c8881ebad9580d606ddc574" file="10" linestart="21" lineend="21">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_HIGH_CONTRAST_MODE" id="c5d2e9047a22a6df3a4728986e78065e_26a0e0b75f3e1ee2bc4298e0c8fe6409" file="10" linestart="329" lineend="329">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_PAD_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_2918ba198155d3a2fa5518f733088308" file="10" linestart="349" lineend="349">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_LINE_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_fda3eb37cbe5d150aef912e5d8d12764" file="10" linestart="350" lineend="350">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_CIRCLE_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_b61b1000e4ebc033f4966be52e7b8db8" file="10" linestart="351" lineend="351">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_ARC_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_1eebfb18a2fc90c5ee8b44989db44d68" file="10" linestart="352" lineend="352">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_POLYGON_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_888638ca5d85b5fe0f8914b5b59c4cd4" file="10" linestart="353" lineend="353">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_TEXT_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_a5182273e4e5aafebf4409cf6d3399de" file="10" linestart="354" lineend="354">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_ANCHOR_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_2e372697496f18d6dbe1a80637f2584a" file="10" linestart="355" lineend="355">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_DELETE_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_99ad3a47a12693f6feaaa56e18334ef4" file="10" linestart="356" lineend="356">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_PLACE_GRID_COORD" id="c5d2e9047a22a6df3a4728986e78065e_ecda5c2ccb3fb4f07d58c5ecead4bfd5" file="10" linestart="357" lineend="357">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_MEASUREMENT_TOOL" id="c5d2e9047a22a6df3a4728986e78065e_935efc0601fc6d1923c1208b846c5a90" file="10" linestart="358" lineend="358">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_SELECT_CURRENT_LIB" id="c5d2e9047a22a6df3a4728986e78065e_8832be9b07d0c55bc08f4eb7152aedd0" file="10" linestart="366" lineend="366">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_SAVE_LIBMODULE" id="c5d2e9047a22a6df3a4728986e78065e_415b4d0483c551e6246953ab88d4fea4" file="10" linestart="367" lineend="367">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_DELETE_PART" id="c5d2e9047a22a6df3a4728986e78065e_bcd8b207d86bc02a4b57d976e832a5ec" file="10" linestart="369" lineend="369">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_NEW_MODULE" id="c5d2e9047a22a6df3a4728986e78065e_98100f5b24def22909a3e882f511abf2" file="10" linestart="370" lineend="370">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_LOAD_MODULE" id="c5d2e9047a22a6df3a4728986e78065e_3dd9d1755b69bc46e9c08e1d56aa695e" file="10" linestart="373" lineend="373">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_PAD_SETTINGS" id="c5d2e9047a22a6df3a4728986e78065e_5c871a9d7b30467942a05a35563e8397" file="10" linestart="374" lineend="374">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_LOAD_MODULE_FROM_BOARD" id="c5d2e9047a22a6df3a4728986e78065e_091314828d22bdece8821be84dbee547" file="10" linestart="375" lineend="375">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_INSERT_MODULE_IN_BOARD" id="c5d2e9047a22a6df3a4728986e78065e_cb6be42901b824928ce640adcfa70d60" file="10" linestart="376" lineend="376">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_UPDATE_MODULE_IN_BOARD" id="c5d2e9047a22a6df3a4728986e78065e_a1669a636fbec371b34126f6129fb3f6" file="10" linestart="377" lineend="377">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_EDIT_MODULE_PROPERTIES" id="c5d2e9047a22a6df3a4728986e78065e_85d1b3a4ec3134f7f400f9e741857dab" file="10" linestart="378" lineend="378">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_IMPORT_PART" id="c5d2e9047a22a6df3a4728986e78065e_cb91bdd06001d89aba5f20536f1cb3a6" file="10" linestart="383" lineend="383">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_EXPORT_PART" id="c5d2e9047a22a6df3a4728986e78065e_d2f16bedf55436be52f10b8996359d44" file="10" linestart="384" lineend="384">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+<ec name="ID_MODEDIT_CREATE_NEW_LIB_AND_SAVE_CURRENT_PART" id="c5d2e9047a22a6df3a4728986e78065e_77443062d402c2cf12dbbb0e3251c749" file="10" linestart="385" lineend="385">
+<et>
+<e id="c5d2e9047a22a6df3a4728986e78065e_a6cdfd5a94e57c30239ddb46b090c9b5"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="2" kind="class" name="wxWindowBase" id="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664" file="11" linestart="166" lineend="1924" previous="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664">
+<base access="public">
+<rt>
+<cr id="18b08ca93a9a3142aa16c1ff136c0136_75110b5882204fe4935cffebb0c6ecb0"/>
+</rt>
+</base>
+<e parent="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664" access="public" name="NavigationKind" id="e197616272d64814902257fd2cd78d01_1814e8200cb9000b67acaff76c6355dd" file="11" linestart="1565" lineend="1569">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664" access="protected" name="WindowOrder" id="e197616272d64814902257fd2cd78d01_2ec22b5ca71fef29b3a65a87eda3eff5" file="11" linestart="1607" lineend="1611">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="3" kind="class" name="wxWindow" id="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f" file="12" linestart="29" lineend="774" previous="d5d8732f319dc925977d57978f742b78_a236593ad3262c3803280be8bbe97a5f">
+<base access="public">
+<rt>
+<cr id="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664"/>
+</rt>
+</base>
+<e parent="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f" access="public" name="MSWThemeColour" id="fd32b268ff1ce29508455944403dbbd0_04736c30955ca3cb755a55d24a360b1f" file="12" linestart="468" lineend="473">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="4" kind="class" name="wxNonOwnedWindowBase" id="ad820f0367ea552f5ba4ad50b49ce931_d681f642b2ae871400206e276dd01bbf" file="13" linestart="25" lineend="95">
+<base access="public">
+<rt>
+<cr id="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="5" kind="class" name="wxNonOwnedWindow" id="2cb91912c03f4a972d201a029f7f982a_eaf81deac05d1f6ee457201049b5ad8d" file="14" linestart="19" lineend="36">
+<base access="public">
+<rt>
+<cr id="ad820f0367ea552f5ba4ad50b49ce931_d681f642b2ae871400206e276dd01bbf"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="6" kind="class" name="wxTopLevelWindowBase" id="96bae7530e9a733e42acbefccb030f83_b39a26506db177c41bd4a445b1a0711b" file="15" linestart="126" lineend="350">
+<base access="public">
+<rt>
+<cr id="2cb91912c03f4a972d201a029f7f982a_eaf81deac05d1f6ee457201049b5ad8d"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="7" kind="class" name="wxTopLevelWindowMSW" id="1e3d8b6ae5371668d42d8692c3c4f5be_d20a4aa2ef9d96d64e28e9c2b2329607" file="16" linestart="20" lineend="198">
+<base access="public">
+<rt>
+<cr id="96bae7530e9a733e42acbefccb030f83_b39a26506db177c41bd4a445b1a0711b"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="8" kind="class" name="wxTopLevelWindow" id="96bae7530e9a733e42acbefccb030f83_9da078839f93821efafb3e4706e97290" file="15" linestart="383" lineend="401">
+<base access="public">
+<rt>
+<cr id="1e3d8b6ae5371668d42d8692c3c4f5be_d20a4aa2ef9d96d64e28e9c2b2329607"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="9" kind="class" name="wxFrameBase" id="3f6ecedf11e521a799aa905492b2ae4f_c2e8f701b773b6a99dd57b33f68fdb81" file="17" linestart="54" lineend="251">
+<base access="public">
+<rt>
+<cr id="96bae7530e9a733e42acbefccb030f83_9da078839f93821efafb3e4706e97290"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="10" kind="class" name="wxFrame" id="eb950c41840a1c2a102627fe4ae8ed79_9c4eada005df80b8b1415d6e9f28bfa9" file="18" linestart="18" lineend="188" previous="3f6ecedf11e521a799aa905492b2ae4f_9c4eada005df80b8b1415d6e9f28bfa9">
+<base access="public">
+<rt>
+<cr id="3f6ecedf11e521a799aa905492b2ae4f_c2e8f701b773b6a99dd57b33f68fdb81"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="1" kind="class" name="wxDC" id="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1" file="19" linestart="750" lineend="1357" previous="17748d82e9d2b2b97dea3102e3bce49f_de1cfbe6b56a74330aefbfbf7e4d47d1">
+<base access="public">
+<rt>
+<cr id="3ec80f49485e66fb14de5b0d887a5c4b_9b0d0445a774e2b471c7cd340ff3b102"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="3" kind="class" name="wxMenu" id="7bcd85f53b7cbc47b36daba9644ee7c2_c233a8a746a730c60afdecacb2c3a42a" file="20" linestart="32" lineend="162" previous="78bc7935987afcdf38d221ecbe2a8cfb_c233a8a746a730c60afdecacb2c3a42a">
+<base access="public">
+<rt>
+<cr id="78bc7935987afcdf38d221ecbe2a8cfb_9e7d3497deb7092817982f05951ba88c"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="11" kind="class" name="wxChoice" id="b09e2f303af0ae0696331d2915e249ee_de91b6fcfa93de4bae6415ee85eb7d60" file="21" linestart="20" lineend="174">
+<base access="public">
+<rt>
+<cr id="1feedfbc6ccfd069c5a92dbfa0371b71_3ce1009124c527a4c226899d8aeddda6"/>
+</rt>
+</base>
+<c name="wxChoice" id="b09e2f303af0ae0696331d2915e249ee_2c2c4c7b9ec131d37f4354690794da5d" file="21" linestart="27" lineend="38" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="parent" proto="wxWindow *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f"/>
+</rt>
+</pt>
+</p>
+<p name="id" proto="wxWindowID" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="pos" proto="const wxPoint &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="size" proto="const wxSize &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="n" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="choices" proto="const wxString *" isPtr="true" isLiteral="true" init="true" access2="none">
+<Decayed/>
+</p>
+<p name="style" proto="long" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="long"/>
+</p>
+<p name="validator" proto="const wxValidator &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="10a316576ef4a8e3b758d9d99ff0554b_2f6f01531c1f2745c23eca81bcccbd6d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="name" proto="const wxString &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+</cr>
+<cr access="none" depth="1" kind="class" name="wxConfigBase" id="7da0f73ff2c01156e1023e32d8b0c9d8_6fe1ed3518a7d654fd88fb23c0bba9ec" file="22" linestart="81" lineend="405">
+<base access="public">
+<rt>
+<cr id="3ec80f49485e66fb14de5b0d887a5c4b_9b0d0445a774e2b471c7cd340ff3b102"/>
+</rt>
+</base>
+<e parent="7da0f73ff2c01156e1023e32d8b0c9d8_6fe1ed3518a7d654fd88fb23c0bba9ec" access="public" name="EntryType" id="7da0f73ff2c01156e1023e32d8b0c9d8_5c8b32233e5274f34e5230dde2bb8a51" file="22" linestart="86" lineend="93">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr namespace="KIGFX" access="none" depth="0" kind="class" name="COLOR4D" id="49a91d1779ad9b725ce4f42b6bedecb5_73aabb447757b4f03536f24aa35a3cf1" file="23" linestart="39" lineend="302"/>
+<cr access="none" depth="1" kind="class" name="EDA_ITEM" id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b" file="24" linestart="151" lineend="511" previous="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b">
+<base access="public">
+<ety>
+<rt>
+<cr id="5f8faf5f66b2bd03343aa691c19fdd7c_0a63ddb58b05cdd2dc9835c11b4e7aba"/>
+</rt>
+</ety>
+</base>
+</cr>
+<cr access="none" kind="class" name="BOARD" id="360dd640c88be589e4dd8026f4ceb42a_7ebd86d03656ccc87739aa7ec5a5b65e" file="25" linestart="39" lineend="39"/>
+<cr access="none" depth="1" kind="class" name="LSET" id="360dd640c88be589e4dd8026f4ceb42a_1e87866dc5b382d6bdfc8c6f42efccd4" file="25" linestart="372" lineend="613">
+<base access="public">
+<Tdef>
+<ety>
+<tss>
+<templatebase id="84bdce3464316a2697d994cfa2d39097_dd33cb56d5bd7e9a5cfc084a7127eaa4"/>
+<template_arguments/>
+</tss>
+</ety>
+</Tdef>
+</base>
+</cr>
+<e access="none" name="wxAuiToolBarStyle" id="51dff019babd0f20097cf7d344282ea6_141b8f8c52c6a3dfb749ecb0b368b06b" file="26" linestart="25" lineend="45">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="wxAUI_TB_VERTICAL" id="51dff019babd0f20097cf7d344282ea6_502dfe7ba86add721cc3703490ae9a43" file="26" linestart="36" lineend="36">
+<et>
+<e id="51dff019babd0f20097cf7d344282ea6_141b8f8c52c6a3dfb749ecb0b368b06b"/>
+</et>
+</ec>
+<ec name="wxAUI_TB_HORZ_LAYOUT" id="51dff019babd0f20097cf7d344282ea6_6a349a6f1b1766f3fc9728f9320caa8c" file="26" linestart="37" lineend="37">
+<et>
+<e id="51dff019babd0f20097cf7d344282ea6_141b8f8c52c6a3dfb749ecb0b368b06b"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="6" kind="class" name="wxAuiToolBar" id="51dff019babd0f20097cf7d344282ea6_d203e94e6ae89841a68679acac5324f1" file="26" linestart="455" lineend="697" previous="b7d6a1f6d74071e9509c29e5f2cdc171_d203e94e6ae89841a68679acac5324f1">
+<base access="public">
+<rt>
+<cr id="fad8bb4b1346039c95f0ad319f051a11_1b3e53ba852cfa8a0cb16c26a3f6a53a"/>
+</rt>
+</base>
+<c name="wxAuiToolBar" id="51dff019babd0f20097cf7d344282ea6_0e397fe4a386652802998b927ae7d557" file="26" linestart="460" lineend="468" imported="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="parent" proto="wxWindow *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f"/>
+</rt>
+</pt>
+</p>
+<p name="id" proto="wxWindowID" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="pos" proto="const wxPoint &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="size" proto="const wxSize &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="style" proto="long" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="long"/>
+</p>
+</c>
+<m name="AddTool" id="51dff019babd0f20097cf7d344282ea6_6afe4f4af4c0f5ff8fcbe6489b8b345e" file="26" linestart="486" lineend="490" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="wxAuiToolBarItem *">
+<pt>
+<rt>
+<cr id="51dff019babd0f20097cf7d344282ea6_bb8288e44dbc9965db78cd8621375b55"/>
+</rt>
+</pt>
+</fpt>
+<p name="toolId" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="label" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="bitmap" proto="const wxBitmap &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d20c871f3866ff3b5b4446c9595b14e6_98b10f0fc52eff7575c79221208f8b99"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="shortHelpString" proto="const wxString &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="kind" proto="wxItemKind" isLiteral="true" init="true" access2="none">
+<et>
+<e id="eedc6a971cae8242534b5571816ee3fd_527d40a1cad833e699a526d622304caa"/>
+</et>
+</p>
+</m>
+<m name="AddControl" id="51dff019babd0f20097cf7d344282ea6_9097115330f1a64cb55ecc8249ba1c0e" file="26" linestart="522" lineend="523" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="wxAuiToolBarItem *">
+<pt>
+<rt>
+<cr id="51dff019babd0f20097cf7d344282ea6_bb8288e44dbc9965db78cd8621375b55"/>
+</rt>
+</pt>
+</fpt>
+<p name="control" proto="wxControl *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="fad8bb4b1346039c95f0ad319f051a11_1b3e53ba852cfa8a0cb16c26a3f6a53a"/>
+</rt>
+</pt>
+</p>
+<p name="label" proto="const wxString &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="Realize" id="51dff019babd0f20097cf7d344282ea6_6d4396afc45ae160878510f5f76585f2" file="26" linestart="528" lineend="528" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="Clear" id="51dff019babd0f20097cf7d344282ea6_e21ac3676f8cfe8d37fb568cbf8238a1" file="26" linestart="536" lineend="536" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="EDA_HOTKEY" id="f6b06609959adc33e5474371c886b8a7_afe2113ff4cee6c45b977985dda5bc61" file="27" linestart="59" lineend="74"/>
+<e access="none" name="HOTKEY_ACTION_TYPE" id="f6b06609959adc33e5474371c886b8a7_9900a523796e57e117ef077be836b2f5" file="27" linestart="164" lineend="169">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="IS_COMMENT" id="f6b06609959adc33e5474371c886b8a7_bf5af261bbc536b05e85a0326aa24e4d" file="27" linestart="168" lineend="168">
+<et>
+<e id="f6b06609959adc33e5474371c886b8a7_9900a523796e57e117ef077be836b2f5"/>
+</et>
+</ec>
+</e>
+<e access="none" name="common_hotkey_id_commnand" id="f6b06609959adc33e5474371c886b8a7_f056eec18965309a7e41e26e41a414ec" file="27" linestart="256" lineend="281">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="HK_ZOOM_IN" id="f6b06609959adc33e5474371c886b8a7_47c2244ff373b12263aef6ef26f3c31e" file="27" linestart="272" lineend="272">
+<et>
+<e id="f6b06609959adc33e5474371c886b8a7_f056eec18965309a7e41e26e41a414ec"/>
+</et>
+</ec>
+<ec name="HK_ZOOM_OUT" id="f6b06609959adc33e5474371c886b8a7_c4e1a5bd61deacbd21f1b5a7e3cc2120" file="27" linestart="273" lineend="273">
+<et>
+<e id="f6b06609959adc33e5474371c886b8a7_f056eec18965309a7e41e26e41a414ec"/>
+</et>
+</ec>
+<ec name="HK_ZOOM_REDRAW" id="f6b06609959adc33e5474371c886b8a7_506501390e8102da7c15125487163e3e" file="27" linestart="274" lineend="274">
+<et>
+<e id="f6b06609959adc33e5474371c886b8a7_f056eec18965309a7e41e26e41a414ec"/>
+</et>
+</ec>
+<ec name="HK_ZOOM_AUTO" id="f6b06609959adc33e5474371c886b8a7_fb16cb077fde4e225aeceac0b74733ae" file="27" linestart="276" lineend="276">
+<et>
+<e id="f6b06609959adc33e5474371c886b8a7_f056eec18965309a7e41e26e41a414ec"/>
+</et>
+</ec>
+</e>
+<cr access="none" kind="class" name="PAGED_DIALOG" id="41eb28e4ff0a7b6ea2d917813b4e2ad7_487c5da6c847cfbb2865fb8480962f9b" file="28" linestart="89" lineend="89"/>
+<cr access="none" depth="11" kind="class" name="EDA_BASE_FRAME" id="41eb28e4ff0a7b6ea2d917813b4e2ad7_8eeb0006745ac4ff41760069ff63713e" file="28" linestart="111" lineend="418" previous="f6b06609959adc33e5474371c886b8a7_8eeb0006745ac4ff41760069ff63713e">
+<base access="public">
+<rt>
+<cr id="eb950c41840a1c2a102627fe4ae8ed79_9c4eada005df80b8b1415d6e9f28bfa9"/>
+</rt>
+</base>
+<fl name="m_mainToolBar" id="41eb28e4ff0a7b6ea2d917813b4e2ad7_06fb37d58d205e460dddc0cd2ace0cc6" file="28" linestart="141" lineend="141" isPtr="true" isLiteral="true" access="protected" proto="wxAuiToolBar *">
+<pt>
+<rt>
+<cr id="51dff019babd0f20097cf7d344282ea6_d203e94e6ae89841a68679acac5324f1"/>
+</rt>
+</pt>
+</fl>
+<v name="KICAD_AUI_TB_STYLE" proto="const int" const="true" isLiteral="true" isPrimitive="true" id="41eb28e4ff0a7b6ea2d917813b4e2ad7_e3a09958f5473cc5cc4fa51604e9f6ef" file="28" linestart="164" lineend="164" storage="static" init="true" access2="protected">
+<QualType const="true">
+<bt name="int"/>
+</QualType>
+</v>
+</cr>
+<cr access="none" kind="class" name="KIWAY" id="b3f6ebf3f51632f061e8cafdc366ee6e_e42389ce7823f1da37dc5648c238b4d5" file="29" linestart="33" lineend="33"/>
+<cr access="none" depth="0" kind="class" name="KIWAY_HOLDER" id="b3f6ebf3f51632f061e8cafdc366ee6e_58bb5f7b4a61b924acc02d1fecaa5a6f" file="29" linestart="48" lineend="95"/>
+<cr access="none" depth="12" kind="class" name="KIWAY_PLAYER" id="b3f6ebf3f51632f061e8cafdc366ee6e_69f445f22dd820b53de5a6184705483a" file="29" linestart="120" lineend="258">
+<base access="public">
+<rt>
+<cr id="41eb28e4ff0a7b6ea2d917813b4e2ad7_8eeb0006745ac4ff41760069ff63713e"/>
+</rt>
+</base>
+<base access="public">
+<rt>
+<cr id="b3f6ebf3f51632f061e8cafdc366ee6e_58bb5f7b4a61b924acc02d1fecaa5a6f"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="13" kind="class" name="EDA_DRAW_FRAME" id="9e740be317f6abf0ab0d6bab57ff3f9b_fba62f898089c2094b8ada5e3a0572a8" file="30" linestart="63" lineend="925" previous="303fe2fb6be085d0c1369ddb83120b25_fba62f898089c2094b8ada5e3a0572a8">
+<base access="public">
+<rt>
+<cr id="b3f6ebf3f51632f061e8cafdc366ee6e_69f445f22dd820b53de5a6184705483a"/>
+</rt>
+</base>
+<fl name="m_gridSelectBox" id="9e740be317f6abf0ab0d6bab57ff3f9b_d47f0eed39e110e0bcb3ca865297938e" file="30" linestart="133" lineend="133" isPtr="true" isLiteral="true" access="protected" proto="wxChoice *">
+<pt>
+<rt>
+<cr id="b09e2f303af0ae0696331d2915e249ee_de91b6fcfa93de4bae6415ee85eb7d60"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_zoomSelectBox" id="9e740be317f6abf0ab0d6bab57ff3f9b_93d1143dbc47eb938e66591117d5076d" file="30" linestart="136" lineend="136" isPtr="true" isLiteral="true" access="protected" proto="wxChoice *">
+<pt>
+<rt>
+<cr id="b09e2f303af0ae0696331d2915e249ee_de91b6fcfa93de4bae6415ee85eb7d60"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_auxiliaryToolBar" id="9e740be317f6abf0ab0d6bab57ff3f9b_9b8c667ee2e5346dde549dea8ac03730" file="30" linestart="140" lineend="140" isPtr="true" isLiteral="true" access="protected" proto="wxAuiToolBar *">
+<pt>
+<rt>
+<cr id="51dff019babd0f20097cf7d344282ea6_d203e94e6ae89841a68679acac5324f1"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_drawToolBar" id="9e740be317f6abf0ab0d6bab57ff3f9b_e52254ce2cc0d0ba532cb5642869e54d" file="30" linestart="144" lineend="144" isPtr="true" isLiteral="true" access="protected" proto="wxAuiToolBar *">
+<pt>
+<rt>
+<cr id="51dff019babd0f20097cf7d344282ea6_d203e94e6ae89841a68679acac5324f1"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_optionsToolBar" id="9e740be317f6abf0ab0d6bab57ff3f9b_a0f9727b3d841e20d48175926ea1bfd6" file="30" linestart="147" lineend="147" isPtr="true" isLiteral="true" access="protected" proto="wxAuiToolBar *">
+<pt>
+<rt>
+<cr id="51dff019babd0f20097cf7d344282ea6_d203e94e6ae89841a68679acac5324f1"/>
+</rt>
+</pt>
+</fl>
+</cr>
+<e access="none" name="main_id" id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68" file="31" linestart="64" lineend="306">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="ID_H_TOOLBAR" id="19a3fc98f71f81870a69c2532c468b57_65011bbdab6f9b1ec90616e51746c085" file="31" linestart="112" lineend="112">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_V_TOOLBAR" id="19a3fc98f71f81870a69c2532c468b57_796334d269001c0fe56bdfd6b460015e" file="31" linestart="113" lineend="113">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_OPT_TOOLBAR" id="19a3fc98f71f81870a69c2532c468b57_eaac11e72ad61f17b1617c1a7acadfd2" file="31" linestart="114" lineend="114">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_AUX_TOOLBAR" id="19a3fc98f71f81870a69c2532c468b57_e3e3b4000b3bcb75932a26d618afc11a" file="31" linestart="115" lineend="115">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_NO_TOOL_SELECTED" id="19a3fc98f71f81870a69c2532c468b57_92e16210e3226f9ba9cb93645d745182" file="31" linestart="118" lineend="118">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_SELECTION" id="19a3fc98f71f81870a69c2532c468b57_d381c38cc987c2a714f155588a60a0e1" file="31" linestart="119" lineend="119">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ON_ZOOM_SELECT" id="19a3fc98f71f81870a69c2532c468b57_69414ed745b870a90f6814f384f409da" file="31" linestart="180" lineend="180">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ON_GRID_SELECT" id="19a3fc98f71f81870a69c2532c468b57_4b55f8e810508c04912e006c54e4dee0" file="31" linestart="205" lineend="205">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_IN" id="19a3fc98f71f81870a69c2532c468b57_d5895b9fc5c0f9f994f3a8c71f67bbdf" file="31" linestart="237" lineend="237">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_OUT" id="19a3fc98f71f81870a69c2532c468b57_b65680343fc5a8b0d810c1aab1ba11b1" file="31" linestart="238" lineend="238">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_PAGE" id="19a3fc98f71f81870a69c2532c468b57_aeb77daf0f048cbfeee00e02c1985b4f" file="31" linestart="239" lineend="239">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_REDRAW" id="19a3fc98f71f81870a69c2532c468b57_fa7ca899c4b85f043d8ac61ee9469b2b" file="31" linestart="240" lineend="240">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SELECT_UNIT_MM" id="19a3fc98f71f81870a69c2532c468b57_bc389781bd4be6ccd7c114717ce695cd" file="31" linestart="267" lineend="267">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SELECT_UNIT_INCH" id="19a3fc98f71f81870a69c2532c468b57_31b8a95a933837c41e9e0922a850422f" file="31" linestart="268" lineend="268">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SELECT_CURSOR" id="19a3fc98f71f81870a69c2532c468b57_f856adc5fb71f22ffeddecc06c00acf2" file="31" linestart="269" lineend="269">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_POLAR_COORD" id="19a3fc98f71f81870a69c2532c468b57_ff25b94f10eed88a16c61ced80afe75f" file="31" linestart="270" lineend="270">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_GRID" id="19a3fc98f71f81870a69c2532c468b57_b3a70c412c301ac740278d42e962a9d0" file="31" linestart="271" lineend="271">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_MODULE_TEXT_SKETCH" id="19a3fc98f71f81870a69c2532c468b57_53e261ce6163abc4bf8dca798b3942f2" file="31" linestart="275" lineend="275">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_MODULE_EDGE_SKETCH" id="19a3fc98f71f81870a69c2532c468b57_78c356f479f29e342b3a750f0b14003c" file="31" linestart="276" lineend="276">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_TB_OPTIONS_SHOW_PADS_SKETCH" id="19a3fc98f71f81870a69c2532c468b57_a6683dbc1931edd6dc013e90bda41070" file="31" linestart="278" lineend="278">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+</e>
+<cr access="none" kind="class" name="BOARD_ITEM_CONTAINER" id="39ff2105515a9abbe46eed66dfe341fc_92aa87550b4d116d765066e764597bab" file="32" linestart="40" lineend="40"/>
+<cr access="none" depth="2" kind="class" name="BOARD_ITEM" id="39ff2105515a9abbe46eed66dfe341fc_a3c02d5960dfe91388a558a47ec4ac10" file="32" linestart="68" lineend="345">
+<base access="public">
+<rt>
+<cr id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="4" kind="class" name="PARAM_CFG_ARRAY" id="d6b73e207f11561f42f1548b27be09f9_0492bc4969d64501ffc638cfbb46715c" file="33" linestart="315" lineend="317">
+<base access="public">
+<ety>
+<tss>
+<templatebase id="8cba4a2695836844c1474b8b23b7e7ec_2be5a4868efe5179c88fb57e2fb9d9c0"/>
+<template_arguments>
+<rt>
+<cr id="d6b73e207f11561f42f1548b27be09f9_f99c66fb7c8bb0d44dce4bca4fb9e75f"/>
+</rt>
+</template_arguments>
+</tss>
+</ety>
+</base>
+</cr>
+<cr access="none" kind="class" name="MODULE" id="3abcbb2d1ccf626712e5c3384869f7d9_24a5fd1315af1b6cf7b2366a24895a9f" file="34" linestart="49" lineend="49"/>
+<cr access="none" kind="class" name="D_PAD" id="3abcbb2d1ccf626712e5c3384869f7d9_c9f44d317f9b15eada30f21d906963b6" file="34" linestart="51" lineend="51"/>
+<cr access="none" kind="class" name="TEXTE_MODULE" id="3abcbb2d1ccf626712e5c3384869f7d9_1dcff6cfd8faf0f3e214d001b16806ca" file="34" linestart="52" lineend="52"/>
+<cr access="none" kind="class" name="BOARD_DESIGN_SETTINGS" id="3abcbb2d1ccf626712e5c3384869f7d9_f8af8f50a9558c59e2ea0fecd8197e8b" file="34" linestart="56" lineend="56"/>
+<cr access="none" kind="class" name="PCB_PLOT_PARAMS" id="3abcbb2d1ccf626712e5c3384869f7d9_7b85f17e3f8fa975ff16d2fc9a3328f6" file="34" linestart="58" lineend="58"/>
+<cr access="none" depth="14" kind="class" name="PCB_BASE_FRAME" id="3abcbb2d1ccf626712e5c3384869f7d9_d64ee6527cdc7a1d81f1886d06b182c4" file="34" linestart="67" lineend="728">
+<base access="public">
+<rt>
+<cr id="9e740be317f6abf0ab0d6bab57ff3f9b_fba62f898089c2094b8ada5e3a0572a8"/>
+</rt>
+</base>
+<m name="updateGridSelectBox" id="3abcbb2d1ccf626712e5c3384869f7d9_814417db49282c9f0d2d2935826034a4" file="34" linestart="81" lineend="81" access="protected">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+<m name="updateZoomSelectBox" id="3abcbb2d1ccf626712e5c3384869f7d9_c0322d15fb93f04f8046780d72b1ce86" file="34" linestart="82" lineend="82" access="protected">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="15" kind="class" name="PCB_BASE_EDIT_FRAME" id="2bfa94dba916a5e6acfc979c955f5baa_f1e4aff933dbcf43eecff0a428615a55" file="35" linestart="35" lineend="207">
+<base access="public">
+<rt>
+<cr id="3abcbb2d1ccf626712e5c3384869f7d9_d64ee6527cdc7a1d81f1886d06b182c4"/>
+</rt>
+</base>
+</cr>
+<v name="wxEmptyString" proto="const wxChar *" isPtr="true" isLiteral="true" id="a4471400862f3948c2ec2ac738adc4fb_527b9468dcf241281e7176b7dbd363ee" file="36" linestart="44" lineend="44" storage="extern" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</v>
+<f name="wxGetTranslation" id="831f553f60c8880a2c50de87369dfaee_220b15d8d91abe9a6232b518c3908d8d" file="37" linestart="260" lineend="273" access="none" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="const wxString &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+<p name="str" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="domain" proto="const wxString &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="context" proto="const wxString &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</f>
+<v name="g_Module_Editor_Hotkeys_Descr" proto="struct EDA_HOTKEY_CONFIG []" isArray="true" isLiteral="true" id="5adce104d6ef808db4f4e5a781dbddc9_b693055049634415903b95995ed635bc" file="38" linestart="146" lineend="146" storage="extern" access2="none">
+<iat>
+<ety>
+<rt>
+<cr id="f6b06609959adc33e5474371c886b8a7_99f5a0673f336c6b70d6ef71a6c49298"/>
+</rt>
+</ety>
+</iat>
+</v>
+<v name="add_arc_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_c63c5f9c68659a949804fa880cf58898" file="39" linestart="34" lineend="34" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="add_circle_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_6bb387e7b302dcce264e1a20f7237ae8" file="39" linestart="38" lineend="38" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="add_graphical_segments_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_3a15d90e45c6b4ae08168104718cf7cb" file="39" linestart="46" lineend="46" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="add_graphical_polygon_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_40107e78d6e190cd3e2ef5c08fcbd5ce" file="39" linestart="47" lineend="47" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="anchor_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_624ea9e5fc453ef687b0d7f93bf98c73" file="39" linestart="65" lineend="65" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="contrast_mode_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_1d180616082e683826f5a5e134b9f951" file="39" linestart="102" lineend="102" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="cursor_shape_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_e1bd9773579af97a655428adf7387331" file="39" linestart="114" lineend="114" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="cursor_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_a322658bc5966f95b8df7153215a516b" file="39" linestart="116" lineend="116" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="delete_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_f9c3f4f4e82f1f8ed443ff41a840411d" file="39" linestart="138" lineend="138" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="export_module_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_5d84840757d0597864a89ffb4de0eb60" file="39" linestart="175" lineend="175" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="grid_select_axis_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_54dc996841c0222890f0d8bd5da4f3ba" file="39" linestart="205" lineend="205" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="grid_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_70743a4f03d80cb08695b5aa005acd93" file="39" linestart="207" lineend="207" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="import_module_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_30738106268f702d11d0d2ced54aa9c7" file="39" linestart="237" lineend="237" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="insert_module_board_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_c99b0cab7dc7aef372977f5049d1f046" file="39" linestart="244" lineend="244" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="load_module_board_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_e9901eb86a71a0c9e4e07284052db76e" file="39" linestart="287" lineend="287" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="load_module_lib_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_31a3ecd98ec9ef299c8388fd6d80a042" file="39" linestart="288" lineend="288" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="measurement_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_4e4c94cbd8069bc058460d7193a6f64e" file="39" linestart="292" lineend="292" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="module_options_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_874344f686ea9dccacc6fbf5ddba73c5" file="39" linestart="307" lineend="307" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="modview_icon_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_ebe7cfea70a770b6c7b215bd440bea98" file="39" linestart="310" lineend="310" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="new_footprint_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_b1de5cace50167caff3ba7e1c8cc7d33" file="39" linestart="337" lineend="337" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="new_library_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_c96171fa4165a03230ed71056745d8a2" file="39" linestart="339" lineend="339" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="open_library_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_70460e35ecaee158df4432d0363ebf33" file="39" linestart="350" lineend="350" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="options_pad_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_f5c917f4f085cddaa5faa15ddea264fd" file="39" linestart="361" lineend="361" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="pad_sketch_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_ec288c0eb1130456190677a4968527fd" file="39" linestart="371" lineend="371" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="pad_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_3ffd1777abb5ea4b9861ecb2ccdadd07" file="39" linestart="372" lineend="372" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="polar_coord_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_bf36d5a5386abae30922dc472092aca5" file="39" linestart="426" lineend="426" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="print_button_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_81ab015edc5ca019f14b8dd170dbafd8" file="39" linestart="433" lineend="433" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="redo_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_afffcec8c78c3e0677797b802d7827f5" file="39" linestart="445" lineend="445" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="save_library_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_c258b49fed3a3faedf48aec6c9156400" file="39" linestart="472" lineend="472" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="show_mod_edge_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_17d2fe752d73d80f37936d3c713dcd1f" file="39" linestart="493" lineend="493" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="text_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_824355b2f0e950297d6a44fb700b6f34" file="39" linestart="509" lineend="509" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="text_sketch_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_4ff1bade7fb7d2ba35745002382e8f37" file="39" linestart="510" lineend="510" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="undo_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_541bb7b9648fa98c42b06abb33fb1034" file="39" linestart="522" lineend="522" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="unit_inch_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_b1094f9b74b6148ca047c8d1756bbc8c" file="39" linestart="523" lineend="523" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="unit_mm_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_e8bb3eb45ac51ee996b77c99a522ff87" file="39" linestart="524" lineend="524" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="update_module_board_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_65f373b2bc5663ca0da52e5ffa4aaa62" file="39" linestart="530" lineend="530" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="zoom_area_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_feb2a4fec9639ed28b9326455d591e50" file="39" linestart="550" lineend="550" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="zoom_redraw_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_92c39d4a209babf35ae29d5fd0e74579" file="39" linestart="552" lineend="552" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="zoom_fit_in_page_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_200c05197af43634f628545ff4e364ee" file="39" linestart="553" lineend="553" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="zoom_in_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_c9fad8b883c24994612fd4ce206aaa4c" file="39" linestart="554" lineend="554" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="zoom_out_xpm" proto="const BITMAP_OPAQUE [1]" isArray="true" isLiteral="true" id="f1cce897fbb60001fc69c422c6e9d34f_3b6cfa1315370c171ec66b19e7bf1e63" file="39" linestart="555" lineend="555" storage="extern" access2="none">
+<cat>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</cat>
+</v>
+<v name="wxDefaultSize" proto="const wxSize" const="true" id="81ad6f5e61de9b89a493fbcd5730780a_2cd456a8f5f529a2a5eb17138699f8fa" file="40" linestart="35" lineend="35" previous="d9f07ba44edee0ea7c32468ff0154088_2cd456a8f5f529a2a5eb17138699f8fa" storage="extern" access2="none">
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</v>
+<v name="wxDefaultPosition" proto="const wxPoint" const="true" id="81ad6f5e61de9b89a493fbcd5730780a_17cd768b0e48596cb507f7216008b3b9" file="40" linestart="36" lineend="36" previous="d9f07ba44edee0ea7c32468ff0154088_17cd768b0e48596cb507f7216008b3b9" storage="extern" access2="none">
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</v>
+<f name="KiScaledBitmap" id="b7d6a1f6d74071e9509c29e5f2cdc171_dc24bf3afe7da6566739057cafbb4dbd" file="41" linestart="74" lineend="74" access="none">
+<fpt cc="cdecl" proto="wxBitmap">
+<rt>
+<cr id="d20c871f3866ff3b5b4446c9595b14e6_98b10f0fc52eff7575c79221208f8b99"/>
+</rt>
+</fpt>
+<p name="aBitmap" proto="BITMAP_DEF" isPtr="true" isLiteral="true" access2="none">
+<Tdef>
+<pt>
+<QualType const="true">
+<rt>
+<cr id="b7d6a1f6d74071e9509c29e5f2cdc171_e0e165daaad4d4413700c9c74c06333b"/>
+</rt>
+</QualType>
+</pt>
+</Tdef>
+</p>
+<p name="aWindow" proto="EDA_BASE_FRAME *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="41eb28e4ff0a7b6ea2d917813b4e2ad7_8eeb0006745ac4ff41760069ff63713e"/>
+</rt>
+</pt>
+</p>
+</f>
+<f name="KiScaledSeparator" id="b7d6a1f6d74071e9509c29e5f2cdc171_c598759be9d371212d821bb1300c3456" file="41" linestart="81" lineend="81" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aToolbar" proto="wxAuiToolBar *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="51dff019babd0f20097cf7d344282ea6_d203e94e6ae89841a68679acac5324f1"/>
+</rt>
+</pt>
+</p>
+<p name="aWindow" proto="EDA_BASE_FRAME *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="41eb28e4ff0a7b6ea2d917813b4e2ad7_8eeb0006745ac4ff41760069ff63713e"/>
+</rt>
+</pt>
+</p>
+</f>
+<f name="AddHotkeyName" id="f6b06609959adc33e5474371c886b8a7_04e33b184b6b78cb71a5914f3d3e3e94" file="27" linestart="192" lineend="195" access="none">
+<fpt cc="cdecl" proto="wxString">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</fpt>
+<p name="aText" proto="const wxString &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aDescrList" proto="struct EDA_HOTKEY_CONFIG *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<ety>
+<rt>
+<cr id="f6b06609959adc33e5474371c886b8a7_99f5a0673f336c6b70d6ef71a6c49298"/>
+</rt>
+</ety>
+</pt>
+</p>
+<p name="aCommandId" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aShortCutType" proto="HOTKEY_ACTION_TYPE" isLiteral="true" init="true" access2="none">
+<et>
+<e id="f6b06609959adc33e5474371c886b8a7_9900a523796e57e117ef077be836b2f5"/>
+</et>
+</p>
+</f>
+</Externals>

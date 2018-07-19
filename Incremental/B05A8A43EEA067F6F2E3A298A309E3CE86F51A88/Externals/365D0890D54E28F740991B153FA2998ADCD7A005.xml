@@ -1,0 +1,221 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="SGPOINT" id="fde07b4b859a45f420d50c28ecda0274_90d0a80bf74d4dc8082e93afda3539a2" file="3" linestart="67" lineend="84">
+<c name="SGPOINT" id="fde07b4b859a45f420d50c28ecda0274_f32eb4fd1f4fcf4adf0ca5c9f5075f0b" file="3" linestart="76" lineend="76" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aXVal" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="aYVal" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="aZVal" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</c>
+<m name="operator=" id="fde07b4b859a45f420d50c28ecda0274_db14b0f6428a4e7cbbfcf160e7d96d20" file="3" linestart="67" lineend="67" implicit="true" operator="true" exported="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="SGPOINT &amp;">
+<lrf>
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_90d0a80bf74d4dc8082e93afda3539a2"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const SGPOINT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_90d0a80bf74d4dc8082e93afda3539a2"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="operator=" id="fde07b4b859a45f420d50c28ecda0274_36600f5ec131c025caa861583fc14788" file="3" linestart="67" lineend="67" implicit="true" operator="true" exported="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="SGPOINT &amp;">
+<lrf>
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_90d0a80bf74d4dc8082e93afda3539a2"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="SGPOINT &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_90d0a80bf74d4dc8082e93afda3539a2"/>
+</rt>
+</rrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="SGVECTOR" id="fde07b4b859a45f420d50c28ecda0274_be704862922d8851f25ee95cc2d0a37a" file="3" linestart="87" lineend="106">
+<m name="operator=" id="fde07b4b859a45f420d50c28ecda0274_70e2f6260603b8930d9dc7b9766d72c0" file="3" linestart="105" lineend="105" operator="true" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="SGVECTOR &amp;">
+<lrf>
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_be704862922d8851f25ee95cc2d0a37a"/>
+</rt>
+</lrf>
+</fpt>
+<p name="source" proto="const SGVECTOR &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_be704862922d8851f25ee95cc2d0a37a"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<e namespace="S3D" access="none" name="SGTYPES" id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94" file="4" linestart="34" lineend="46">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="SGTYPE_TRANSFORM" id="286d3166a284052fa6350ca44b307f7e_426aae17792c5f7dab06fc4d93c01adb" file="4" linestart="36" lineend="36">
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="IFSG_NODE" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_b6b995209224d3332e046d11a9896e1d" file="5" linestart="54" lineend="166">
+<fl name="m_node" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_3cf100a967d0bfbd2796f7c7e2a4803c" file="5" linestart="57" lineend="57" isPtr="true" isLiteral="true" access="protected" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fl>
+<c name="IFSG_NODE" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_d688e75fb2b9dd18070f424ee05a8daa" file="5" linestart="60" lineend="60" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="GetRawPtr" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_beef6f72a6503e23ea95d947b224542a" file="5" linestart="90" lineend="90" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="SGNODE" id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b" file="6" linestart="76" lineend="248" previous="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b">
+<m name="GetNodeType" id="a2567f649b809cb7e17984376f8b28ce_a0de9645c66a3a0b2b985b97c16da7b3" file="6" linestart="143" lineend="143" access="public">
+<fpt cc="x86_thiscall" const="true" proto="S3D::SGTYPES">
+<ety>
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ety>
+</fpt>
+</m>
+<m name="GetParent" id="a2567f649b809cb7e17984376f8b28ce_0490e4862d5c165fab6e4072c68ce416" file="6" linestart="150" lineend="150" access="public">
+<fpt cc="x86_thiscall" const="true" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="SetParent" id="a2567f649b809cb7e17984376f8b28ce_02b2dd7fae46511688baeb673d40d028" file="6" linestart="161" lineend="161" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aParent" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+<p name="notify" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="AssociateWrapper" id="a2567f649b809cb7e17984376f8b28ce_31f808d26e7e2a9bdd385cccd17034a6" file="6" linestart="202" lineend="202" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aWrapperRef" proto="SGNODE **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</pt>
+</p>
+</m>
+<m name="DisassociateWrapper" id="a2567f649b809cb7e17984376f8b28ce_8508927462dfaa65324cd813aa444a4a" file="6" linestart="209" lineend="209" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aWrapperRef" proto="SGNODE **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</pt>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="SCENEGRAPH" id="204aea92f9cdba5db8468ae81058d3cb_6c5d6709bcd167a683653adf5ece3103" file="7" linestart="41" lineend="89">
+<base access="public">
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</base>
+<fl name="center" id="204aea92f9cdba5db8468ae81058d3cb_af02bb607d404e6c280f5f877327ea4c" file="7" linestart="65" lineend="65" access="public" proto="SGPOINT">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_90d0a80bf74d4dc8082e93afda3539a2"/>
+</rt>
+</fl>
+<fl name="translation" id="204aea92f9cdba5db8468ae81058d3cb_7d6af70404344e78f5b33efc1e3d1941" file="7" linestart="66" lineend="66" access="public" proto="SGPOINT">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_90d0a80bf74d4dc8082e93afda3539a2"/>
+</rt>
+</fl>
+<fl name="rotation_axis" id="204aea92f9cdba5db8468ae81058d3cb_0737d6e8211caca73e53e4097e63458c" file="7" linestart="67" lineend="67" access="public" proto="SGVECTOR">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_be704862922d8851f25ee95cc2d0a37a"/>
+</rt>
+</fl>
+<fl name="rotation_angle" id="204aea92f9cdba5db8468ae81058d3cb_d5c4300ce21c34d57094238459c8263f" file="7" linestart="68" lineend="68" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="scale" id="204aea92f9cdba5db8468ae81058d3cb_b265071920965037e26ccd7b7953299e" file="7" linestart="69" lineend="69" access="public" proto="SGPOINT">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_90d0a80bf74d4dc8082e93afda3539a2"/>
+</rt>
+</fl>
+<fl name="scale_axis" id="204aea92f9cdba5db8468ae81058d3cb_99e576939380e8a7c4ab2a1e516e7d92" file="7" linestart="70" lineend="70" access="public" proto="SGVECTOR">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_be704862922d8851f25ee95cc2d0a37a"/>
+</rt>
+</fl>
+<fl name="scale_angle" id="204aea92f9cdba5db8468ae81058d3cb_09b95503b4fd6368b1616b2766fc96e8" file="7" linestart="71" lineend="71" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<c name="SCENEGRAPH" id="204aea92f9cdba5db8468ae81058d3cb_d4bfe9125cfe05c015275a6428193167" file="7" linestart="73" lineend="73" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aParent" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+</c>
+</cr>
+</Externals>

@@ -1,0 +1,473 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="wxObject" id="3ec80f49485e66fb14de5b0d887a5c4b_9b0d0445a774e2b471c7cd340ff3b102" file="3" linestart="342" lineend="429" previous="2e2d7fd9bc327c9f298d47adc4d6916a_9b0d0445a774e2b471c7cd340ff3b102"/>
+<cr access="none" depth="0" kind="class" name="wxTrackable" id="943aa0de0923417e4568215e8998a50e_ffdb9e7a28aa469db875d0393052c246" file="4" linestart="37" lineend="88" previous="943aa0de0923417e4568215e8998a50e_ffdb9e7a28aa469db875d0393052c246"/>
+<cr access="none" depth="1" kind="class" name="wxEvtHandler" id="18b08ca93a9a3142aa16c1ff136c0136_75110b5882204fe4935cffebb0c6ecb0" file="5" linestart="3515" lineend="3976" previous="18b08ca93a9a3142aa16c1ff136c0136_75110b5882204fe4935cffebb0c6ecb0">
+<base access="public">
+<rt>
+<cr id="3ec80f49485e66fb14de5b0d887a5c4b_9b0d0445a774e2b471c7cd340ff3b102"/>
+</rt>
+</base>
+<base access="public">
+<rt>
+<cr id="943aa0de0923417e4568215e8998a50e_ffdb9e7a28aa469db875d0393052c246"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="0" kind="class" name="BOARD_DESIGN_SETTINGS" id="b373e10452d86135c026491f23f3a340_f8af8f50a9558c59e2ea0fecd8197e8b" file="6" linestart="165" lineend="763" previous="69ad3b3b066fb447bf85c9c8a98ceaf2_f8af8f50a9558c59e2ea0fecd8197e8b">
+<fl name="m_MicroViasAllowed" id="b373e10452d86135c026491f23f3a340_7b773a3feca1953a3dd85137cd2f0f38" file="6" linestart="176" lineend="176" isLiteral="true" access="public" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="m_BlindBuriedViaAllowed" id="b373e10452d86135c026491f23f3a340_257a9ad2fcd9db55b5b43d6795e11b48" file="6" linestart="177" lineend="177" isLiteral="true" access="public" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="m_RequireCourtyards" id="b373e10452d86135c026491f23f3a340_2b466123e33c651a3ad92c28f7ce1a8b" file="6" linestart="180" lineend="180" isLiteral="true" access="public" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="m_ProhibitOverlappingCourtyards" id="b373e10452d86135c026491f23f3a340_40fb0343bab5fa43d9cb147c22711731" file="6" linestart="181" lineend="181" isLiteral="true" access="public" proto="bool">
+<bt name="bool"/>
+</fl>
+<fl name="m_TrackMinWidth" id="b373e10452d86135c026491f23f3a340_be20b867deb326b29eba2f2e3684cf4d" file="6" linestart="185" lineend="185" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_ViasMinSize" id="b373e10452d86135c026491f23f3a340_ed1f6274744cb7330ce5cc8e6a5df2ed" file="6" linestart="186" lineend="186" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_ViasMinDrill" id="b373e10452d86135c026491f23f3a340_131ba9d29679b7f780cd0f1a2be72b59" file="6" linestart="187" lineend="187" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_MicroViasMinSize" id="b373e10452d86135c026491f23f3a340_aea85103470572e6fa4efa6549424ddf" file="6" linestart="188" lineend="188" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_MicroViasMinDrill" id="b373e10452d86135c026491f23f3a340_a0ab38acf5800748aab60d75866ca96f" file="6" linestart="189" lineend="189" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="m_HoleToHoleMin" id="b373e10452d86135c026491f23f3a340_693c8b1f8a6eafe22aec5eeda61012af" file="6" linestart="200" lineend="200" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<m name="SetMinHoleSeparation" id="b373e10452d86135c026491f23f3a340_8cfbc581d0c1718501765ba9e3d23cb0" file="6" linestart="579" lineend="579" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aDistance" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+<m name="SetRequireCourtyardDefinitions" id="b373e10452d86135c026491f23f3a340_9f90744646e5278560a29ab6346771ce" file="6" linestart="585" lineend="585" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aRequire" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="SetProhibitOverlappingCourtyards" id="b373e10452d86135c026491f23f3a340_b3b824316cdbd9fa08c889c32b01bf11" file="6" linestart="591" lineend="591" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aProhibit" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+</cr>
+<cr access="none" depth="4" kind="class" name="BOARD" id="b2373e771ae501d2e0ea932159be4557_7ebd86d03656ccc87739aa7ec5a5b65e" file="7" linestart="169" lineend="1358" previous="b2373e771ae501d2e0ea932159be4557_7ebd86d03656ccc87739aa7ec5a5b65e">
+<base access="public">
+<rt>
+<cr id="1dcaa0d41f5e65d79e9cd3e17ca43efe_92aa87550b4d116d765066e764597bab"/>
+</rt>
+</base>
+<m name="GetDesignSettings" id="b2373e771ae501d2e0ea932159be4557_b7a49b2fd784beba049744db7a20e8e2" file="7" linestart="537" lineend="541" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="BOARD_DESIGN_SETTINGS &amp;">
+<lrf>
+<rt>
+<cr id="b373e10452d86135c026491f23f3a340_f8af8f50a9558c59e2ea0fecd8197e8b"/>
+</rt>
+</lrf>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="2" kind="class" name="wxWindowBase" id="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664" file="8" linestart="166" lineend="1924" previous="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664">
+<base access="public">
+<rt>
+<cr id="18b08ca93a9a3142aa16c1ff136c0136_75110b5882204fe4935cffebb0c6ecb0"/>
+</rt>
+</base>
+<e parent="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664" access="public" name="NavigationKind" id="e197616272d64814902257fd2cd78d01_1814e8200cb9000b67acaff76c6355dd" file="8" linestart="1565" lineend="1569">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664" access="protected" name="WindowOrder" id="e197616272d64814902257fd2cd78d01_2ec22b5ca71fef29b3a65a87eda3eff5" file="8" linestart="1607" lineend="1611">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="3" kind="class" name="wxWindow" id="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f" file="9" linestart="29" lineend="774" previous="d5d8732f319dc925977d57978f742b78_a236593ad3262c3803280be8bbe97a5f">
+<base access="public">
+<rt>
+<cr id="e197616272d64814902257fd2cd78d01_1c59bb6a57d5c174fb4eb0fd30938664"/>
+</rt>
+</base>
+<e parent="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f" access="public" name="MSWThemeColour" id="fd32b268ff1ce29508455944403dbbd0_04736c30955ca3cb755a55d24a360b1f" file="9" linestart="468" lineend="473">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<cr access="none" depth="5" kind="class" name="wxPanelBase" id="1fe261a455beeedff8f8d2e160b7ba5c_49aaa1610c4df4b8ec7f2117a9d4a201" file="10" linestart="30" lineend="61">
+<base access="public">
+<tss>
+<templatebase id="64919c7fa949bbffeb8c607c5617884b_940f2da852d1c20d334ffcb5503ecce8"/>
+<template_arguments>
+<rt>
+<cr id="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f"/>
+</rt>
+</template_arguments>
+</tss>
+</base>
+</cr>
+<cr access="none" depth="6" kind="class" name="wxPanel" id="44c5a11271e130ae8b8e9d8d8ca8255c_8ccd5eaf6a3b404bdfa4b3c5b8dd30f3" file="11" linestart="19" lineend="48">
+<base access="public">
+<rt>
+<cr id="1fe261a455beeedff8f8d2e160b7ba5c_49aaa1610c4df4b8ec7f2117a9d4a201"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="8" kind="class" name="wxCheckBox" id="564e9207a8990d05834a96b72fd4673c_69c6b220a753ef309abcab0136dd826a" file="12" linestart="17" lineend="78">
+<base access="public">
+<tss>
+<templatebase id="cd5e76e8c8c5d3c69513553b081cb86c_b1e76a58b4f9f036ccaf2759690a87ee"/>
+<template_arguments>
+<rt>
+<cr id="ef5b96ccb713d5aafb63c363b923d3ed_60a29ed7c6a6092b3d3db4cd59052798"/>
+</rt>
+</template_arguments>
+</tss>
+</base>
+<m name="SetValue" id="564e9207a8990d05834a96b72fd4673c_5473b41618ee28447aed84f7e665189c" file="12" linestart="42" lineend="42" virtual="true" imported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="value" proto="bool" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="GetValue" id="564e9207a8990d05834a96b72fd4673c_2c9b9db9700a3dfe56950071f1966900" file="12" linestart="43" lineend="43" virtual="true" imported="true" access="public">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="14" kind="class" name="PCB_BASE_FRAME" id="3abcbb2d1ccf626712e5c3384869f7d9_d64ee6527cdc7a1d81f1886d06b182c4" file="13" linestart="67" lineend="728">
+<base access="public">
+<rt>
+<cr id="9e740be317f6abf0ab0d6bab57ff3f9b_fba62f898089c2094b8ada5e3a0572a8"/>
+</rt>
+</base>
+<m name="GetBoard" id="3abcbb2d1ccf626712e5c3384869f7d9_887f3e5316d2e33427658fa44bf5f954" file="13" linestart="196" lineend="200" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="BOARD *">
+<pt>
+<rt>
+<cr id="b2373e771ae501d2e0ea932159be4557_7ebd86d03656ccc87739aa7ec5a5b65e"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="16" kind="class" name="PCB_EDIT_FRAME" id="73e8bf9e2fa0012fc09cce2934d4ca8d_5678b22419c03f50ded405dfcf7bdd79" file="14" linestart="75" lineend="1675">
+<base access="public">
+<rt>
+<cr id="2bfa94dba916a5e6acfc979c955f5baa_f1e4aff933dbcf43eecff0a428615a55"/>
+</rt>
+</base>
+</cr>
+<cr access="none" depth="2" kind="class" name="UNIT_BINDER" id="23586db9ec892572b8eff04b5d6082b8_cfcc7139f849ca119eac586f20fa65c7" file="15" linestart="39" lineend="140">
+<base access="public">
+<rt>
+<cr id="18b08ca93a9a3142aa16c1ff136c0136_75110b5882204fe4935cffebb0c6ecb0"/>
+</rt>
+</base>
+<c name="UNIT_BINDER" id="23586db9ec892572b8eff04b5d6082b8_47c932e4c78ae506df4a8b101e3c83ca" file="15" linestart="56" lineend="60" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aParent" proto="EDA_DRAW_FRAME *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="9e740be317f6abf0ab0d6bab57ff3f9b_fba62f898089c2094b8ada5e3a0572a8"/>
+</rt>
+</pt>
+</p>
+<p name="aLabel" proto="wxStaticText *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</p>
+<p name="aValue" proto="wxWindow *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f"/>
+</rt>
+</pt>
+</p>
+<p name="aUnitLabel" proto="wxStaticText *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</p>
+<p name="aUseMils" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+<p name="aMin" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aMax" proto="int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="aAllowEval" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</c>
+<m name="SetValue" id="23586db9ec892572b8eff04b5d6082b8_bac3307580e2ace4f687a4e0c7bbacbf" file="15" linestart="74" lineend="74" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aValue" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</m>
+<m name="GetValue" id="23586db9ec892572b8eff04b5d6082b8_2b34dd228f01ac026ffff6d9971ed640" file="15" linestart="82" lineend="82" virtual="true" access="public">
+<fpt cc="x86_thiscall" const="true" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="13" kind="class" name="PAGED_DIALOG" id="b4cff573fe88f7819e8023eb26af2f1b_487c5da6c847cfbb2865fb8480962f9b" file="16" linestart="28" lineend="59" previous="41eb28e4ff0a7b6ea2d917813b4e2ad7_487c5da6c847cfbb2865fb8480962f9b">
+<base access="public">
+<rt>
+<cr id="933731017275d0b00f2bcb3e75988195_fad5780d308949691bcb20fc120959a3"/>
+</rt>
+</base>
+<m name="GetTreebook" id="b4cff573fe88f7819e8023eb26af2f1b_b65ef2e6bbfb7bf0641b87aaa5204c60" file="16" linestart="43" lineend="43" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="wxTreebook *">
+<pt>
+<rt>
+<cr id="669c9acedc865ef465b44a113419efc3_3cc27424e95ca1573740312bb3317dcf"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="7" kind="class" name="PANEL_SETUP_FEATURE_CONSTRAINTS_BASE" id="f1ed13bd03f5018cd670908421ece5d9_1a9a3f40971e7fe058cf64a81aa19f14" file="17" linestart="31" lineend="64">
+<base access="public">
+<rt>
+<cr id="44c5a11271e130ae8b8e9d8d8ca8255c_8ccd5eaf6a3b404bdfa4b3c5b8dd30f3"/>
+</rt>
+</base>
+<fl name="m_OptAllowBlindBuriedVias" id="f1ed13bd03f5018cd670908421ece5d9_14d814357124af121d8fcdbd36db0359" file="17" linestart="36" lineend="36" isPtr="true" isLiteral="true" access="protected" proto="wxCheckBox *">
+<pt>
+<rt>
+<cr id="564e9207a8990d05834a96b72fd4673c_69c6b220a753ef309abcab0136dd826a"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_OptAllowMicroVias" id="f1ed13bd03f5018cd670908421ece5d9_3dd5ef44c6a777d083a7b836e84d3e48" file="17" linestart="37" lineend="37" isPtr="true" isLiteral="true" access="protected" proto="wxCheckBox *">
+<pt>
+<rt>
+<cr id="564e9207a8990d05834a96b72fd4673c_69c6b220a753ef309abcab0136dd826a"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_OptRequireCourtyards" id="f1ed13bd03f5018cd670908421ece5d9_7e52c29445f9059b7716092192e8f5fb" file="17" linestart="38" lineend="38" isPtr="true" isLiteral="true" access="protected" proto="wxCheckBox *">
+<pt>
+<rt>
+<cr id="564e9207a8990d05834a96b72fd4673c_69c6b220a753ef309abcab0136dd826a"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_OptOverlappingCourtyards" id="f1ed13bd03f5018cd670908421ece5d9_bbecd867b363e7b1dae813296e698d71" file="17" linestart="39" lineend="39" isPtr="true" isLiteral="true" access="protected" proto="wxCheckBox *">
+<pt>
+<rt>
+<cr id="564e9207a8990d05834a96b72fd4673c_69c6b220a753ef309abcab0136dd826a"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_TrackMinWidthTitle" id="f1ed13bd03f5018cd670908421ece5d9_82c7f44491562f3f7eec18176fdab630" file="17" linestart="40" lineend="40" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_TrackMinWidthCtrl" id="f1ed13bd03f5018cd670908421ece5d9_1d91aa8b4e2ded138f297383333fedf2" file="17" linestart="41" lineend="41" isPtr="true" isLiteral="true" access="protected" proto="wxTextCtrl *">
+<pt>
+<rt>
+<cr id="0633895ec960ff64bc8bc31801a75f84_1d4744ff9f6f1dc4aa8947181b3957f4"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_TrackMinWidthUnits" id="f1ed13bd03f5018cd670908421ece5d9_25133b55a920814948bd8194fc25fcad" file="17" linestart="42" lineend="42" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_ViaMinTitle" id="f1ed13bd03f5018cd670908421ece5d9_50b8ed792d99111df28c329a7e2902ee" file="17" linestart="43" lineend="43" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_SetViasMinSizeCtrl" id="f1ed13bd03f5018cd670908421ece5d9_ec456b9a08ce79066cb97fb5dddf7274" file="17" linestart="44" lineend="44" isPtr="true" isLiteral="true" access="protected" proto="wxTextCtrl *">
+<pt>
+<rt>
+<cr id="0633895ec960ff64bc8bc31801a75f84_1d4744ff9f6f1dc4aa8947181b3957f4"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_ViaMinUnits" id="f1ed13bd03f5018cd670908421ece5d9_4cfe304d5802faa1293861f87d2c99d2" file="17" linestart="45" lineend="45" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_ViaMinDrillTitle" id="f1ed13bd03f5018cd670908421ece5d9_2750f0d1aaa46f521d7216e4974dd291" file="17" linestart="46" lineend="46" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_SetViasMinDrillCtrl" id="f1ed13bd03f5018cd670908421ece5d9_054ddd63d4b1481b83f3c00fd47bcdb3" file="17" linestart="47" lineend="47" isPtr="true" isLiteral="true" access="protected" proto="wxTextCtrl *">
+<pt>
+<rt>
+<cr id="0633895ec960ff64bc8bc31801a75f84_1d4744ff9f6f1dc4aa8947181b3957f4"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_ViaMinDrillUnits" id="f1ed13bd03f5018cd670908421ece5d9_e4747f87a7b6329e0647dceaad4ddecb" file="17" linestart="48" lineend="48" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_uviaMinSizeLabel" id="f1ed13bd03f5018cd670908421ece5d9_1804022f18298337b86d9dbd54956619" file="17" linestart="49" lineend="49" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_uviaMinSizeCtrl" id="f1ed13bd03f5018cd670908421ece5d9_74ab907ef43120594f1c1d45ed12fb70" file="17" linestart="50" lineend="50" isPtr="true" isLiteral="true" access="protected" proto="wxTextCtrl *">
+<pt>
+<rt>
+<cr id="0633895ec960ff64bc8bc31801a75f84_1d4744ff9f6f1dc4aa8947181b3957f4"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_uviaMinSizeUnits" id="f1ed13bd03f5018cd670908421ece5d9_9dac07111c5ed67a07750b96b346a7f3" file="17" linestart="51" lineend="51" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_uviaMinDrillLabel" id="f1ed13bd03f5018cd670908421ece5d9_e4dfb1a817f2be957400fcec3b8a40ba" file="17" linestart="52" lineend="52" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_uviaMinDrillCtrl" id="f1ed13bd03f5018cd670908421ece5d9_55c5e566c49388ea5afbb23e8c08dfc7" file="17" linestart="53" lineend="53" isPtr="true" isLiteral="true" access="protected" proto="wxTextCtrl *">
+<pt>
+<rt>
+<cr id="0633895ec960ff64bc8bc31801a75f84_1d4744ff9f6f1dc4aa8947181b3957f4"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_uviaMinDrillUnits" id="f1ed13bd03f5018cd670908421ece5d9_3e685244fe411957db6850a7d11d72c6" file="17" linestart="54" lineend="54" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_HoleToHoleTitle" id="f1ed13bd03f5018cd670908421ece5d9_eeaeac71c8de53b69939a286778a96b3" file="17" linestart="55" lineend="55" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_SetHoleToHoleCtrl" id="f1ed13bd03f5018cd670908421ece5d9_1676f3693c31819b5ea65f46d9a9b4d0" file="17" linestart="56" lineend="56" isPtr="true" isLiteral="true" access="protected" proto="wxTextCtrl *">
+<pt>
+<rt>
+<cr id="0633895ec960ff64bc8bc31801a75f84_1d4744ff9f6f1dc4aa8947181b3957f4"/>
+</rt>
+</pt>
+</fl>
+<fl name="m_HoleToHoleUnits" id="f1ed13bd03f5018cd670908421ece5d9_c60c8e5afe00806b932314436a74e6fa" file="17" linestart="57" lineend="57" isPtr="true" isLiteral="true" access="protected" proto="wxStaticText *">
+<pt>
+<rt>
+<cr id="31f41922552c2a1675231786d7c7d051_9bb3d921f5af32eec851db7fbe561e1b"/>
+</rt>
+</pt>
+</fl>
+<c name="PANEL_SETUP_FEATURE_CONSTRAINTS_BASE" id="f1ed13bd03f5018cd670908421ece5d9_fa55914f590a4ee9f9269433a2b3fdbf" file="17" linestart="61" lineend="61" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="parent" proto="wxWindow *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="fd32b268ff1ce29508455944403dbbd0_a236593ad3262c3803280be8bbe97a5f"/>
+</rt>
+</pt>
+</p>
+<p name="id" proto="wxWindowID" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<Tdef>
+<bt name="int"/>
+</Tdef>
+</p>
+<p name="pos" proto="const wxPoint &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_3d2951b2fd3c812b0cc9edf7c151b206"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="size" proto="const wxSize &amp;" isRef="true" isLiteral="true" init="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="d9f07ba44edee0ea7c32468ff0154088_e2c187ab907938fcf80c5037ba186d8d"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="style" proto="long" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="long"/>
+</p>
+</c>
+</cr>
+</Externals>

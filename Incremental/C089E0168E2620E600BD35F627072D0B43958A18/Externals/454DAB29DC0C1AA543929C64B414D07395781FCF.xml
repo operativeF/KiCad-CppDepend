@@ -1,0 +1,728 @@
+<Externals>
+<cr namespace="KIGFX" access="none" kind="class" name="COLOR4D" id="a80395c23d782a71c5f612c103e3864d_73aabb447757b4f03536f24aa35a3cf1" file="3" linestart="37" lineend="37"/>
+<cr namespace="KIGFX" access="none" depth="0" kind="class" name="COMPOSITOR" id="a80395c23d782a71c5f612c103e3864d_97df929ea9dfe1674abc6e0c0ec03082" file="3" linestart="39" lineend="121">
+<c name="COMPOSITOR" id="a80395c23d782a71c5f612c103e3864d_a03889deb9264b3e535250240469825a" file="3" linestart="42" lineend="45" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<initlist id="a80395c23d782a71c5f612c103e3864d_9612e34512e9e665470a261ebd3e2035"/>
+<initlist id="a80395c23d782a71c5f612c103e3864d_f55ffba04ebb014b7b0cd62341d61124"/>
+</c>
+<fl name="m_width" id="a80395c23d782a71c5f612c103e3864d_9612e34512e9e665470a261ebd3e2035" file="3" linestart="119" lineend="119" isLiteral="true" access="protected" proto="unsigned int">
+<bt name="unsigned int"/>
+</fl>
+<fl name="m_height" id="a80395c23d782a71c5f612c103e3864d_f55ffba04ebb014b7b0cd62341d61124" file="3" linestart="120" lineend="120" isLiteral="true" access="protected" proto="unsigned int">
+<bt name="unsigned int"/>
+</fl>
+</cr>
+<e access="none" name="_cairo_line_cap" id="bd5687e40971828eb5d31d6ddf6effe4_3b29044d806bc87656f047e4839d8c88" file="4" linestart="776" lineend="780">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="CAIRO_LINE_CAP_ROUND" id="bd5687e40971828eb5d31d6ddf6effe4_b3e8f784bfc17e1c5a4e2bf0c28952e8" file="4" linestart="778" lineend="778">
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_3b29044d806bc87656f047e4839d8c88"/>
+</et>
+</ec>
+</e>
+<cr access="none" kind="struct" name="_cairo" id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e" file="4" linestart="124" lineend="124"/>
+<cr access="none" kind="struct" name="_cairo_surface" id="bd5687e40971828eb5d31d6ddf6effe4_021a83b07feb6e756700418504432a7f" file="4" linestart="153" lineend="153"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="_cairo_matrix" id="bd5687e40971828eb5d31d6ddf6effe4_2c83ad59eaefb65219441afd0a83b043" file="4" linestart="192" lineend="196"/>
+<e access="none" name="_cairo_status" id="bd5687e40971828eb5d31d6ddf6effe4_7bfb8099834d49ac38938571e46916cc" file="4" linestart="314" lineend="361">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="CAIRO_STATUS_SUCCESS" id="bd5687e40971828eb5d31d6ddf6effe4_e9d1a642cf9c35858bec1eb8359a10d5" file="4" linestart="315" lineend="315">
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_7bfb8099834d49ac38938571e46916cc"/>
+</et>
+</ec>
+</e>
+<e access="none" name="_cairo_format" id="bd5687e40971828eb5d31d6ddf6effe4_e616ca3c959872244290b21345cc442c" file="4" linestart="416" lineend="424">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="CAIRO_FORMAT_ARGB32" id="bd5687e40971828eb5d31d6ddf6effe4_1ebe940c6845ac593fc13e26a466c304" file="4" linestart="418" lineend="418">
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_e616ca3c959872244290b21345cc442c"/>
+</et>
+</ec>
+</e>
+<e access="none" name="_cairo_antialias" id="bd5687e40971828eb5d31d6ddf6effe4_15bfcd85535f5b561e19143e50a85086" file="4" linestart="709" lineend="721">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="CAIRO_ANTIALIAS_NONE" id="bd5687e40971828eb5d31d6ddf6effe4_4911004b5a392bbaade238179ed81a5a" file="4" linestart="713" lineend="713">
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_15bfcd85535f5b561e19143e50a85086"/>
+</et>
+</ec>
+</e>
+<e access="none" name="_cairo_line_join" id="bd5687e40971828eb5d31d6ddf6effe4_0dc87f65b163e2692f66b119fda5f0c7" file="4" linestart="800" lineend="804">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="CAIRO_LINE_JOIN_ROUND" id="bd5687e40971828eb5d31d6ddf6effe4_8c01ee17c2c56c6c8b270952cd526439" file="4" linestart="802" lineend="802">
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_0dc87f65b163e2692f66b119fda5f0c7"/>
+</et>
+</ec>
+</e>
+<tm namespace="boost" access="none" depth="0" kind="class" name="shared_array" id="89bf887ec1d42370531c5139ec89f5bd_bef69ce5f317260720eef9f1a22e1a7c" file="5" linestart="45" lineend="240">
+<template_parameters>
+<ttp name="T" id="89bf887ec1d42370531c5139ec89f5bd_2dbe04055469a20fcf5c9fc50f1899cb" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="boost" access="none" depth="0" kind="class" name="shared_array" id="89bf887ec1d42370531c5139ec89f5bd_888607ebc90cc7a4764cf2a08cf5b702" file="5" linestart="45" lineend="240">
+<cr access="public" kind="class" name="shared_array" id="89bf887ec1d42370531c5139ec89f5bd_524676d2005b08bd06c0b38197722d9b" file="5" linestart="45" lineend="45"/>
+<ft name="shared_array&lt;T&gt;" id="89bf887ec1d42370531c5139ec89f5bd_796537b4b40af0594822c69a67f4e360" file="5" linestart="69" lineend="73">
+<template_parameters>
+<ttp name="Y" id="89bf887ec1d42370531c5139ec89f5bd_786c3d7f6a7afcb6c6dbdccd6240d8b7" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+<c name="shared_array&lt;T&gt;" id="89bf887ec1d42370531c5139ec89f5bd_bfb42c55d36adf38f31f0a7c6c06dc1f" file="5" linestart="70" lineend="73" explicit="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="p" proto="Y *" isPtr="true" access2="none">
+<pt>
+<ttp/>
+</pt>
+</p>
+<initlist id="89bf887ec1d42370531c5139ec89f5bd_78f073ef5aaa5a8ce081391e15f7749e"/>
+<initlist id="89bf887ec1d42370531c5139ec89f5bd_441c2809898181763b709d5976c86cb2"/>
+</c>
+</ft>
+<c name="shared_array&lt;T&gt;" id="89bf887ec1d42370531c5139ec89f5bd_cb80a890155d2648d0370c52d918f58b" file="5" linestart="99" lineend="101" copyconst="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="r" proto="const shared_array&lt;T&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<InjectedClassName>
+<cr id="89bf887ec1d42370531c5139ec89f5bd_888607ebc90cc7a4764cf2a08cf5b702"/>
+</InjectedClassName>
+</QualType>
+</lrf>
+</p>
+<initlist id="89bf887ec1d42370531c5139ec89f5bd_78f073ef5aaa5a8ce081391e15f7749e"/>
+<initlist id="89bf887ec1d42370531c5139ec89f5bd_441c2809898181763b709d5976c86cb2"/>
+</c>
+<m name="get" id="89bf887ec1d42370531c5139ec89f5bd_0d2d6376f9f9600cca80f3ef70e10588" file="5" linestart="204" lineend="207" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="T *">
+<pt>
+<ttp/>
+</pt>
+</fpt>
+</m>
+</cr>
+</tm>
+<tm namespace="std" access="none" depth="1" kind="class" name="_Deque_const_iterator" id="cfdc0bb837b20c5e41e8f84ccf69d954_1a2355f16c1b240b0d7f2f447d0efce7" file="6" linestart="282" lineend="496">
+<template_parameters>
+<ttp name="_Mydeque" id="cfdc0bb837b20c5e41e8f84ccf69d954_6c6ae9feb4b69a7fc4d701059a902c31" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="class" name="_Deque_const_iterator" id="cfdc0bb837b20c5e41e8f84ccf69d954_1a2355f16c1b240b0d7f2f447d0efce7" file="6" linestart="283" lineend="496">
+<base access="public">
+<rt>
+<cr id="9f1793d102b845203d1fbb16ee9b8ea7_364abe11913ab4404e30d1d7b02feafd"/>
+</rt>
+</base>
+<cr access="public" kind="class" name="_Deque_const_iterator" id="cfdc0bb837b20c5e41e8f84ccf69d954_51a7f552ce9825af354dc3b172fd5e47" file="6" linestart="283" lineend="283"/>
+<e parent="cfdc0bb837b20c5e41e8f84ccf69d954_1a2355f16c1b240b0d7f2f447d0efce7" access="public" name="" id="cfdc0bb837b20c5e41e8f84ccf69d954_5fc19145c024f9d4093eea172a1a462f" file="6" linestart="298" lineend="298">
+<promotion_type>
+<bt name="&lt;dependent type&gt;"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<c name="_Deque_const_iterator&lt;_Mydeque&gt;" id="cfdc0bb837b20c5e41e8f84ccf69d954_c8dca6dd7735a7c7b825b34a43f64024" file="6" linestart="299" lineend="303" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<initlist id="cfdc0bb837b20c5e41e8f84ccf69d954_a2000c7298598daadfee2cb6fbb01232"/>
+</c>
+<m name="operator-&gt;" id="cfdc0bb837b20c5e41e8f84ccf69d954_89782b9cd8fcf408532b12ffa0f20cf1" file="6" linestart="326" lineend="329" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="pointer">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+</m>
+<m name="operator++" id="cfdc0bb837b20c5e41e8f84ccf69d954_1657d4a20548d9afa571500250d14452" file="6" linestart="331" lineend="342" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="_Deque_const_iterator&lt;_Mydeque&gt; &amp;">
+<lrf>
+<InjectedClassName>
+<cr id="cfdc0bb837b20c5e41e8f84ccf69d954_1a2355f16c1b240b0d7f2f447d0efce7"/>
+</InjectedClassName>
+</lrf>
+</fpt>
+</m>
+<m name="operator!=" id="cfdc0bb837b20c5e41e8f84ccf69d954_78116219482446303d6eb2cfca41eecf" file="6" linestart="421" lineend="424" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="_Right" proto="const _Deque_const_iterator&lt;_Mydeque&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<InjectedClassName>
+<cr id="cfdc0bb837b20c5e41e8f84ccf69d954_1a2355f16c1b240b0d7f2f447d0efce7"/>
+</InjectedClassName>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+</tm>
+<cr namespace="std" access="none" depth="0" pod="true" kind="struct" name="_Deque_iter_types" id="cfdc0bb837b20c5e41e8f84ccf69d954_e12317cdc3d49de765333ce60f8c7e6b" file="6" linestart="625" lineend="633"/>
+<tm namespace="std" access="none" depth="1" kind="struct" name="_Deque_simple_types" id="cfdc0bb837b20c5e41e8f84ccf69d954_d374b70bcf5cf3b9b01f3e808265b681" file="6" linestart="635" lineend="640">
+<template_parameters>
+<ttp name="_Ty" id="cfdc0bb837b20c5e41e8f84ccf69d954_cf981df2268e7e6d1dcfda14d5072b49" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="struct" name="_Deque_simple_types" id="cfdc0bb837b20c5e41e8f84ccf69d954_d374b70bcf5cf3b9b01f3e808265b681" file="6" linestart="636" lineend="640">
+<base access="public">
+<tss>
+<templatebase id="9628fc9c2b634dc1e54a01ad2889a933_d16a5f6f5bc0b20f10361aff0d9f12b0"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="struct" name="_Deque_simple_types" id="cfdc0bb837b20c5e41e8f84ccf69d954_6d20a4dece0a163ff3786ddd5a9f52d2" file="6" linestart="636" lineend="636"/>
+</cr>
+</tm>
+<tm namespace="std" access="none" depth="1" kind="class" name="_Deque_val" id="cfdc0bb837b20c5e41e8f84ccf69d954_0cb107208e8e9a32929bd2bf91913ece" file="6" linestart="665" lineend="697">
+<template_parameters>
+<ttp name="_Val_types" id="cfdc0bb837b20c5e41e8f84ccf69d954_a7f18266efaba0a8e1f8106e45872675" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="class" name="_Deque_val" id="cfdc0bb837b20c5e41e8f84ccf69d954_0cb107208e8e9a32929bd2bf91913ece" file="6" linestart="666" lineend="697">
+<base access="public">
+<rt>
+<cr id="9f1793d102b845203d1fbb16ee9b8ea7_ce449a57a371fbc057aa1719d4872f13"/>
+</rt>
+</base>
+<cr access="public" kind="class" name="_Deque_val" id="cfdc0bb837b20c5e41e8f84ccf69d954_3f3ce865e84953aec4b1532ed1871838" file="6" linestart="666" lineend="666"/>
+</cr>
+</tm>
+<tm namespace="std" access="none" depth="1" kind="class" name="deque" id="cfdc0bb837b20c5e41e8f84ccf69d954_936b3721bb2dae502758d4d22ace95d0" file="6" linestart="891" lineend="1924">
+<template_parameters>
+<ttp name="_Ty" id="cfdc0bb837b20c5e41e8f84ccf69d954_43d82d4c0858cb4f102226a2780d86bd" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="_Alloc" id="cfdc0bb837b20c5e41e8f84ccf69d954_9778884ffce91553696ae5e0853e3a8c" depth="0" index="1" proto="type-parameter-0-1">
+<tss>
+<templatebase id="9628fc9c2b634dc1e54a01ad2889a933_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</ttp>
+</template_parameters>
+<cr namespace="std" access="none" depth="1" kind="class" name="deque" id="cfdc0bb837b20c5e41e8f84ccf69d954_936b3721bb2dae502758d4d22ace95d0" file="6" linestart="893" lineend="1924">
+<base access="public">
+<tss>
+<templatebase id="cfdc0bb837b20c5e41e8f84ccf69d954_d844dc0861ae12e31f1b72c7c60a062c"/>
+<template_arguments>
+<tss>
+<templatebase id="cfdc0bb837b20c5e41e8f84ccf69d954_d1b808f68ab8c7f0fad412f13a75e5ae"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="deque" id="cfdc0bb837b20c5e41e8f84ccf69d954_27f95d8c28b8df70cb7e61aab87a886e" file="6" linestart="893" lineend="893"/>
+<e parent="cfdc0bb837b20c5e41e8f84ccf69d954_936b3721bb2dae502758d4d22ace95d0" access="public" name="" id="cfdc0bb837b20c5e41e8f84ccf69d954_3c10c83620e9c025537e7d4a325b4835" file="6" linestart="926" lineend="926">
+<promotion_type>
+<bt name="&lt;dependent type&gt;"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<m name="begin" id="cfdc0bb837b20c5e41e8f84ccf69d954_0477211b6772dffa663212861baab47c" file="6" linestart="1232" lineend="1235" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="iterator">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+</m>
+<m name="end" id="cfdc0bb837b20c5e41e8f84ccf69d954_3447b4d86f11e55d3409b339cc08361e" file="6" linestart="1242" lineend="1246" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="iterator">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+</m>
+<m name="size" id="cfdc0bb837b20c5e41e8f84ccf69d954_fc373fc495b8a70b13e19063cd2338cb" file="6" linestart="1365" lineend="1368" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="size_type">
+<Tdef>
+<DependentName/>
+</Tdef>
+</fpt>
+</m>
+<m name="operator[]" id="cfdc0bb837b20c5e41e8f84ccf69d954_a9a1bce50adb0747f360226426b2dd59" file="6" linestart="1408" lineend="1415" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="reference">
+<Tdef>
+<lrf>
+<ttp/>
+</lrf>
+</Tdef>
+</fpt>
+<p name="_Pos" proto="size_type" access2="none">
+<Tdef>
+<DependentName/>
+</Tdef>
+</p>
+</m>
+<m name="push_back" id="cfdc0bb837b20c5e41e8f84ccf69d954_ffdc923c34f6cda644d31500be216dfd" file="6" linestart="1484" lineend="1491" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Val" proto="const _Ty &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="clear" id="cfdc0bb837b20c5e41e8f84ccf69d954_768b17735f06f156a4b3d010f0a4762f" file="6" linestart="1688" lineend="1691" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</m>
+</cr>
+</tm>
+<f name="cairo_create" id="bd5687e40971828eb5d31d6ddf6effe4_20b1ad95145e474ddc2223d28b44e69b" file="4" linestart="490" lineend="491" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="cairo_t *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fpt>
+<p name="target" proto="cairo_surface_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_021a83b07feb6e756700418504432a7f"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="cairo_destroy" id="bd5687e40971828eb5d31d6ddf6effe4_35db001f109a02afe8d5f0bf0df18ac8" file="4" linestart="496" lineend="497" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="cairo_set_antialias" id="bd5687e40971828eb5d31d6ddf6effe4_c069ad0d83c3a1b7b1da9add15747a6b" file="4" linestart="723" lineend="724" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="antialias" proto="cairo_antialias_t" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_15bfcd85535f5b561e19143e50a85086"/>
+</et>
+</ety>
+</Tdef>
+</p>
+</f>
+<f name="cairo_set_source_surface" id="bd5687e40971828eb5d31d6ddf6effe4_b12acf4c530cba592880ed88dc6a1a59" file="4" linestart="663" lineend="667" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="surface" proto="cairo_surface_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_021a83b07feb6e756700418504432a7f"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="x" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="y" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</f>
+<f name="cairo_paint" id="bd5687e40971828eb5d31d6ddf6effe4_d3e08a5c000de721d3eb78412b55b6a7" file="4" linestart="920" lineend="921" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="cairo_set_line_cap" id="bd5687e40971828eb5d31d6ddf6effe4_66c01829dffd57729023dfdca6a46e04" file="4" linestart="782" lineend="783" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="line_cap" proto="cairo_line_cap_t" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_3b29044d806bc87656f047e4839d8c88"/>
+</et>
+</ety>
+</Tdef>
+</p>
+</f>
+<f name="cairo_set_line_join" id="bd5687e40971828eb5d31d6ddf6effe4_e90a39836383d8952f496ec13a90c4b0" file="4" linestart="806" lineend="807" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="line_join" proto="cairo_line_join_t" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_0dc87f65b163e2692f66b119fda5f0c7"/>
+</et>
+</ety>
+</Tdef>
+</p>
+</f>
+<f name="cairo_set_matrix" id="bd5687e40971828eb5d31d6ddf6effe4_cfaffc494c16d940456c8340b4cef77a" file="4" linestart="831" lineend="833" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="matrix" proto="const cairo_matrix_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_2c83ad59eaefb65219441afd0a83b043"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+</f>
+<f name="cairo_identity_matrix" id="bd5687e40971828eb5d31d6ddf6effe4_7361b84abdc4b3ca274ff6834e6cdd6a" file="4" linestart="835" lineend="836" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="cairo_get_matrix" id="bd5687e40971828eb5d31d6ddf6effe4_c7caa762b871f4e1b6b03d55c70bc258" file="4" linestart="1964" lineend="1965" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="matrix" proto="cairo_matrix_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_2c83ad59eaefb65219441afd0a83b043"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="cairo_status" id="bd5687e40971828eb5d31d6ddf6effe4_2a4089cb3d0b98becb957f0ae1874258" file="4" linestart="2114" lineend="2115" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="cairo_status_t">
+<Tdef>
+<ety>
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_7bfb8099834d49ac38938571e46916cc"/>
+</et>
+</ety>
+</Tdef>
+</fpt>
+<p name="cr" proto="cairo_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_1736e87645df116a2f71c25150eb5b4e"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="cairo_surface_destroy" id="bd5687e40971828eb5d31d6ddf6effe4_337b874e10b4e910d6e6aee765c4bff0" file="4" linestart="2326" lineend="2327" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="surface" proto="cairo_surface_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_021a83b07feb6e756700418504432a7f"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="cairo_format_stride_for_width" id="bd5687e40971828eb5d31d6ddf6effe4_afc905b954cc90cd08a92ac2a6a34cdb" file="4" linestart="2538" lineend="2540" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="format" proto="cairo_format_t" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_e616ca3c959872244290b21345cc442c"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="cairo_image_surface_create_for_data" id="bd5687e40971828eb5d31d6ddf6effe4_ec47abf14af4c1ca79e8fedd11051a59" file="4" linestart="2542" lineend="2547" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="cairo_surface_t *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_021a83b07feb6e756700418504432a7f"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fpt>
+<p name="data" proto="unsigned char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="unsigned char"/>
+</pt>
+</p>
+<p name="format" proto="cairo_format_t" isLiteral="true" access2="none">
+<Tdef>
+<ety>
+<et>
+<e id="bd5687e40971828eb5d31d6ddf6effe4_e616ca3c959872244290b21345cc442c"/>
+</et>
+</ety>
+</Tdef>
+</p>
+<p name="width" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="height" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="stride" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="cairo_matrix_init_identity" id="bd5687e40971828eb5d31d6ddf6effe4_3a8fd2edc1e548c6728f362779dc6681" file="4" linestart="3013" lineend="3014" extC="true" imported="true" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="matrix" proto="cairo_matrix_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="bd5687e40971828eb5d31d6ddf6effe4_2c83ad59eaefb65219441afd0a83b043"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="memset" id="8e50a618780648297a4d24a7d4ce2256_01f056bb0311297cf054435e7cf7ee95" file="7" linestart="60" lineend="64" extC="true" access="none">
+<Attributed/>
+<p name="_Dst" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+<p name="_Val" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<VarDecl namespace="std" name="_Is_simple_alloc_v" proto="const bool" const="true" isLiteral="true" isPrimitive="true" id="9628fc9c2b634dc1e54a01ad2889a933_8b5ac94970a3d2b0db0d5a3a461f6652" file="8" linestart="920" lineend="924" init="true" access2="none">
+<QualType const="true">
+<bt name="bool"/>
+</QualType>
+</VarDecl>
+<v name="wxTheAssertHandler" proto="wxAssertHandler_t" isPtr="true" isLiteral="true" id="af168d3d09251dfb422c6ce361da6b63_65c5e0c79e879a98ed76a2ede1113b20" file="9" linestart="86" lineend="86" storage="extern" access2="none">
+<Tdef>
+<pt>
+<Paren/>
+</pt>
+</Tdef>
+</v>
+<f name="wxOnAssert" id="af168d3d09251dfb422c6ce361da6b63_73d6ac48b6b2eff71f155746e2d88aad" file="9" linestart="189" lineend="193" imported="true" access="none" storage="extern">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="file" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="line" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="func" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="cond" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="msg" proto="const wxChar *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<bt name="wchar_t"/>
+</Tdef>
+</QualType>
+</pt>
+</p>
+</f>
+<v name="wxTrapInAssert" proto="bool" isLiteral="true" isPrimitive="true" id="af168d3d09251dfb422c6ce361da6b63_012f9bb455d3e912593b575cda030c48" file="9" linestart="273" lineend="273" storage="extern" access2="none">
+<bt name="bool"/>
+</v>
+<f name="__debugbreak" id="1d96706e2eb2eec6907729095b15655d_09b7f414b2a283fb5618aec2725950a0" file="10" linestart="138" lineend="138" extC="true" implicit="true" access="none" storage="extern">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+</Externals>

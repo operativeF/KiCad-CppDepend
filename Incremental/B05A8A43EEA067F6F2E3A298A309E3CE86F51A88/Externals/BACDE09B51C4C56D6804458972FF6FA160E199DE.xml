@@ -1,0 +1,295 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="SGCOLOR" id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70" file="3" linestart="43" lineend="64"/>
+<e namespace="S3D" access="none" name="SGTYPES" id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94" file="4" linestart="34" lineend="46">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="SGTYPE_APPEARANCE" id="286d3166a284052fa6350ca44b307f7e_66b94f7432dffbd11973de874669242a" file="4" linestart="37" lineend="37">
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="IFSG_NODE" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_b6b995209224d3332e046d11a9896e1d" file="5" linestart="54" lineend="166">
+<fl name="m_node" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_3cf100a967d0bfbd2796f7c7e2a4803c" file="5" linestart="57" lineend="57" isPtr="true" isLiteral="true" access="protected" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fl>
+<c name="IFSG_NODE" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_d688e75fb2b9dd18070f424ee05a8daa" file="5" linestart="60" lineend="60" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="GetRawPtr" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_beef6f72a6503e23ea95d947b224542a" file="5" linestart="90" lineend="90" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="SGNODE" id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b" file="6" linestart="76" lineend="248" previous="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b">
+<m name="GetNodeType" id="a2567f649b809cb7e17984376f8b28ce_a0de9645c66a3a0b2b985b97c16da7b3" file="6" linestart="143" lineend="143" access="public">
+<fpt cc="x86_thiscall" const="true" proto="S3D::SGTYPES">
+<ety>
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ety>
+</fpt>
+</m>
+<m name="GetParent" id="a2567f649b809cb7e17984376f8b28ce_0490e4862d5c165fab6e4072c68ce416" file="6" linestart="150" lineend="150" access="public">
+<fpt cc="x86_thiscall" const="true" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="SetParent" id="a2567f649b809cb7e17984376f8b28ce_02b2dd7fae46511688baeb673d40d028" file="6" linestart="161" lineend="161" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aParent" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+<p name="notify" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="AssociateWrapper" id="a2567f649b809cb7e17984376f8b28ce_31f808d26e7e2a9bdd385cccd17034a6" file="6" linestart="202" lineend="202" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aWrapperRef" proto="SGNODE **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</pt>
+</p>
+</m>
+<m name="DisassociateWrapper" id="a2567f649b809cb7e17984376f8b28ce_8508927462dfaa65324cd813aa444a4a" file="6" linestart="209" lineend="209" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aWrapperRef" proto="SGNODE **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</pt>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="SGAPPEARANCE" id="637a99b8f1f46c49a3a273bf8cc7cbdc_e2b7397188f380277dc3990984ece687" file="7" linestart="34" lineend="78" previous="a2567f649b809cb7e17984376f8b28ce_e2b7397188f380277dc3990984ece687">
+<base access="public">
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</base>
+<fl name="shininess" id="637a99b8f1f46c49a3a273bf8cc7cbdc_3b127df25dc7c7691b3795ef1da40ccd" file="7" linestart="37" lineend="37" isLiteral="true" access="public" proto="float">
+<bt name="float"/>
+</fl>
+<fl name="transparency" id="637a99b8f1f46c49a3a273bf8cc7cbdc_fdb4819528b6d7e37f8055a23496f67e" file="7" linestart="38" lineend="38" isLiteral="true" access="public" proto="float">
+<bt name="float"/>
+</fl>
+<c name="SGAPPEARANCE" id="637a99b8f1f46c49a3a273bf8cc7cbdc_5e3dddcb244c3c9681385916aed81ade" file="7" linestart="48" lineend="48" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aParent" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+</c>
+<m name="SetEmissive" id="637a99b8f1f46c49a3a273bf8cc7cbdc_edbd25abd3651008359b7d44be3931e3" file="7" linestart="53" lineend="53" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="aGVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="aBVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</m>
+<m name="SetEmissive" id="637a99b8f1f46c49a3a273bf8cc7cbdc_2d62b00d63b9eab7f02da446360424d7" file="7" linestart="54" lineend="54" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRGBColor" proto="const SGCOLOR *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70"/>
+</rt>
+</QualType>
+</pt>
+</p>
+</m>
+<m name="SetEmissive" id="637a99b8f1f46c49a3a273bf8cc7cbdc_f3ba5ce5bd6d5a38f3077457e96628ac" file="7" linestart="55" lineend="55" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRGBColor" proto="const SGCOLOR &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="SetDiffuse" id="637a99b8f1f46c49a3a273bf8cc7cbdc_0a11a4140a6a51716ccc814beaf9ed13" file="7" linestart="57" lineend="57" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="aGVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="aBVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</m>
+<m name="SetDiffuse" id="637a99b8f1f46c49a3a273bf8cc7cbdc_3358afe1306384e0eaabbfe0740cbc74" file="7" linestart="58" lineend="58" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRGBColor" proto="const SGCOLOR *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70"/>
+</rt>
+</QualType>
+</pt>
+</p>
+</m>
+<m name="SetDiffuse" id="637a99b8f1f46c49a3a273bf8cc7cbdc_61d2508448ab3639269a2b14db258c80" file="7" linestart="59" lineend="59" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRGBColor" proto="const SGCOLOR &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="SetSpecular" id="637a99b8f1f46c49a3a273bf8cc7cbdc_41e29d3c2ef18f7df22860179a8ea879" file="7" linestart="61" lineend="61" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="aGVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="aBVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</m>
+<m name="SetSpecular" id="637a99b8f1f46c49a3a273bf8cc7cbdc_d5bd6cee45386f3cdf9ea7d6202f33e8" file="7" linestart="62" lineend="62" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRGBColor" proto="const SGCOLOR *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70"/>
+</rt>
+</QualType>
+</pt>
+</p>
+</m>
+<m name="SetSpecular" id="637a99b8f1f46c49a3a273bf8cc7cbdc_4ed39042b421d7c8a205d83c358712b8" file="7" linestart="63" lineend="63" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRGBColor" proto="const SGCOLOR &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="SetAmbient" id="637a99b8f1f46c49a3a273bf8cc7cbdc_9f1eaf808fa23f30ccdc4794a2312b7d" file="7" linestart="65" lineend="65" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="aGVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+<p name="aBVal" proto="float" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="float"/>
+</p>
+</m>
+<m name="SetAmbient" id="637a99b8f1f46c49a3a273bf8cc7cbdc_3e70f123946c7bb9273ef3b9367497a2" file="7" linestart="66" lineend="66" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRGBColor" proto="const SGCOLOR *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70"/>
+</rt>
+</QualType>
+</pt>
+</p>
+</m>
+<m name="SetAmbient" id="637a99b8f1f46c49a3a273bf8cc7cbdc_4b1a86bbdce2b0824b1776c434267277" file="7" linestart="67" lineend="67" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aRGBColor" proto="const SGCOLOR &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="fde07b4b859a45f420d50c28ecda0274_f9e574dac7f3085c0059a42b0909bd70"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+</Externals>

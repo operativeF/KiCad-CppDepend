@@ -1,0 +1,232 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="TOOL_MANAGER" id="9282a2afb5f6106f7e0ffaab6e391cea_3f14df5bf7470cee014d92945f17bfaa" file="3" linestart="49" lineend="542" previous="ae381ddd4349c9a10b9345d91f6b0a7e_3f14df5bf7470cee014d92945f17bfaa">
+<m name="RegisterTool" id="9282a2afb5f6106f7e0ffaab6e391cea_fad16f307e2a6e7748af2ee316953366" file="3" linestart="76" lineend="76" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aTool" proto="TOOL_BASE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="ae381ddd4349c9a10b9345d91f6b0a7e_b87705cb85d17b82151f63c951dcefed"/>
+</rt>
+</pt>
+</p>
+</m>
+</cr>
+<cr access="none" depth="2" kind="class" name="COMMON_TOOLS" id="6304bc475aac34c0b6b92e273fbb8e9f_bfe5bc35a1e02bf286f1fe024234d830" file="4" linestart="38" lineend="76">
+<base access="public">
+<rt>
+<cr id="be1c50311de2708ed41e1165afe67d14_850ff30c35e905ff44315d655d2fb50a"/>
+</rt>
+</base>
+<c name="COMMON_TOOLS" id="6304bc475aac34c0b6b92e273fbb8e9f_e2bdf1913642c6a6e2d2b4e8b6796497" file="4" linestart="41" lineend="41" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="2" kind="class" name="ZOOM_TOOL" id="b8e2ebfddab19348256ab56e9bb30065_8994c43f3578f23e72b3bdc74d89e1fa" file="5" linestart="28" lineend="46">
+<base access="public">
+<rt>
+<cr id="be1c50311de2708ed41e1165afe67d14_850ff30c35e905ff44315d655d2fb50a"/>
+</rt>
+</base>
+<c name="ZOOM_TOOL" id="b8e2ebfddab19348256ab56e9bb30065_d339de822212a4c398ccd581e810bb44" file="5" linestart="31" lineend="31" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<e access="none" name="main_id" id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68" file="6" linestart="64" lineend="306">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="ID_NO_TOOL_SELECTED" id="19a3fc98f71f81870a69c2532c468b57_92e16210e3226f9ba9cb93645d745182" file="6" linestart="118" lineend="118">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_SELECTION" id="19a3fc98f71f81870a69c2532c468b57_d381c38cc987c2a714f155588a60a0e1" file="6" linestart="119" lineend="119">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_IN" id="19a3fc98f71f81870a69c2532c468b57_d5895b9fc5c0f9f994f3a8c71f67bbdf" file="6" linestart="237" lineend="237">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_OUT" id="19a3fc98f71f81870a69c2532c468b57_b65680343fc5a8b0d810c1aab1ba11b1" file="6" linestart="238" lineend="238">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+<ec name="ID_ZOOM_PAGE" id="19a3fc98f71f81870a69c2532c468b57_aeb77daf0f048cbfeee00e02c1985b4f" file="6" linestart="239" lineend="239">
+<et>
+<e id="19a3fc98f71f81870a69c2532c468b57_266693bfe3d5e99deba5eefd5c1a5d68"/>
+</et>
+</ec>
+</e>
+<e access="none" name="gerbview_ids" id="6d9ad75e82487b5fca0a336d6f510d04_54aafb4234563d6a5649da01e91045d4" file="7" linestart="38" lineend="116">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="ID_TB_MEASUREMENT_TOOL" id="6d9ad75e82487b5fca0a336d6f510d04_c1464309fa09dc66536919f5e88ca54f" file="7" linestart="107" lineend="107">
+<et>
+<e id="6d9ad75e82487b5fca0a336d6f510d04_54aafb4234563d6a5649da01e91045d4"/>
+</et>
+</ec>
+<ec name="ID_HIGHLIGHT_REMOVE_ALL" id="6d9ad75e82487b5fca0a336d6f510d04_f04a6a5e3a988e49d713f2a70459884a" file="7" linestart="110" lineend="110">
+<et>
+<e id="6d9ad75e82487b5fca0a336d6f510d04_54aafb4234563d6a5649da01e91045d4"/>
+</et>
+</ec>
+<ec name="ID_HIGHLIGHT_CMP_ITEMS" id="6d9ad75e82487b5fca0a336d6f510d04_5357304df6b92e57a7d26404d4632ba4" file="7" linestart="111" lineend="111">
+<et>
+<e id="6d9ad75e82487b5fca0a336d6f510d04_54aafb4234563d6a5649da01e91045d4"/>
+</et>
+</ec>
+<ec name="ID_HIGHLIGHT_NET_ITEMS" id="6d9ad75e82487b5fca0a336d6f510d04_d8d3faab59f44f7ba7b11d3973fa2e3e" file="7" linestart="112" lineend="112">
+<et>
+<e id="6d9ad75e82487b5fca0a336d6f510d04_54aafb4234563d6a5649da01e91045d4"/>
+</et>
+</ec>
+<ec name="ID_HIGHLIGHT_APER_ATTRIBUTE_ITEMS" id="6d9ad75e82487b5fca0a336d6f510d04_1d25de58f876f9f996275c27bf7cd35d" file="7" linestart="113" lineend="113">
+<et>
+<e id="6d9ad75e82487b5fca0a336d6f510d04_54aafb4234563d6a5649da01e91045d4"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="TOOL_ACTION" id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1" file="8" linestart="46" lineend="221" previous="cbbc992d673014645bfdd6e26a81fa3a_275d1475964a58b51156e5ac19a79ae1">
+<m name="MakeEvent" id="04466c2015b5aebce16cdd13ce6a05f6_2d0ce44b7b606c4babe33fde194a5d1c" file="8" linestart="104" lineend="112" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="TOOL_EVENT">
+<rt>
+<cr id="cbbc992d673014645bfdd6e26a81fa3a_137bfbaeeebe95570c6922997c83d826"/>
+</rt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="ACTIONS" id="0e5c680f1bf32759819ee6775cb71bfe_cc54b8a5b61975ac0d7982d182c9e97d" file="9" linestart="41" lineend="87">
+<v name="zoomInCenter" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_ebaf2cc40345090b7d1696053b26548d" file="9" linestart="53" lineend="53" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="zoomOutCenter" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_d2653c9f3ad17cf0bbc08b6b9215a193" file="9" linestart="54" lineend="54" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="zoomFitScreen" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_19e73cb28cfd978a39ee346846e12ff8" file="9" linestart="56" lineend="56" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="zoomTool" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_ea3c9c8db7bc6dce00c87711a9c6645c" file="9" linestart="58" lineend="58" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<e parent="0e5c680f1bf32759819ee6775cb71bfe_cc54b8a5b61975ac0d7982d182c9e97d" access="public" name="CURSOR_EVENT_TYPE" id="0e5c680f1bf32759819ee6775cb71bfe_bda0cc5b8b94c713ad3e9982db6650ac" file="9" linestart="82" lineend="83">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="0e5c680f1bf32759819ee6775cb71bfe_cc54b8a5b61975ac0d7982d182c9e97d" access="public" name="REMOVE_FLAGS" id="0e5c680f1bf32759819ee6775cb71bfe_7125964a6521e92ae8a5d82ce6f50f77" file="9" linestart="86" lineend="86" scoped="true" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+</cr>
+<tm namespace="std" access="none" depth="0" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" file="10" linestart="192" lineend="547">
+<template_parameters>
+<ttp name="_Ty" id="74233b19085c0a906f2bde7a4e01398a_36ccadbe986a0e5d151018d101564d9d" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="0" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" file="10" linestart="193" lineend="547">
+<base access="private">
+<tss>
+<templatebase id="ab58e6b3593b98a66936fdf960588054_f96123ab398b2efafb754c05165270b8"/>
+<template_arguments>
+<tss>
+<templatebase id="74233b19085c0a906f2bde7a4e01398a_cac079f3d0bcac8d2d2e7b340386f1c6"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_2a43c843387e931d34470522b8d33d54" file="10" linestart="193" lineend="193"/>
+<c name="optional&lt;_Ty&gt;" id="74233b19085c0a906f2bde7a4e01398a_7d9d57bdf7be82f979857a8c3b735328" file="10" linestart="213" lineend="216" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<ft name="optional&lt;_Ty&gt;" id="74233b19085c0a906f2bde7a4e01398a_bb55b470b98d77d1699268ef80697329" file="10" linestart="242" lineend="248">
+<template_parameters>
+<ttp name="_Ty2" id="74233b19085c0a906f2bde7a4e01398a_12ecaca39149d340349be125705941ae" depth="1" index="0" proto="type-parameter-1-0">
+<ttp/>
+</ttp>
+</template_parameters>
+<c name="optional&lt;_Ty&gt;" id="74233b19085c0a906f2bde7a4e01398a_97b60d46dfe4cf418705f7a3a7b4d15e" file="10" linestart="245" lineend="248" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="_Right" proto="_Ty2 &amp;&amp;" isRef="true" access2="none">
+<rrf>
+<ttp/>
+</rrf>
+</p>
+</c>
+</ft>
+<tm parent="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" access="none" depth="0" kind="struct" name="_AllowUnwrapping" id="74233b19085c0a906f2bde7a4e01398a_31299b632f7b721d2cd39b5fec4bad3d" file="10" linestart="257" lineend="268">
+<template_parameters>
+<ttp name="_Ty2" id="74233b19085c0a906f2bde7a4e01398a_6c318753c4a16ed1c0a1dfed802dd2bd" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+<tm parent="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" access="none" depth="0" kind="struct" name="_AllowUnwrappingAssignment" id="74233b19085c0a906f2bde7a4e01398a_d0db60e4daf8f0c552134dc1178f4a3d" file="10" linestart="339" lineend="346">
+<template_parameters>
+<ttp name="_Ty2" id="74233b19085c0a906f2bde7a4e01398a_dcf3180f949295cfc1fc760f361ad199" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+</cr>
+</tm>
+<cr access="none" depth="0" kind="class" name="TOOL_EVENT" id="cbbc992d673014645bfdd6e26a81fa3a_137bfbaeeebe95570c6922997c83d826" file="11" linestart="162" lineend="463"/>
+<cr access="none" depth="2" kind="class" name="GERBVIEW_SELECTION_TOOL" id="7ea40d7268d8743a11eb832686391a31_65421fd54a86c8912ec9f525e19c3afd" file="12" linestart="49" lineend="245">
+<base access="public">
+<rt>
+<cr id="be1c50311de2708ed41e1165afe67d14_850ff30c35e905ff44315d655d2fb50a"/>
+</rt>
+</base>
+<c name="GERBVIEW_SELECTION_TOOL" id="7ea40d7268d8743a11eb832686391a31_d97c173134f0efaedc29bdc73a3134f6" file="12" linestart="52" lineend="52" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<cr access="none" depth="2" kind="class" name="GERBVIEW_CONTROL" id="1a98746cbaea29887233f85bbcce8d03_e20a0fdb494bc7d5a14efd911ffda3e3" file="13" linestart="33" lineend="70">
+<base access="public">
+<rt>
+<cr id="be1c50311de2708ed41e1165afe67d14_850ff30c35e905ff44315d655d2fb50a"/>
+</rt>
+</base>
+<c name="GERBVIEW_CONTROL" id="1a98746cbaea29887233f85bbcce8d03_2b530021e2910a4c39265b9edcedf118" file="13" linestart="36" lineend="36" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+</Externals>

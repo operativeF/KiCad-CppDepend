@@ -1,0 +1,120 @@
+<Externals>
+<e namespace="S3D" access="none" name="SGTYPES" id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94" file="3" linestart="34" lineend="46">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="SGTYPE_SHAPE" id="286d3166a284052fa6350ca44b307f7e_784f806a8f8209f5edc60e85704dc2e5" file="3" linestart="44" lineend="44">
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="IFSG_NODE" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_b6b995209224d3332e046d11a9896e1d" file="4" linestart="54" lineend="166">
+<fl name="m_node" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_3cf100a967d0bfbd2796f7c7e2a4803c" file="4" linestart="57" lineend="57" isPtr="true" isLiteral="true" access="protected" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fl>
+<c name="IFSG_NODE" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_d688e75fb2b9dd18070f424ee05a8daa" file="4" linestart="60" lineend="60" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<m name="GetRawPtr" id="5812d3ad7abc2fc5c3bcbca9a7d6a209_beef6f72a6503e23ea95d947b224542a" file="4" linestart="90" lineend="90" exported="true" access="public">
+<fpt cc="x86_thiscall" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="SGNODE" id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b" file="5" linestart="76" lineend="248" previous="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b">
+<m name="GetNodeType" id="a2567f649b809cb7e17984376f8b28ce_a0de9645c66a3a0b2b985b97c16da7b3" file="5" linestart="143" lineend="143" access="public">
+<fpt cc="x86_thiscall" const="true" proto="S3D::SGTYPES">
+<ety>
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ety>
+</fpt>
+</m>
+<m name="GetParent" id="a2567f649b809cb7e17984376f8b28ce_0490e4862d5c165fab6e4072c68ce416" file="5" linestart="150" lineend="150" access="public">
+<fpt cc="x86_thiscall" const="true" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="SetParent" id="a2567f649b809cb7e17984376f8b28ce_02b2dd7fae46511688baeb673d40d028" file="5" linestart="161" lineend="161" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aParent" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+<p name="notify" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="AssociateWrapper" id="a2567f649b809cb7e17984376f8b28ce_31f808d26e7e2a9bdd385cccd17034a6" file="5" linestart="202" lineend="202" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aWrapperRef" proto="SGNODE **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</pt>
+</p>
+</m>
+<m name="DisassociateWrapper" id="a2567f649b809cb7e17984376f8b28ce_8508927462dfaa65324cd813aa444a4a" file="5" linestart="209" lineend="209" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aWrapperRef" proto="SGNODE **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</pt>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="SGSHAPE" id="822483cd04d825f80016862ea5ca215c_f378c6df2f3f88e031456ac0bec0893f" file="6" linestart="39" lineend="75">
+<base access="public">
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</base>
+<c name="SGSHAPE" id="822483cd04d825f80016862ea5ca215c_1f0a5fef18285a43ae185cf5bb4a43c0" file="6" linestart="58" lineend="58" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aParent" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+</c>
+</cr>
+</Externals>

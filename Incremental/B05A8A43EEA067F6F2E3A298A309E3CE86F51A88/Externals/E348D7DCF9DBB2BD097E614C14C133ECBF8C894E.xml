@@ -1,0 +1,150 @@
+<Externals>
+<e namespace="S3D" access="none" name="SGTYPES" id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94" file="3" linestart="34" lineend="46">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="SGTYPE_END" id="286d3166a284052fa6350ca44b307f7e_a7dcb65a0657db45a5ff8482b4c86cb4" file="3" linestart="45" lineend="45">
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ec>
+</e>
+<cr access="none" depth="0" kind="class" name="SGNODE" id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b" file="4" linestart="76" lineend="248" previous="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b">
+<m name="GetNodeType" id="a2567f649b809cb7e17984376f8b28ce_a0de9645c66a3a0b2b985b97c16da7b3" file="4" linestart="143" lineend="143" access="public">
+<fpt cc="x86_thiscall" const="true" proto="S3D::SGTYPES">
+<ety>
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ety>
+</fpt>
+</m>
+<m name="GetParent" id="a2567f649b809cb7e17984376f8b28ce_0490e4862d5c165fab6e4072c68ce416" file="4" linestart="150" lineend="150" access="public">
+<fpt cc="x86_thiscall" const="true" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fpt>
+</m>
+<m name="SetParent" id="a2567f649b809cb7e17984376f8b28ce_02b2dd7fae46511688baeb673d40d028" file="4" linestart="161" lineend="161" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aParent" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+<p name="notify" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="GetName" id="a2567f649b809cb7e17984376f8b28ce_705c215f42a65e6927be320d561988b8" file="4" linestart="174" lineend="174" access="public">
+<fpt cc="x86_thiscall" proto="const char *">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</fpt>
+</m>
+<m name="SetName" id="a2567f649b809cb7e17984376f8b28ce_60ac662e7b21bd375dccc7c0bc5b62c0" file="4" linestart="175" lineend="175" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aName" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+</m>
+<m name="GetNodeTypeName" id="a2567f649b809cb7e17984376f8b28ce_afceafa16d08503bd60bcd0e6a78c95f" file="4" linestart="177" lineend="177" access="public">
+<fpt cc="x86_thiscall" const="true" proto="const char *">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</fpt>
+<p name="aNodeType" proto="S3D::SGTYPES" isLiteral="true" access2="none">
+<ety>
+<et>
+<e id="286d3166a284052fa6350ca44b307f7e_cddbd6ccbb318b2804480a37584fcc94"/>
+</et>
+</ety>
+</p>
+</m>
+<m name="FindNode" id="a2567f649b809cb7e17984376f8b28ce_41cd36a7026759040548b07898864471" file="4" linestart="188" lineend="188" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="SGNODE *">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</fpt>
+<p name="aNodeName" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="aCaller" proto="const SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</QualType>
+</pt>
+</p>
+</m>
+<m name="AddRefNode" id="a2567f649b809cb7e17984376f8b28ce_dc9f306eb96195bc018588441053e853" file="4" linestart="190" lineend="190" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aNode" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+</m>
+<m name="AddChildNode" id="a2567f649b809cb7e17984376f8b28ce_420b63251a12adffd0375b71533c9b0f" file="4" linestart="192" lineend="192" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aNode" proto="SGNODE *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</p>
+</m>
+<m name="DisassociateWrapper" id="a2567f649b809cb7e17984376f8b28ce_8508927462dfaa65324cd813aa444a4a" file="4" linestart="209" lineend="209" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aWrapperRef" proto="SGNODE **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<rt>
+<cr id="a2567f649b809cb7e17984376f8b28ce_6498421ced09b2fb5672962435154d5b"/>
+</rt>
+</pt>
+</pt>
+</p>
+</m>
+</cr>
+</Externals>

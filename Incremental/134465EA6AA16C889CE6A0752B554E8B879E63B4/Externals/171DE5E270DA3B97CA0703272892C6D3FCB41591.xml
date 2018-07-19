@@ -1,0 +1,101 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="wxString" id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" file="3" linestart="280" lineend="3482" previous="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641">
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="SubstrBufFromType" id="c28805ecee50721cbc134acc35dc8437_7750d38ad6f1d968599914a9ce4f20e3" file="3" linestart="308" lineend="319">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_dcf4a3f45e145299993ff8f81945f712" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="class" name="reverse_iterator_impl" id="c28805ecee50721cbc134acc35dc8437_c2b1fae0312e723ccd0d47aa7ee1e119" file="3" linestart="1003" lineend="1063">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_398434659c2c5a1e4aedc51f24cb6551" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="caseCompare" id="c28805ecee50721cbc134acc35dc8437_906d0b85826db2bd8e49a325e10780a1" file="3" linestart="2266" lineend="2266">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<e parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="public" name="stripType" id="c28805ecee50721cbc134acc35dc8437_ac90c161a6b4ad8edb4fc00d9ae9ef63" file="3" linestart="2268" lineend="2268">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+</e>
+<tm parent="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641" access="none" depth="0" kind="struct" name="ConvertedBuffer" id="c28805ecee50721cbc134acc35dc8437_7aba30eab65d1508629c2881acc218e5" file="3" linestart="3356" lineend="3385">
+<template_parameters>
+<ttp name="T" id="c28805ecee50721cbc134acc35dc8437_68c1c8653aea6c3fef59742c8425e880" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+</tm>
+</cr>
+<cr access="none" depth="0" kind="class" name="LINE_READER" id="4bf91d5ae6f1f80b524cc9c0d590772c_9866ff6d2a4b4fc3b2f62fe17d9c4640" file="4" linestart="81" lineend="172">
+<fl name="m_length" id="4bf91d5ae6f1f80b524cc9c0d590772c_ab7512987b30c33531bdcfc91db86d46" file="4" linestart="84" lineend="84" isLiteral="true" access="protected" proto="unsigned int">
+<bt name="unsigned int"/>
+</fl>
+<fl name="m_line" id="4bf91d5ae6f1f80b524cc9c0d590772c_9554c62b5729d8ac57f4bcb7b6656d0a" file="4" linestart="87" lineend="87" isPtr="true" isLiteral="true" access="protected" proto="char *">
+<pt>
+<bt name="char"/>
+</pt>
+</fl>
+<c name="LINE_READER" id="4bf91d5ae6f1f80b524cc9c0d590772c_158dfca5fd5dfcee7531b8c0116fb6e9" file="4" linestart="109" lineend="109" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aMaxLineLength" proto="unsigned int" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="unsigned int"/>
+</p>
+</c>
+<m name="ReadLine" id="4bf91d5ae6f1f80b524cc9c0d590772c_882080c030f025431e9b987214e67a97" file="4" linestart="121" lineend="121" pure="true" virtual="true" access="public">
+<fpt cc="x86_thiscall" proto="char *">
+<pt>
+<bt name="char"/>
+</pt>
+</fpt>
+</m>
+<m name="GetSource" id="4bf91d5ae6f1f80b524cc9c0d590772c_39d83fb4c6a04acfa1a0f464c3a417ab" file="4" linestart="130" lineend="133" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const wxString &amp;">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c28805ecee50721cbc134acc35dc8437_1f868cbc734dbdf43fc394510ee3f641"/>
+</rt>
+</QualType>
+</lrf>
+</fpt>
+</m>
+<m name="Line" id="4bf91d5ae6f1f80b524cc9c0d590772c_279d6a932dccd1aa69a98aa7c18d3626" file="4" linestart="139" lineend="142" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="char *">
+<pt>
+<bt name="char"/>
+</pt>
+</fpt>
+</m>
+<m name="LineNumber" id="4bf91d5ae6f1f80b524cc9c0d590772c_ddddb3b898e9303eb8d3daecdd2f7d4e" file="4" linestart="159" lineend="162" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="unsigned int">
+<bt name="unsigned int"/>
+</fpt>
+</m>
+<m name="Length" id="4bf91d5ae6f1f80b524cc9c0d590772c_f62f532fcd05e26ed685e5e1cc570b34" file="4" linestart="168" lineend="171" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="unsigned int">
+<bt name="unsigned int"/>
+</fpt>
+</m>
+</cr>
+<f name="strchr" id="8e50a618780648297a4d24a7d4ce2256_6242e0ac6fb8efda47540623de8dbe32" file="5" linestart="67" lineend="70" extC="true" access="none">
+<Attributed/>
+<p name="_Str" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="_Val" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+</Externals>

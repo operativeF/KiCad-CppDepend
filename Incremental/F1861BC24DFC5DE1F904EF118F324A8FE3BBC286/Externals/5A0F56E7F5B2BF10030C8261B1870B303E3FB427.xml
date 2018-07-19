@@ -1,0 +1,547 @@
+<Externals>
+<tm access="none" depth="0" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771" file="3" linestart="73" lineend="254" previous="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771">
+<template_parameters>
+<ttp name="T" id="eab21eb34d3ab96be24ef0918f3b2d23_13bbfd783b66385854c7958bd77d1a2c" depth="0" index="0" proto="type-parameter-0-0">
+<bt name="int"/>
+</ttp>
+</template_parameters>
+<cr access="none" depth="0" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771" file="3" linestart="74" lineend="254" previous="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771">
+<cr access="public" kind="class" name="VECTOR2" id="eab21eb34d3ab96be24ef0918f3b2d23_99889d267f03b52d686e3bf14bf5863c" file="3" linestart="74" lineend="74"/>
+<fl name="x" id="eab21eb34d3ab96be24ef0918f3b2d23_920a1f9321e482defec017ee1cc8b125" file="3" linestart="83" lineend="83" access="public" proto="T">
+<ttp/>
+</fl>
+<fl name="y" id="eab21eb34d3ab96be24ef0918f3b2d23_c070b559d9fc355a7007c16457011d7d" file="3" linestart="83" lineend="83" access="public" proto="T">
+<ttp/>
+</fl>
+<c name="VECTOR2&lt;T&gt;" id="eab21eb34d3ab96be24ef0918f3b2d23_14f2d76c085fc730dd8965adbe11d852" file="3" linestart="99" lineend="99" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="x" proto="T" access2="none">
+<ttp/>
+</p>
+<p name="y" proto="T" access2="none">
+<ttp/>
+</p>
+</c>
+<ft name="VECTOR2&lt;T&gt;" id="eab21eb34d3ab96be24ef0918f3b2d23_5220261c4fb44d8bf9e9476e7dc2d8cd" file="3" linestart="103" lineend="108">
+<template_parameters>
+<ttp name="CastingType" id="eab21eb34d3ab96be24ef0918f3b2d23_c6f82c5f0ac4073397059ba2a49bbae0" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+<c name="VECTOR2&lt;T&gt;" id="eab21eb34d3ab96be24ef0918f3b2d23_a213d9d60f64d3b529345ee2c13f0ac2" file="3" linestart="104" lineend="108" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aVec" proto="const VECTOR2&lt;CastingType&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</QualType>
+</lrf>
+</p>
+</c>
+</ft>
+<m name="EuclideanNorm" id="eab21eb34d3ab96be24ef0918f3b2d23_157c90541408aa415a177b27ebc965b3" file="3" linestart="137" lineend="137" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="T">
+<ttp/>
+</fpt>
+</m>
+<m name="Perpendicular" id="eab21eb34d3ab96be24ef0918f3b2d23_ff181f56703a6fa0182d1c0729990c72" file="3" linestart="153" lineend="153" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="VECTOR2&lt;T&gt;">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</fpt>
+</m>
+<m name="Angle" id="eab21eb34d3ab96be24ef0918f3b2d23_0d6ea8e77c816a11d985539ba287fa8e" file="3" linestart="168" lineend="168" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="double">
+<bt name="double"/>
+</fpt>
+</m>
+<m name="Rotate" id="eab21eb34d3ab96be24ef0918f3b2d23_8218c23471471bd1f188127079eecc55" file="3" linestart="176" lineend="176" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="VECTOR2&lt;T&gt;">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</fpt>
+<p name="aAngle" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</m>
+<m name="operator=" id="eab21eb34d3ab96be24ef0918f3b2d23_eab2071c2a5a778978d89bc90cd56414" file="3" linestart="201" lineend="201" operator="true" access="public" hasbody="true">
+<fpt cc="x86_thiscall" proto="VECTOR2&lt;T&gt; &amp;">
+<lrf>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</lrf>
+</fpt>
+<p name="aVector" proto="const VECTOR2&lt;T&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="operator+" id="eab21eb34d3ab96be24ef0918f3b2d23_dfac99eec0738ab53f62e7a172f99956" file="3" linestart="204" lineend="204" operator="true" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="VECTOR2&lt;T&gt;">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</fpt>
+<p name="aVector" proto="const VECTOR2&lt;T&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="operator-" id="eab21eb34d3ab96be24ef0918f3b2d23_c673043dab6315c1f8436e1b32d1abe5" file="3" linestart="216" lineend="216" operator="true" access="public" hasbody="true">
+<fpt cc="x86_thiscall" const="true" proto="VECTOR2&lt;T&gt;">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</fpt>
+<p name="aVector" proto="const VECTOR2&lt;T&gt; &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+</tm>
+<tm namespace="std" access="none" depth="0" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" file="4" linestart="192" lineend="547">
+<template_parameters>
+<ttp name="_Ty" id="74233b19085c0a906f2bde7a4e01398a_36ccadbe986a0e5d151018d101564d9d" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="std" access="none" depth="0" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" file="4" linestart="193" lineend="547">
+<base access="private">
+<tss>
+<templatebase id="ab58e6b3593b98a66936fdf960588054_f96123ab398b2efafb754c05165270b8"/>
+<template_arguments>
+<tss>
+<templatebase id="74233b19085c0a906f2bde7a4e01398a_cac079f3d0bcac8d2d2e7b340386f1c6"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="optional" id="74233b19085c0a906f2bde7a4e01398a_2a43c843387e931d34470522b8d33d54" file="4" linestart="193" lineend="193"/>
+<tm parent="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" access="none" depth="0" kind="struct" name="_AllowUnwrapping" id="74233b19085c0a906f2bde7a4e01398a_31299b632f7b721d2cd39b5fec4bad3d" file="4" linestart="257" lineend="268">
+<template_parameters>
+<ttp name="_Ty2" id="74233b19085c0a906f2bde7a4e01398a_6c318753c4a16ed1c0a1dfed802dd2bd" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+<tm parent="74233b19085c0a906f2bde7a4e01398a_3b40f8dd078203952f94fff25adbce5e" access="none" depth="0" kind="struct" name="_AllowUnwrappingAssignment" id="74233b19085c0a906f2bde7a4e01398a_d0db60e4daf8f0c552134dc1178f4a3d" file="4" linestart="339" lineend="346">
+<template_parameters>
+<ttp name="_Ty2" id="74233b19085c0a906f2bde7a4e01398a_dcf3180f949295cfc1fc760f361ad199" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+<m name="operator*" id="74233b19085c0a906f2bde7a4e01398a_a3ed085d6091bbc450fc8efe983bf579" file="4" linestart="427" lineend="430" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="_Ty &amp;">
+<lrf>
+<ttp/>
+</lrf>
+</fpt>
+</m>
+<cv name="operator bool" id="74233b19085c0a906f2bde7a4e01398a_a7ac683e35ce4bc56b5be10389a8f93b" file="4" linestart="440" lineend="443" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</cv>
+</cr>
+</tm>
+<tm namespace="boost" access="none" kind="class" name="function" id="566c651e7f060204a132e986361d31fa_3b4c738a26995e4e576bfc7f8773594d" file="5" linestart="32" lineend="32">
+<template_parameters>
+<ttp name="Signature" id="566c651e7f060204a132e986361d31fa_c79220aad869eb11fb827b6123c266f3" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="boost" access="none" kind="class" name="function" id="566c651e7f060204a132e986361d31fa_fbd959483c7f41e98727a0bb08bd29b0" file="5" linestart="32" lineend="32"/>
+</tm>
+<tm namespace="boost" access="none" depth="1" kind="class" name="function1" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_7d279b6a6e93600a435c5a8fe83305ab" file="6" linestart="663" lineend="1009" previous="566c651e7f060204a132e986361d31fa_7d279b6a6e93600a435c5a8fe83305ab">
+<template_parameters>
+<ttp name="R" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_f7720ce81d7ddf389df2e98cada8bea1" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="T0" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_bcbb1035b8237747922a545dc929d1d3" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<cr namespace="boost" access="none" depth="1" kind="class" name="function1" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_8c33605035f2216734075f77f5696e61" file="6" linestart="667" lineend="1009" previous="566c651e7f060204a132e986361d31fa_8c33605035f2216734075f77f5696e61">
+<base access="public">
+<rt>
+<cr id="08d36dad04e53b8991c883946a1e6bfc_e899191a36f6ce4a26ed800ef3e8bc93"/>
+</rt>
+</base>
+<cr access="public" kind="class" name="function1" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_e37786017bd08313f5dd25ff03ca8016" file="6" linestart="667" lineend="667"/>
+<tm parent="3c9ef9c86af6b78155d6c8fe2ddc3fe0_8c33605035f2216734075f77f5696e61" access="none" depth="0" pod="true" kind="struct" name="sig" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_aadec367dbb4af9baece9b88d33244f5" file="6" linestart="693" lineend="697">
+<template_parameters>
+<ttp name="Args" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_52cd6f336164a85d0e824e20468a4fce" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tm>
+<m name="operator()" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_84fdf1ed13504d9411ed2c348e497905" file="6" linestart="763" lineend="770" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="result_type">
+<Tdef>
+<ttp/>
+</Tdef>
+</fpt>
+<p name="a0" proto="T0" access2="none">
+<ttp/>
+</p>
+</m>
+</cr>
+</tm>
+<ctps Spec="&lt;type-parameter-0-0 (type-parameter-0-1)&gt;" namespace="boost" access="none" depth="2" kind="class" name="function" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_84847f7f4e3b63e0bfafa0020ac0f616" file="6" linestart="1048" lineend="1148">
+<base access="public">
+<tss>
+<templatebase id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_8c33605035f2216734075f77f5696e61"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<c name="function&lt;type-parameter-0-0 (type-parameter-0-1)&gt;" id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_2086c2ce8a1b6836b86313fad588a784" file="6" linestart="1095" lineend="1095" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="f" proto="self_type &amp;&amp;" isRef="true" access2="none">
+<rrf>
+<Tdef>
+<InjectedClassName>
+<ctps id="3c9ef9c86af6b78155d6c8fe2ddc3fe0_84847f7f4e3b63e0bfafa0020ac0f616">
+<template_arguments>
+<fpt cc="cdecl" proto="type-parameter-0-0">
+<ttp/>
+</fpt>
+</template_arguments>
+</ctps>
+</InjectedClassName>
+</Tdef>
+</rrf>
+</p>
+</c>
+</ctps>
+<cr access="none" depth="0" kind="class" name="EDIT_POINT" id="b96af9ee8842a0c9644fbde781ba2a9d_211e7840318a78cd68e1d0e577ab0f85" file="7" linestart="46" lineend="179" previous="dbd8f06e053d3a19500ce745265fc63b_211e7840318a78cd68e1d0e577ab0f85">
+<m name="GetPosition" id="b96af9ee8842a0c9644fbde781ba2a9d_0c0dbe9497e5e1f94e35ab7bab767822" file="7" linestart="65" lineend="68" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="VECTOR2I">
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</fpt>
+</m>
+<m name="SetPosition" id="b96af9ee8842a0c9644fbde781ba2a9d_f5084dfcc7c226f1210ce763a283fe50" file="7" linestart="97" lineend="100" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aPosition" proto="const VECTOR2I &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="1" kind="class" name="EDIT_LINE" id="b96af9ee8842a0c9644fbde781ba2a9d_1d925989552b324847ae3faf1514f0da" file="7" linestart="189" lineend="297" previous="dbd8f06e053d3a19500ce745265fc63b_1d925989552b324847ae3faf1514f0da">
+<base access="public">
+<rt>
+<cr id="b96af9ee8842a0c9644fbde781ba2a9d_211e7840318a78cd68e1d0e577ab0f85"/>
+</rt>
+</base>
+<m name="GetOrigin" id="b96af9ee8842a0c9644fbde781ba2a9d_8022b3cb5ea2448764503174c050dd87" file="7" linestart="256" lineend="259" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="EDIT_POINT &amp;">
+<lrf>
+<rt>
+<cr id="b96af9ee8842a0c9644fbde781ba2a9d_211e7840318a78cd68e1d0e577ab0f85"/>
+</rt>
+</lrf>
+</fpt>
+</m>
+<m name="GetEnd" id="b96af9ee8842a0c9644fbde781ba2a9d_603615548db558077d58fdef1a436f0b" file="7" linestart="271" lineend="274" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="EDIT_POINT &amp;">
+<lrf>
+<rt>
+<cr id="b96af9ee8842a0c9644fbde781ba2a9d_211e7840318a78cd68e1d0e577ab0f85"/>
+</rt>
+</lrf>
+</fpt>
+</m>
+</cr>
+<cr access="none" depth="2" kind="class" name="EDIT_POINTS" id="b96af9ee8842a0c9644fbde781ba2a9d_5f08f058f3115c2dfe1aba029946c90c" file="7" linestart="305" lineend="527" previous="dbd8f06e053d3a19500ce745265fc63b_5f08f058f3115c2dfe1aba029946c90c">
+<base access="public">
+<rt>
+<cr id="520464a9a7516f6f39b673446a559e91_ff2390383dc01322fb2d9475ff41261b"/>
+</rt>
+</base>
+<m name="Previous" id="b96af9ee8842a0c9644fbde781ba2a9d_ea5194abc06d422f6e22bf26afd7f4de" file="7" linestart="436" lineend="436" access="public">
+<fpt cc="x86_thiscall" proto="EDIT_POINT *">
+<pt>
+<rt>
+<cr id="b96af9ee8842a0c9644fbde781ba2a9d_211e7840318a78cd68e1d0e577ab0f85"/>
+</rt>
+</pt>
+</fpt>
+<p name="aPoint" proto="const EDIT_POINT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="b96af9ee8842a0c9644fbde781ba2a9d_211e7840318a78cd68e1d0e577ab0f85"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aTraverseContours" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="Next" id="b96af9ee8842a0c9644fbde781ba2a9d_0c2905d3831fc76d8d98c047f1fab485" file="7" linestart="451" lineend="451" access="public">
+<fpt cc="x86_thiscall" proto="EDIT_POINT *">
+<pt>
+<rt>
+<cr id="b96af9ee8842a0c9644fbde781ba2a9d_211e7840318a78cd68e1d0e577ab0f85"/>
+</rt>
+</pt>
+</fpt>
+<p name="aPoint" proto="const EDIT_POINT &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="b96af9ee8842a0c9644fbde781ba2a9d_211e7840318a78cd68e1d0e577ab0f85"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aTraverseContours" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" kind="class" name="SEG" id="43b65cfe1459cdfbf97e65f2992a02a1_281febe0248c4d8df1529cdf76c2f7bd" file="8" linestart="36" lineend="335">
+<c name="SEG" id="43b65cfe1459cdfbf97e65f2992a02a1_ba67165f96e01b16e48a1285d53dc911" file="8" linestart="72" lineend="75" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="aA" proto="const VECTOR2I &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</QualType>
+</lrf>
+</p>
+<p name="aB" proto="const VECTOR2I &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</QualType>
+</lrf>
+</p>
+<initlist id="43b65cfe1459cdfbf97e65f2992a02a1_822aa4a154e7d15afbcc68ee87f903ce"/>
+<initlist id="43b65cfe1459cdfbf97e65f2992a02a1_e1cc9cdf9c57662a4419dd8123354c46"/>
+</c>
+<m name="operator=" id="43b65cfe1459cdfbf97e65f2992a02a1_6e8843aa927d19023fc46a954753d2e3" file="8" linestart="96" lineend="103" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="SEG &amp;">
+<lrf>
+<rt>
+<cr id="43b65cfe1459cdfbf97e65f2992a02a1_281febe0248c4d8df1529cdf76c2f7bd"/>
+</rt>
+</lrf>
+</fpt>
+<p name="aSeg" proto="const SEG &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="43b65cfe1459cdfbf97e65f2992a02a1_281febe0248c4d8df1529cdf76c2f7bd"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="Intersect" id="43b65cfe1459cdfbf97e65f2992a02a1_5dde12cd0fcd2d4345312f09bdbf192f" file="8" linestart="169" lineend="170" access="public">
+<fpt cc="x86_thiscall" const="true" proto="OPT_VECTOR2I">
+<Tdef>
+<tss>
+<templatebase id="ddf34f171881fa6709f0a3f0c664146b_f8016a3dc6e51042b47410a644433b44"/>
+<template_arguments>
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</template_arguments>
+</tss>
+</Tdef>
+</fpt>
+<p name="aSeg" proto="const SEG &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="43b65cfe1459cdfbf97e65f2992a02a1_281febe0248c4d8df1529cdf76c2f7bd"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+<p name="aIgnoreEndpoints" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+<p name="aLines" proto="bool" isLiteral="true" isPrimitive="true" init="true" access2="none">
+<bt name="bool"/>
+</p>
+</m>
+<m name="IntersectLines" id="43b65cfe1459cdfbf97e65f2992a02a1_f3b03f78b7483bb9174d9e9623933ff5" file="8" linestart="179" lineend="182" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="OPT_VECTOR2I">
+<Tdef>
+<tss>
+<templatebase id="ddf34f171881fa6709f0a3f0c664146b_f8016a3dc6e51042b47410a644433b44"/>
+<template_arguments>
+<Tdef>
+<tss>
+<templatebase id="eab21eb34d3ab96be24ef0918f3b2d23_1dec17256c8c4df13b76608354558771"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</Tdef>
+</template_arguments>
+</tss>
+</Tdef>
+</fpt>
+<p name="aSeg" proto="const SEG &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="43b65cfe1459cdfbf97e65f2992a02a1_281febe0248c4d8df1529cdf76c2f7bd"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="Collinear" id="43b65cfe1459cdfbf97e65f2992a02a1_2a4d5f120e945196f9df60a6ef78a23c" file="8" linestart="231" lineend="240" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aSeg" proto="const SEG &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="43b65cfe1459cdfbf97e65f2992a02a1_281febe0248c4d8df1529cdf76c2f7bd"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<f namespace="std" name="move" id="990974640a7605f90279e803095d807c_ef2d962e769229049b375e6f7e221217" file="9" linestart="1586" lineend="1590" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="remove_reference_t&lt;_Ty&gt; &amp;&amp;">
+<rrf>
+<tss>
+<templatebase id="4c221a846132a8e8f1ee5ac4ac37ef2e_5d3751a41d0609676e9e5a6dc44ce886"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</rrf>
+</fpt>
+<p name="_Arg" proto="_Ty &amp;&amp;" isRef="true" access2="none">
+<rrf>
+<ttp/>
+</rrf>
+</p>
+</f>
+<ft name="move" id="990974640a7605f90279e803095d807c_159b0b00cb466d4c35a29a37152a3d7d" file="9" linestart="1585" lineend="1590">
+<template_parameters>
+<ttp name="_Ty" id="990974640a7605f90279e803095d807c_9e571a43e54210b2c426d4c26bfbac4d" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f namespace="std" name="move" id="990974640a7605f90279e803095d807c_ef2d962e769229049b375e6f7e221217" file="9" linestart="1586" lineend="1590" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="remove_reference_t&lt;_Ty&gt; &amp;&amp;">
+<rrf>
+<tss>
+<templatebase id="4c221a846132a8e8f1ee5ac4ac37ef2e_5d3751a41d0609676e9e5a6dc44ce886"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</rrf>
+</fpt>
+<p name="_Arg" proto="_Ty &amp;&amp;" isRef="true" access2="none">
+<rrf>
+<ttp/>
+</rrf>
+</p>
+</f>
+</ft>
+<f name="KiROUND" id="a816e0792f053b1a6615aebf401a146a_9e7abec9a0a97973827e3f966c2cbc7a" file="10" linestart="119" lineend="122" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="v" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</f>
+</Externals>

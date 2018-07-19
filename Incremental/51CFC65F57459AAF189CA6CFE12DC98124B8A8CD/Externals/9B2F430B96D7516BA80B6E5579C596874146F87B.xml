@@ -1,0 +1,247 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_privpath_s" id="6f873b84e9e9c67dc4f9db5abe32c245_2e4e082786af95eaed631d57ebbe9999" file="3" linestart="50" lineend="66" previous="c0d0075a8c339b8ff073719e0914f5c7_2e4e082786af95eaed631d57ebbe9999"/>
+<cr access="none" depth="0" pod="true" kind="struct" name="progress_s" id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4" file="4" linestart="15" lineend="23">
+<fl name="callback" id="c282563704209c7ac7b4c20d7b1cac10_7446961c3d4883f38b28faa0ac899b27" file="4" linestart="17" lineend="17" isPtr="true" isLiteral="true" access="public" proto="void (*)(double, void *)">
+<pt>
+<Paren/>
+</pt>
+</fl>
+<fl name="data" id="c282563704209c7ac7b4c20d7b1cac10_0a4d9221d2c8ff26246dd0f8f545d131" file="4" linestart="18" lineend="18" isPtr="true" isLiteral="true" access="public" proto="void *">
+<pt>
+<bt name="void"/>
+</pt>
+</fl>
+<fl name="min" id="c282563704209c7ac7b4c20d7b1cac10_a88ed1f64c5507d80a8ec95443180df6" file="4" linestart="19" lineend="19" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="max" id="c282563704209c7ac7b4c20d7b1cac10_b3a586f65ebcb392dba1400ae9bda0e1" file="4" linestart="19" lineend="19" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="epsilon" id="c282563704209c7ac7b4c20d7b1cac10_e12143aab9c206d7b1f96219821e8445" file="4" linestart="20" lineend="20" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="d_prev" id="c282563704209c7ac7b4c20d7b1cac10_38150e35341fadc3bb20401107efa6c6" file="4" linestart="22" lineend="22" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<c name="progress_s" id="c282563704209c7ac7b4c20d7b1cac10_6e249dbb021fbe70942f46fdefa3d352" file="4" linestart="15" lineend="15" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<f name="free" id="4aaa899143d6ff70a0518196c1485535_dd5a2138c1c85d1739ee7f1eb39d4e45" file="5" linestart="85" lineend="87" extC="true" access="none">
+<Attributed/>
+<p name="_Block" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+</f>
+<f name="malloc" id="4aaa899143d6ff70a0518196c1485535_ce29b3b7be14c0f0acda69d94481373b" file="5" linestart="96" lineend="99" extC="true" access="none">
+<Attributed/>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="memcpy" id="8e50a618780648297a4d24a7d4ce2256_60bc7b595257868b3d58e003eb334889" file="6" linestart="40" lineend="44" extC="true" access="none">
+<Attributed/>
+<p name="_Dst" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+<p name="_Src" proto="const void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="void"/>
+</QualType>
+</pt>
+</p>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="bm_to_pathlist" id="fd1240ca72c7716b4b817381866c3527_251f5cb8dc6ca24af28e2e9aa1dbb0e0" file="7" linestart="12" lineend="13" access="none">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="bm" proto="const potrace_bitmap_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_ced1f96143d4a4dea1cd3346776c0df9"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="plistp" proto="path_t **" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<pt>
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_18e56e8ef1eb0a1438c81ee5ba2f02ee"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</pt>
+</pt>
+</p>
+<p name="param" proto="const potrace_param_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_8bcebbe464c11ba7c8b475b840b41077"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="progress" proto="progress_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="process_path" id="37667c80566cbcd88eb96977c86b82f1_de579f1651bb8b1cd6ec518200d53329" file="8" linestart="12" lineend="12" access="none">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="plist" proto="path_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_18e56e8ef1eb0a1438c81ee5ba2f02ee"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</pt>
+</p>
+<p name="param" proto="const potrace_param_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_8bcebbe464c11ba7c8b475b840b41077"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="progress" proto="progress_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="progress_subrange_end" id="c282563704209c7ac7b4c20d7b1cac10_5e90bb3430d7ec31aa37e9c077d17145" file="4" linestart="81" lineend="94" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="prog" proto="progress_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="sub" proto="progress_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="progress_subrange_start" id="c282563704209c7ac7b4c20d7b1cac10_b97b5f87083f4457dcd2ab72a964f305" file="4" linestart="49" lineend="78" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="a" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="b" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="prog" proto="const progress_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<Tdef>
+<ety>
+<rt>
+<cr id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4"/>
+</rt>
+</ety>
+</Tdef>
+</QualType>
+</pt>
+</p>
+<p name="sub" proto="progress_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="pathlist_free" id="6f873b84e9e9c67dc4f9db5abe32c245_daf74d507e167d28c718692134f723c9" file="3" linestart="75" lineend="75" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="plist" proto="path_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_18e56e8ef1eb0a1438c81ee5ba2f02ee"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</pt>
+</p>
+</f>
+</Externals>

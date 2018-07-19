@@ -1,0 +1,116 @@
+<Externals>
+<cr access="none" depth="0" kind="class" name="TOOL_EVENT" id="cbbc992d673014645bfdd6e26a81fa3a_137bfbaeeebe95570c6922997c83d826" file="3" linestart="162" lineend="463">
+<m name="IsCancel" id="cbbc992d673014645bfdd6e26a81fa3a_318642740537786c858711d1dc52ce09" file="3" linestart="295" lineend="298" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="IsActivate" id="cbbc992d673014645bfdd6e26a81fa3a_cc943b6cd287dadbe3af2c9db1ae9153" file="3" linestart="300" lineend="303" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+</m>
+<m name="IsAction" id="cbbc992d673014645bfdd6e26a81fa3a_005bd19ce685b1efbce43ca3317bc2b6" file="3" linestart="370" lineend="370" access="public">
+<fpt cc="x86_thiscall" const="true" proto="bool">
+<bt name="bool"/>
+</fpt>
+<p name="aAction" proto="const TOOL_ACTION *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</QualType>
+</pt>
+</p>
+</m>
+<ft name="Parameter" id="cbbc992d673014645bfdd6e26a81fa3a_faedb3ea0673d597f63c07c0f91fbaf4" file="3" linestart="377" lineend="381">
+<template_parameters>
+<ttp name="T" id="cbbc992d673014645bfdd6e26a81fa3a_dacbc665829bd380f6fa814e806f7e66" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<m name="Parameter" id="cbbc992d673014645bfdd6e26a81fa3a_e835172729e9082402e9dff606417ff7" file="3" linestart="378" lineend="381" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="T">
+<ttp/>
+</fpt>
+</m>
+</ft>
+</cr>
+<cr access="none" depth="15" kind="class" name="PCB_BASE_EDIT_FRAME" id="2bfa94dba916a5e6acfc979c955f5baa_f1e4aff933dbcf43eecff0a428615a55" file="4" linestart="35" lineend="207" previous="f39e9eb18b221f2a4e7d70a7b6ce3c2b_f1e4aff933dbcf43eecff0a428615a55">
+<base access="public">
+<rt>
+<cr id="3abcbb2d1ccf626712e5c3384869f7d9_d64ee6527cdc7a1d81f1886d06b182c4"/>
+</rt>
+</base>
+<m name="GetRotationAngle" id="2bfa94dba916a5e6acfc979c955f5baa_2a2c3b78a55c0d124774e1b11ce85905" file="4" linestart="153" lineend="153" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="int">
+<bt name="int"/>
+</fpt>
+</m>
+</cr>
+<v name="wxTheAssertHandler" proto="wxAssertHandler_t" isPtr="true" isLiteral="true" id="af168d3d09251dfb422c6ce361da6b63_65c5e0c79e879a98ed76a2ede1113b20" file="5" linestart="86" lineend="86" storage="extern" access2="none">
+<Tdef>
+<pt>
+<Paren/>
+</pt>
+</Tdef>
+</v>
+<f name="wxOnAssert" id="af168d3d09251dfb422c6ce361da6b63_0461de405373653b5b9b69e71eb47e85" file="5" linestart="183" lineend="187" imported="true" access="none" storage="extern">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="file" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="line" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="func" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="cond" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+<p name="msg" proto="const char *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<QualType const="true">
+<bt name="char"/>
+</QualType>
+</pt>
+</p>
+</f>
+<v name="wxTrapInAssert" proto="bool" isLiteral="true" isPrimitive="true" id="af168d3d09251dfb422c6ce361da6b63_012f9bb455d3e912593b575cda030c48" file="5" linestart="273" lineend="273" storage="extern" access2="none">
+<bt name="bool"/>
+</v>
+<f name="__debugbreak" id="1d96706e2eb2eec6907729095b15655d_09b7f414b2a283fb5618aec2725950a0" file="6" linestart="138" lineend="138" extC="true" implicit="true" access="none" storage="extern">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<v name="cancelInteractive" proto="TOOL_ACTION" id="0e5c680f1bf32759819ee6775cb71bfe_fc32c9b26cf7f3f4361346e4d29a120d" file="7" linestart="48" lineend="48" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="rotateCw" proto="TOOL_ACTION" id="214e16d5c8bbec3c49fb69e9241855c4_c979b528bedd20a8599523f7c67206fd" file="8" linestart="99" lineend="99" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+<v name="rotateCcw" proto="TOOL_ACTION" id="214e16d5c8bbec3c49fb69e9241855c4_7c3cd945b74a4e84caa513aa8982155d" file="8" linestart="102" lineend="102" storage="static" access2="public">
+<rt>
+<cr id="04466c2015b5aebce16cdd13ce6a05f6_275d1475964a58b51156e5ac19a79ae1"/>
+</rt>
+</v>
+</Externals>

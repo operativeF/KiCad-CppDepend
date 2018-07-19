@@ -1,0 +1,485 @@
+<Externals>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_param_s" id="c0d0075a8c339b8ff073719e0914f5c7_8bcebbe464c11ba7c8b475b840b41077" file="3" linestart="38" lineend="46">
+<fl name="alphamax" id="c0d0075a8c339b8ff073719e0914f5c7_94729b305e997536be0b2712cd5d70c0" file="3" linestart="42" lineend="42" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="opticurve" id="c0d0075a8c339b8ff073719e0914f5c7_2292093f8a9fbfe51c6acc3b035bcd5e" file="3" linestart="43" lineend="43" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="opttolerance" id="c0d0075a8c339b8ff073719e0914f5c7_e76558cdeccaaab42730a0692d8be6e0" file="3" linestart="44" lineend="44" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_dpoint_s" id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18" file="3" linestart="71" lineend="74">
+<fl name="x" id="c0d0075a8c339b8ff073719e0914f5c7_634082fea529705816963016983bf2b2" file="3" linestart="73" lineend="73" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="y" id="c0d0075a8c339b8ff073719e0914f5c7_e61303e5dee3c163b3d7276d31f1d176" file="3" linestart="73" lineend="73" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<c name="potrace_dpoint_s" id="c0d0075a8c339b8ff073719e0914f5c7_b7544baf2903d4bbec1a6a6421b09a0b" file="3" linestart="71" lineend="71" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<c name="potrace_dpoint_s" id="c0d0075a8c339b8ff073719e0914f5c7_1a0d4130fde8f0160abbd88f4bfc52c7" file="3" linestart="71" lineend="71" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const potrace_dpoint_s &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+<c name="potrace_dpoint_s" id="c0d0075a8c339b8ff073719e0914f5c7_9f97e1187e03aff6bc048611c35ce3af" file="3" linestart="71" lineend="71" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="potrace_dpoint_s &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</rrf>
+</p>
+</c>
+<m name="operator=" id="c0d0075a8c339b8ff073719e0914f5c7_fddeae8f9ac95225c6dbec1d560f1c84" file="3" linestart="71" lineend="71" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="potrace_dpoint_s &amp;">
+<lrf>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const potrace_dpoint_s &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+<m name="operator=" id="c0d0075a8c339b8ff073719e0914f5c7_4d68440c1239c77616cf3be543173ae7" file="3" linestart="71" lineend="71" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="potrace_dpoint_s &amp;">
+<lrf>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="potrace_dpoint_s &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</rrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_path_s" id="c0d0075a8c339b8ff073719e0914f5c7_18e56e8ef1eb0a1438c81ee5ba2f02ee" file="3" linestart="92" lineend="104">
+<fl name="sign" id="c0d0075a8c339b8ff073719e0914f5c7_b73d6d29341a018bc44393f7e225b0fb" file="3" linestart="95" lineend="95" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="curve" id="c0d0075a8c339b8ff073719e0914f5c7_74118522c842ff0ed45a53b51e6d2f4f" file="3" linestart="96" lineend="96" isLiteral="true" access="public" proto="potrace_curve_t">
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_906f7b70561ce3480ded855a173f8756"/>
+</rt>
+</ety>
+</Tdef>
+</fl>
+<fl name="next" id="c0d0075a8c339b8ff073719e0914f5c7_602befd6c90a03c112cf7d9727267f8f" file="3" linestart="98" lineend="98" isPtr="true" isLiteral="true" access="public" proto="struct potrace_path_s *">
+<pt>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_18e56e8ef1eb0a1438c81ee5ba2f02ee"/>
+</rt>
+</ety>
+</pt>
+</fl>
+<fl name="priv" id="c0d0075a8c339b8ff073719e0914f5c7_c2786931254720ddc9f3fcffdef877d6" file="3" linestart="103" lineend="103" isPtr="true" isLiteral="true" access="public" proto="struct potrace_privpath_s *">
+<pt>
+<ety>
+<rt>
+<cr id="6f873b84e9e9c67dc4f9db5abe32c245_2e4e082786af95eaed631d57ebbe9999"/>
+</rt>
+</ety>
+</pt>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="privcurve_s" id="6f873b84e9e9c67dc4f9db5abe32c245_1b5ef25aa56c45ad6164a9e1d9258fed" file="4" linestart="18" lineend="32">
+<fl name="n" id="6f873b84e9e9c67dc4f9db5abe32c245_f8ec0df76d0d8ad066e781f65da8809e" file="4" linestart="20" lineend="20" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="tag" id="6f873b84e9e9c67dc4f9db5abe32c245_682da5caff4cd775288a7077ab27c831" file="4" linestart="21" lineend="21" isPtr="true" isLiteral="true" access="public" proto="int *">
+<pt>
+<bt name="int"/>
+</pt>
+</fl>
+<fl name="c" id="6f873b84e9e9c67dc4f9db5abe32c245_115833e0afadc61a13e6100a84577ddd" file="4" linestart="22" lineend="22" isPtr="true" isLiteral="true" access="public" proto="dpoint_t (*)[3]">
+<pt>
+<Paren/>
+</pt>
+</fl>
+<fl name="alphacurve" id="6f873b84e9e9c67dc4f9db5abe32c245_ce864b7f46a70b3aa3c36cf1afd7f353" file="4" linestart="27" lineend="27" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="vertex" id="6f873b84e9e9c67dc4f9db5abe32c245_c80c3fa385c2620385f4546b9ad7a002" file="4" linestart="28" lineend="28" isPtr="true" isLiteral="true" access="public" proto="dpoint_t *">
+<pt>
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</pt>
+</fl>
+<fl name="alpha" id="6f873b84e9e9c67dc4f9db5abe32c245_8ceaa2a448059faa8f81817e4865f173" file="4" linestart="29" lineend="29" isPtr="true" isLiteral="true" access="public" proto="double *">
+<pt>
+<bt name="double"/>
+</pt>
+</fl>
+<fl name="alpha0" id="6f873b84e9e9c67dc4f9db5abe32c245_f54d7b174085bd8663c84558e985fae5" file="4" linestart="30" lineend="30" isPtr="true" isLiteral="true" access="public" proto="double *">
+<pt>
+<bt name="double"/>
+</pt>
+</fl>
+<fl name="beta" id="6f873b84e9e9c67dc4f9db5abe32c245_9b06c7e00e0c1efbb0a694560a968495" file="4" linestart="31" lineend="31" isPtr="true" isLiteral="true" access="public" proto="double *">
+<pt>
+<bt name="double"/>
+</pt>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="sums_s" id="6f873b84e9e9c67dc4f9db5abe32c245_b0a3223789ca01c48af49cc369a3b5ce" file="4" linestart="35" lineend="42">
+<fl name="x" id="6f873b84e9e9c67dc4f9db5abe32c245_9c9f49798bef7549fb554f0d600462b5" file="4" linestart="37" lineend="37" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="y" id="6f873b84e9e9c67dc4f9db5abe32c245_a3b2241830dbe737a8dce0721741dc87" file="4" linestart="38" lineend="38" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="x2" id="6f873b84e9e9c67dc4f9db5abe32c245_f9251d61770bffce86f356dd1d1a80ba" file="4" linestart="39" lineend="39" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="xy" id="6f873b84e9e9c67dc4f9db5abe32c245_b633989e26c1c55eb829bedda55d2151" file="4" linestart="40" lineend="40" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+<fl name="y2" id="6f873b84e9e9c67dc4f9db5abe32c245_df2df0518ef469211aafa046eeec602b" file="4" linestart="41" lineend="41" isLiteral="true" access="public" proto="double">
+<bt name="double"/>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="potrace_privpath_s" id="6f873b84e9e9c67dc4f9db5abe32c245_2e4e082786af95eaed631d57ebbe9999" file="4" linestart="50" lineend="66" previous="c0d0075a8c339b8ff073719e0914f5c7_2e4e082786af95eaed631d57ebbe9999">
+<fl name="len" id="6f873b84e9e9c67dc4f9db5abe32c245_86d6ee51aff6ed5dd16a619010e51b13" file="4" linestart="52" lineend="52" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="pt" id="6f873b84e9e9c67dc4f9db5abe32c245_4d3e115d06d7b5dc3f63815c7c62b9bf" file="4" linestart="53" lineend="53" isPtr="true" isLiteral="true" access="public" proto="point_t *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="94d3ecce0dbdd977279a7b4995e05e95_7e0efbc32417b6f5b6c4fc9060e53944"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fl>
+<fl name="lon" id="6f873b84e9e9c67dc4f9db5abe32c245_a561353e120436059946f56265f0e880" file="4" linestart="54" lineend="54" isPtr="true" isLiteral="true" access="public" proto="int *">
+<pt>
+<bt name="int"/>
+</pt>
+</fl>
+<fl name="x0" id="6f873b84e9e9c67dc4f9db5abe32c245_b8c987df45f2c9267e17049769b794ff" file="4" linestart="56" lineend="56" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="y0" id="6f873b84e9e9c67dc4f9db5abe32c245_0dadce608a923c396c7030c16fa2db52" file="4" linestart="56" lineend="56" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="sums" id="6f873b84e9e9c67dc4f9db5abe32c245_37f4be2244394b5d794c9c5e84988b44" file="4" linestart="57" lineend="57" isPtr="true" isLiteral="true" access="public" proto="sums_t *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="6f873b84e9e9c67dc4f9db5abe32c245_b0a3223789ca01c48af49cc369a3b5ce"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fl>
+<fl name="m" id="6f873b84e9e9c67dc4f9db5abe32c245_0cf138c7b8a6b18e15bc323009bfc3c7" file="4" linestart="59" lineend="59" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<fl name="po" id="6f873b84e9e9c67dc4f9db5abe32c245_d6d4a0feaba9aa93f1c360a7ae02d7fc" file="4" linestart="60" lineend="60" isPtr="true" isLiteral="true" access="public" proto="int *">
+<pt>
+<bt name="int"/>
+</pt>
+</fl>
+<fl name="curve" id="6f873b84e9e9c67dc4f9db5abe32c245_60015bae16fb86fa972b5b544f2f66b0" file="4" linestart="62" lineend="62" isLiteral="true" access="public" proto="privcurve_t">
+<Tdef>
+<ety>
+<rt>
+<cr id="6f873b84e9e9c67dc4f9db5abe32c245_1b5ef25aa56c45ad6164a9e1d9258fed"/>
+</rt>
+</ety>
+</Tdef>
+</fl>
+<fl name="ocurve" id="6f873b84e9e9c67dc4f9db5abe32c245_30bac92bb6b51cb0ff86084f9677c028" file="4" linestart="63" lineend="63" isLiteral="true" access="public" proto="privcurve_t">
+<Tdef>
+<ety>
+<rt>
+<cr id="6f873b84e9e9c67dc4f9db5abe32c245_1b5ef25aa56c45ad6164a9e1d9258fed"/>
+</rt>
+</ety>
+</Tdef>
+</fl>
+<fl name="fcurve" id="6f873b84e9e9c67dc4f9db5abe32c245_df43819864a3af371959f9f63092b65d" file="4" linestart="64" lineend="64" isPtr="true" isLiteral="true" access="public" proto="privcurve_t *">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="6f873b84e9e9c67dc4f9db5abe32c245_1b5ef25aa56c45ad6164a9e1d9258fed"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="progress_s" id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4" file="5" linestart="15" lineend="23">
+<fl name="callback" id="c282563704209c7ac7b4c20d7b1cac10_7446961c3d4883f38b28faa0ac899b27" file="5" linestart="17" lineend="17" isPtr="true" isLiteral="true" access="public" proto="void (*)(double, void *)">
+<pt>
+<Paren/>
+</pt>
+</fl>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="point_s" id="94d3ecce0dbdd977279a7b4995e05e95_7e0efbc32417b6f5b6c4fc9060e53944" file="6" linestart="22" lineend="26">
+<fl name="x" id="94d3ecce0dbdd977279a7b4995e05e95_a193f5360cfa2a4fa0903215f9a70b0a" file="6" linestart="24" lineend="24" isLiteral="true" access="public" proto="long">
+<bt name="long"/>
+</fl>
+<fl name="y" id="94d3ecce0dbdd977279a7b4995e05e95_754b68c30f1947f198d29b3dd08225ea" file="6" linestart="25" lineend="25" isLiteral="true" access="public" proto="long">
+<bt name="long"/>
+</fl>
+<c name="point_s" id="94d3ecce0dbdd977279a7b4995e05e95_b1fe31c3e618529fbe8906eaca432a0c" file="6" linestart="22" lineend="22" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<c name="point_s" id="94d3ecce0dbdd977279a7b4995e05e95_10ed0d14e52f8d5ea1710dba02065e2b" file="6" linestart="22" lineend="22" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const point_s &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="94d3ecce0dbdd977279a7b4995e05e95_7e0efbc32417b6f5b6c4fc9060e53944"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</c>
+<c name="point_s" id="94d3ecce0dbdd977279a7b4995e05e95_455415bd934ba1cfa5c627164787b25d" file="6" linestart="22" lineend="22" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="point_s &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="94d3ecce0dbdd977279a7b4995e05e95_7e0efbc32417b6f5b6c4fc9060e53944"/>
+</rt>
+</rrf>
+</p>
+</c>
+<m name="operator=" id="94d3ecce0dbdd977279a7b4995e05e95_0aa6c97860f4726864e1e7b833b774d5" file="6" linestart="22" lineend="22" implicit="true" operator="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="point_s &amp;">
+<lrf>
+<rt>
+<cr id="94d3ecce0dbdd977279a7b4995e05e95_7e0efbc32417b6f5b6c4fc9060e53944"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const point_s &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="94d3ecce0dbdd977279a7b4995e05e95_7e0efbc32417b6f5b6c4fc9060e53944"/>
+</rt>
+</QualType>
+</lrf>
+</p>
+</m>
+</cr>
+<cr access="none" depth="0" pod="true" kind="struct" name="opti_s" id="cfecdf03c6e8cbb696c57eec2d29c6b1_59c7b0b39991e4314047424a1ce8bd5d" file="1" linestart="1110" lineend="1116">
+<c name="opti_s" id="cfecdf03c6e8cbb696c57eec2d29c6b1_730a6c6a4a5985d4657ae012c4d1c155" file="1" linestart="1110" lineend="1110" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+</cr>
+<f name="fabs" id="4ff148391637b6d6e2f9b7676a471f09_2da9683e3e5536b0a9c0cc9b794dbae1" file="7" linestart="478" lineend="478" extC="true" access="none">
+<Attributed/>
+<p name="_X" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</f>
+<f name="sqrt" id="4ff148391637b6d6e2f9b7676a471f09_cb0fa0784151e793a3b077aab3eaab03" file="7" linestart="485" lineend="485" extC="true" access="none">
+<Attributed/>
+<p name="_X" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+</f>
+<f name="calloc" id="4aaa899143d6ff70a0518196c1485535_43192f47c328108205003e5f06e520b3" file="8" linestart="61" lineend="65" extC="true" access="none">
+<Attributed/>
+<p name="_Count" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+<p name="_Size" proto="size_t" isLiteral="true" isPrimitive="true" access2="none">
+<Tdef>
+<bt name="unsigned int"/>
+</Tdef>
+</p>
+</f>
+<f name="free" id="4aaa899143d6ff70a0518196c1485535_dd5a2138c1c85d1739ee7f1eb39d4e45" file="8" linestart="85" lineend="87" extC="true" access="none">
+<Attributed/>
+<p name="_Block" proto="void *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<bt name="void"/>
+</pt>
+</p>
+</f>
+<f name="mod" id="94d3ecce0dbdd977279a7b4995e05e95_ef317fa27ffe396aaa6ffecef8e1c257" file="6" linestart="64" lineend="67" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="a" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="n" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="floordiv" id="94d3ecce0dbdd977279a7b4995e05e95_b7eeb1ee54328c3829cf73dfbd12742a" file="6" linestart="70" lineend="73" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="a" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+<p name="n" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="privcurve_init" id="6f873b84e9e9c67dc4f9db5abe32c245_519d512039830a1f1ce93500fe3f1c49" file="4" linestart="76" lineend="76" access="none">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="curve" proto="privcurve_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="6f873b84e9e9c67dc4f9db5abe32c245_1b5ef25aa56c45ad6164a9e1d9258fed"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="n" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+</p>
+</f>
+<f name="privcurve_to_curve" id="6f873b84e9e9c67dc4f9db5abe32c245_23ca258dcc2505a549cff0ffee7341a9" file="4" linestart="77" lineend="77" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="pc" proto="privcurve_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="6f873b84e9e9c67dc4f9db5abe32c245_1b5ef25aa56c45ad6164a9e1d9258fed"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+<p name="c" proto="potrace_curve_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_906f7b70561ce3480ded855a173f8756"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="progress_update" id="c282563704209c7ac7b4c20d7b1cac10_7aa5cdd6ad551dfba87bd0fd945253e7" file="5" linestart="29" lineend="43" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="d" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="prog" proto="progress_t *" isPtr="true" isLiteral="true" access2="none">
+<pt>
+<Tdef>
+<ety>
+<rt>
+<cr id="c282563704209c7ac7b4c20d7b1cac10_e446c8b63517568062ee8a44bbb11cc4"/>
+</rt>
+</ety>
+</Tdef>
+</pt>
+</p>
+</f>
+<f name="interval" id="94d3ecce0dbdd977279a7b4995e05e95_1f0be1d8a17ca380c78aa72816fce59f" file="6" linestart="43" lineend="50" access="none" storage="static" inline="true" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="dpoint_t">
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</fpt>
+<p name="lambda" proto="double" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="double"/>
+</p>
+<p name="a" proto="dpoint_t" isLiteral="true" access2="none">
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</p>
+<p name="b" proto="dpoint_t" isLiteral="true" access2="none">
+<Tdef>
+<Tdef>
+<ety>
+<rt>
+<cr id="c0d0075a8c339b8ff073719e0914f5c7_6c6fb77d849787bacd5bff6dbb623d18"/>
+</rt>
+</ety>
+</Tdef>
+</Tdef>
+</p>
+</f>
+</Externals>
